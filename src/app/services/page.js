@@ -1,4 +1,3 @@
-
 import Service from "@/components/Service";
 import ServiceGrid from "@/components/ServiceGrid";
 import InterventionCards from "@/components/InterventionCards";
@@ -8,10 +7,10 @@ import FeaturesSection from "@/components/FeaturesSection";
 import FAQSection from "@/components/FAQSection";
 import ServiceFootprint from "@/components/ServiceFootprint";
 import CTASection from "@/components/CTASection";
+
 export default function Home() {
   return (
-    <>
-      
+    <main>
       <Service />
       <ServiceGrid />
       <InterventionCards />
@@ -20,7 +19,7 @@ export default function Home() {
       <FeaturesSection />
       <FAQSection />
       <ServiceFootprint />
-      <CTASection/>
-    </>
+      <CTASection />
+    </main>
   );
 }

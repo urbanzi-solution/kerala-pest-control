@@ -11,17 +11,16 @@ export default function Service() {
             CIB&RC APPROVED FORMULATIONS
           </div>
 
-          <h1 className="text-4xl md:text-6x1 lg:text-5xl font-serif font-bold text-gray-900 leading-tight">
-            Pest Control Services in<br/>{" "}
+          <h1 className="text-4xl md:text-6xl lg:text-5xl font-serif font-bold text-gray-900 leading-tight">
+            Pest Control Services in<br />
             <span className="text-green-700 italic">
               Kerala
             </span>
           </h1>
 
           <p className="mt-6 text-gray-600 text-lg max-w-xl">
-           Kerala Pest Solutions provides specialist pest control services for residential and commercial properties across Trivandrum and Kollam. Every service we offer is built on Integrated Pest Management (IPM) principles: we inspect first, diagnose accurately, and apply targeted treatments that address the source of the problem — not just its visible symptoms.
- Whether you know exactly what pest you have or you’re not yet sure, this is the right place to start.
-
+Kerala Pest Solutions provides specialist pest control services for residential and commercial properties across Trivandrum and Kollam. Every service we offer is built on Integrated Pest Management (IPM) principles: we inspect first, diagnose accurately, and apply targeted treatments that address the source of the problem — not just its visible symptoms.
+This page gives you an overview of every service we provide, what each one covers, and a direct link to the full technical guide, treatment details, and FAQ for each pest. Whether you know exactly what pest you have or you’re not yet sure, this is the right place to start.
           </p>
 
           <div className="mt-8 flex gap-4">
@@ -29,7 +28,7 @@ export default function Service() {
               Book a Free Inspection →
             </button>
 
-            <button className="bg-white hover:bg-mist-100 text-black px-6 py-3 rounded-md">
+            <button className="bg-white hover:bg-gray-100 text-black px-6 py-3 rounded-md">
               View Methodology
             </button>
           </div>
@@ -37,13 +36,12 @@ export default function Service() {
 
         {/* RIGHT */}
         <div className="relative">
-          <div className="rounded-2xl overflow-hidden shadow-xl">
+          <div className="relative w-full h-[500px] rounded-2xl overflow-hidden shadow-xl">
             <Image
               src="/lab.jpg"
               alt="Lab"
-              width={600}
-              height={700}
-              className="w-full h-[500px] object-cover"
+              fill
+              className="object-cover"
             />
           </div>
 
