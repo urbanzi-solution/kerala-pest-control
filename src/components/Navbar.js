@@ -10,37 +10,37 @@ const navLinks = [
     label: "Services",
     href: "/services",
     children: [
-      { label: "General Pest Control", href: "/services/ipm" },
-      { label: "Termite Control", href: "/services/termite" },
-      { label: "Cockroach Control", href: "/services/cockroach" },
-      { label: "Rodent Control", href: "/services/rodent" },
-      { label: "Mosquito Control", href: "/services/mosquito" },
-      { label: "Bed Bug Treatment", href: "/services/bed-bugs" },
-      { label: "Ant Control", href: "/services/ant" },
+      { label: "General Pest Control", href: "/services/general-pest-control" },
+      { label: "Termite Control", href: "/services/termite-control" },
+      { label: "Cockroach Control", href: "/services/cockroach-control" },
+      { label: "Rodent Control", href: "/services/rodent-control" },
+      { label: "Mosquito Control", href: "/services/mosquito-control" },
+      { label: "Bed Bug Treatment", href: "/services/bed-bugs-control" },
+      { label: "Ant Control", href: "/services/ant-control" },
     ],
   },
   {
     label: "Industries",
-    href: "/industries",
+    href: "/#",
     children: [
-      { label: "Residential", href: "/industries/residential" },
-      { label: "Restaurants", href: "/industries/restaurants" },
-      { label: "Hotels", href: "/industries/hotels" },
-      { label: "Warehouses", href: "/industries/warehouses" },
-      { label: "Offices", href: "/industries/offices" },
-      { label: "Apartments", href: "/industries/apartment" },
+      { label: "Residential", href: "/industries/pest-control-for-residential" },
+      { label: "Restaurants", href: "/industries/pest-control-for-restaurants" },
+      { label: "Hotels", href: "/industries/pest-control-for-hotels" },
+      { label: "Warehouses", href: "/industries/pest-control-for-warehouses" },
+      { label: "Offices", href: "/industries/pest-control-for-offices" },
+      { label: "Apartments", href: "/industries/pest-control-for-apartment" },
     ],
   },
   {
     label: "Locations",
-    href: "/locations",
+    href: "/#",
     children: [
       { label: "Trivandrum", href: "/trivandrum" },
       { label: "Kollam", href: "/kollam" },
     ],
   },
-  { label: "Blogs", href: "/blogs" },
-  { label: "FAQ", href: "/faq" },
+  { label: "Blogs", href: "/#" },
+  { label: "About Us", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -101,7 +101,7 @@ export default function Navbar() {
 
         {/* Desktop CTA */}
         <Link
-          href="/contact"
+          href="/#"
           className="hidden md:block bg-green-700 hover:bg-green-800 text-white text-[13px] px-5 py-2.5 rounded-lg font-medium"
         >
           Free Inspection

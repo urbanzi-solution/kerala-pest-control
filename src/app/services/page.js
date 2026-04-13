@@ -8,6 +8,13 @@ import FAQSection from "@/components/FAQSection";
 import ServiceFootprint from "@/components/ServiceFootprint";
 import CTASection from "@/components/CTASection";
 
+// ✅ SEO METADATA (broad services + location targeting)
+export const metadata = {
+  title: "Pest Control Services in Kerala | Complete Home & Commercial Solutions",
+  description:
+    "Comprehensive pest control services in Kerala for homes and businesses. Safe, effective solutions for termites, rodents, mosquitoes and more.",
+};
+
 export default function Home() {
   return (
     <main>

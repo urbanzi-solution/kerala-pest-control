@@ -39,7 +39,7 @@ export default function TrivandrumHero() {
                 Replace src with /images/trivandrum-pest.jpg
               */}
               <Image
-                src="/trivandrum-cityscape.jpg"
+                src="/tri.jpg"
                 alt="Pest control equipment Trivandrum"
                 fill
                 className="object-cover object-center"
