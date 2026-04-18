@@ -43,7 +43,7 @@ export const metadata = {
     title: "About Kerala Pest Control Solutions",
     description:
       "Trusted pest control experts in Trivandrum providing safe and eco-friendly pest management solutions.",
-    images: ["https://keralapestsolutions.com/assets/images/about-og.jpg"],
+    images: ["https://keralapestsolutions.com/about-og.jpg"],
   },
 
   alternates: {

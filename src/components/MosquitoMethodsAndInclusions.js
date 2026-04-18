@@ -3,7 +3,7 @@ import Image from "next/image";
 const methods = [
   {
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-emerald-700" stroke="currentColor" strokeWidth={1.8}>
+      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-black" stroke="currentColor" strokeWidth={1.8}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M3 7.5 7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
       </svg>
     ),
@@ -13,7 +13,7 @@ const methods = [
   },
   {
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-emerald-700" stroke="currentColor" strokeWidth={1.8}>
+      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-black" stroke="currentColor" strokeWidth={1.8}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
       </svg>
     ),
@@ -23,7 +23,7 @@ const methods = [
   },
   {
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-emerald-700" stroke="currentColor" strokeWidth={1.8}>
+      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-black" stroke="currentColor" strokeWidth={1.8}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 0-6.23-.693L5 14.5m14.8.8 1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0 1 12 21a48.309 48.309 0 0 1-8.135-.687c-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
       </svg>
     ),
@@ -33,7 +33,7 @@ const methods = [
   },
   {
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-emerald-700" stroke="currentColor" strokeWidth={1.8}>
+      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-black" stroke="currentColor" strokeWidth={1.8}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
       </svg>
     ),
@@ -57,7 +57,7 @@ export default function MosquitoMethodsAndInclusions() {
     <div>
 
       {/* ── Scientific Eradication Methods ── */}
-      <section className="bg-[#f0f2f0] py-20 px-6">
+      <section className="bg-[#f8f8f8] py-20 px-6">
         <div className="max-w-6xl mx-auto">
 
           {/* Header row */}
@@ -71,7 +71,7 @@ export default function MosquitoMethodsAndInclusions() {
               </p>
             </div>
             <span className="inline-flex items-center gap-2 self-start border border-slate-200 bg-white text-slate-600 text-[10px] font-bold tracking-[0.18em] uppercase px-4 py-2.5 rounded-xl shadow-sm whitespace-nowrap">
-              <svg viewBox="0 0 24 24" fill="none" className="w-3.5 h-3.5 text-emerald-600" stroke="currentColor" strokeWidth={2}>
+              <svg viewBox="0 0 24 24" fill="none" className="w-3.5 h-3.5 text-black" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 0-6.23-.693L5 14.5m14.8.8 1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0 1 12 21a48.309 48.309 0 0 1-8.135-.687c-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
               </svg>
               Biological & Chemical Integration
@@ -90,7 +90,7 @@ export default function MosquitoMethodsAndInclusions() {
                 </div>
                 <div>
                   <h3 className="text-[15px] font-bold text-slate-900 mb-1">{method.title}</h3>
-                  <p className="text-[10px] font-bold tracking-[0.15em] text-emerald-700 uppercase mb-2">
+                  <p className="text-[10px] font-bold tracking-[0.15em] text-black uppercase mb-2">
                     {method.badge}
                   </p>
                   <p className="text-slate-500 text-[13px] leading-relaxed">{method.description}</p>
@@ -102,23 +102,23 @@ export default function MosquitoMethodsAndInclusions() {
       </section>
 
       {/* ── What's Included ── */}
-      <section className="bg-emerald-800 py-20 px-6">
+      <section className="bg-[#dedede] py-20 px-6">
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
           {/* Left */}
           <div>
-            <h2 className="text-3xl lg:text-4xl font-extrabold text-white leading-tight mb-10">
+            <h2 className="text-3xl lg:text-4xl font-extrabold text-black leading-tight mb-10">
               What&apos;s Included in Our Mosquito Programme
 
             </h2>
 
             <ul className="flex flex-col gap-3">
               {inclusions.map((item, i) => (
-                <li key={i} className="flex items-center gap-3 bg-emerald-700/50 rounded-xl px-5 py-3.5">
-                  <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5 text-emerald-300 shrink-0" stroke="currentColor" strokeWidth={2}>
+                <li key={i} className="flex items-center gap-3 bg-[#aeafb0] rounded-xl px-5 py-3.5">
+                  <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5 text-black shrink-0" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                   </svg>
-                  <span className="text-white text-[13px] font-semibold">{item}</span>
+                  <span className="text-black text-[13px] font-semibold">{item}</span>
                 </li>
               ))}
             </ul>

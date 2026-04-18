@@ -16,7 +16,7 @@ export default function MosquitoHero() {
           {/* Heading */}
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
             <span className="text-gray-900">Professional Mosquito</span><br />
-            <span className="text-green-700">Management in Kerala</span>
+            <span className="text-black">Management in Kerala</span>
           </h1>
 
           {/* Description */}
@@ -25,7 +25,7 @@ export default function MosquitoHero() {
           </p>
 
           {/* Button */}
-          <button className="bg-green-700 hover:bg-green-800 text-white font-semibold px-6 py-3 rounded-xl transition flex items-center gap-2">
+          <button className="bg-[#3b7cff] hover:bg-[#346fe6] text-white font-semibold px-6 py-3 rounded-xl transition flex items-center gap-2">
             Get a Mosquito Management Assessment →
           </button>
         </div>

@@ -22,7 +22,7 @@ export default function ApartmentHero() {
         <div className="max-w-2xl flex flex-col gap-6">
 
           {/* Badge */}
-          <span className="inline-flex self-start border border-emerald-400/40 text-emerald-300 text-[10px] font-bold tracking-[0.22em] uppercase px-4 py-2 rounded-full">
+          <span className="inline-flex self-start border border-blue-700 text-blue-100 text-[10px] font-bold tracking-[0.22em] uppercase px-4 py-2 rounded-full">
             Industrial Precision
           </span>
 
@@ -37,17 +37,17 @@ export default function ApartmentHero() {
 
           {/* Body */}
           <div className="flex flex-col gap-4">
-            <p className="text-emerald-100/70 text-[15px] leading-relaxed">
+            <p className="text-white text-[15px] leading-relaxed">
             Apartment living in Kerala creates pest management challenges that do not exist in independent houses. Shared drainage stacks, common walls, joint utility spaces, rooftop water tanks, and basement sumps connect every flat in a building to every other flat. A cockroach infestation in one unit can spread to all adjacent units within weeks via the shared drainage infrastructure. A mosquito breeding site in the rooftop tank sends adult mosquitoes into every flat on the building. And a termite colony established in the ground-floor soil can travel upward through wall voids to reach upper floors.
             </p>
-            <p className="text-emerald-100/70 text-[15px] leading-relaxed">
+            <p className="text-white text-[15px] leading-relaxed">
             Kerala Pest Solutions specialises in apartment and housing society pest management across Trivandrum and Kollam. We work with individual flat owners for unit-level treatment, and with housing society committees for building-wide programmes that address the shared infrastructure where pests actually travel.
             </p>
           </div>
 
           {/* CTAs */}
           <div className="flex flex-wrap gap-4 mt-2">
-            <button className="bg-white hover:bg-slate-100 text-emerald-900 font-bold text-[13px] px-7 py-4 rounded-xl transition-colors duration-200">
+            <button className="bg-white hover:bg-slate-100 text-black font-bold text-[13px] px-7 py-4 rounded-xl transition-colors duration-200">
               Book a Apartment Pest Assessment
             </button>
             <button className="bg-transparent hover:bg-white/10 text-white font-bold text-[13px] px-7 py-4 rounded-xl border border-white/40 transition-colors duration-200">

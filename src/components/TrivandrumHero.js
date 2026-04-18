@@ -5,19 +5,19 @@ export default function TrivandrumHero() {
     <div>
 
       {/* ── Hero ── */}
-      <section className="bg-[#edf4f0] py-20 px-6">
+      <section className="bg-[#f3f3f3] py-20 px-6">
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
           {/* Left */}
           <div className="flex flex-col gap-6">
 
             {/* Badge */}
-            <span className="inline-flex self-start bg-emerald-100 border border-emerald-200 text-emerald-800 text-[10px] font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full">
+            <span className="inline-flex self-start bg-blue-100 border  text-blue-700 text-[10px] font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full">
               Established Trivandrum Care
             </span>
 
             {/* Heading */}
-            <h1 className="text-4xl lg:text-5xl font-extrabold text-emerald-900 leading-tight tracking-tight">
+            <h1 className="text-4xl lg:text-5xl font-extrabold text-black leading-tight tracking-tight">
               Pest Control<br />Trivandrum
             </h1>
 
@@ -27,7 +27,7 @@ export default function TrivandrumHero() {
             </p>
 
             {/* CTA */}
-            <button className="self-start bg-amber-900 hover:bg-amber-800 text-white font-bold text-[13px] px-7 py-4 rounded-xl tracking-wide transition-colors duration-200">
+            <button className="self-start bg-blue-600 hover:bg-blue-500 text-white font-bold text-[13px] px-7 py-4 rounded-xl tracking-wide transition-colors duration-200">
               [ Book Your Free Trivandrum Inspection → ]
             </button>
           </div>
@@ -50,7 +50,7 @@ export default function TrivandrumHero() {
             {/* Floating card */}
             <div className="absolute bottom-0 left-0 lg:-left-4 bg-white rounded-2xl shadow-xl p-5 max-w-[220px] border border-slate-100">
               <div className="flex items-center gap-2 mb-2">
-                <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-emerald-600 shrink-0" stroke="currentColor" strokeWidth={2}>
+                <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-[#3b7cff] shrink-0" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                 </svg>
                 <p className="text-slate-800 text-[13px] font-bold">Local Experts</p>
@@ -79,22 +79,22 @@ Kerala Pest Solutions operates from a base in Trivandrum.
           </div>
 
           {/* Right — dark challenges card */}
-          <div className="bg-emerald-800 rounded-2xl p-7 flex flex-col gap-5">
+          <div className="bg-[#3b7cff] rounded-2xl p-7 flex flex-col gap-5">
             <h3 className="text-white font-extrabold text-[16px]">Localized Challenges</h3>
             <ul className="flex flex-col gap-4">
               <li className="flex items-start gap-3">
-                <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-emerald-300 shrink-0 mt-0.5" stroke="currentColor" strokeWidth={2}>
+                <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-white shrink-0 mt-0.5" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" />
                 </svg>
-                <p className="text-emerald-100/80 text-[13px] leading-relaxed">
+                <p className="text-white text-[13px] leading-relaxed">
                   Termite risks in Kowdiar&apos;s heritage timber.
                 </p>
               </li>
               <li className="flex items-start gap-3">
-                <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-emerald-300 shrink-0 mt-0.5" stroke="currentColor" strokeWidth={2}>
+                <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-white shrink-0 mt-0.5" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 12.75c1.148 0 2.278.08 3.383.237 1.037.146 1.866.966 1.866 2.013 0 3.728-2.35 6.75-5.25 6.75S6.75 18.728 6.75 15c0-1.046.83-1.867 1.866-2.013A24.204 24.204 0 0 1 12 12.75Zm0 0c2.883 0 5.647.508 8.207 1.44a23.91 23.91 0 0 1-1.152 6.06M12 12.75c-2.883 0-5.647.508-8.208 1.44a23.91 23.91 0 0 0 1.153 6.06" />
                 </svg>
-                <p className="text-emerald-100/80 text-[13px] leading-relaxed">
+                <p className="text-white text-[13px] leading-relaxed">
                   Cockroach migration in Kazhakootam high-rises.
                 </p>
               </li>

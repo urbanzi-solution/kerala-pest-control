@@ -5,12 +5,12 @@ import HostelService from "@/components/HotelService";
 import HotelFAQ from "@/components/HotelFAQ";
 import HotelServiceCTA from "@/components/HotelServiceCTA";
 
-// ✅ SEO METADATA (UNIQUE for hotel page)
+// ✅ SEO METADATA (Enhanced)
 export const metadata = {
   title: "Hotel & Hostel Pest Control in Trivandrum & Kollam | Hygienic Solutions",
 
   description:
-    "Expert pest control for hotels and hostels in Trivandrum & Kollam. Ensure hygiene with safe solutions for bed bugs, rodents, and insects.",
+    "Looking for hotel or hostel pest control in Trivandrum & Kollam? Kerala Pest Solutions provides safe, hygienic treatments for bed bugs, rodents, and insects with expert service.",
 
   keywords: [
     "Hotel pest control Trivandrum",
@@ -21,6 +21,35 @@ export const metadata = {
     "Rodent control hotels Kerala",
     "Hospitality pest solutions Kerala",
   ],
+
+  alternates: {
+    canonical: "https://keralapestsolutions.com/hotel-pest-control",
+  },
+
+  openGraph: {
+    title: "Hotel & Hostel Pest Control in Trivandrum & Kollam",
+    description:
+      "Professional pest control services for hotels and hostels. Safe solutions for bed bugs, rodents, and insects.",
+    url: "https://keralapestsolutions.com/hotel-pest-control",
+    siteName: "Kerala Pest Solutions",
+    images: [
+      {
+        url: "https://keralapestsolutions.com/about-og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Hotel Pest Control Services",
+      },
+    ],
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Hotel & Hostel Pest Control in Trivandrum & Kollam",
+    description:
+      "Ensure hygiene in hotels and hostels with expert pest control solutions.",
+    images: ["https://keralapestsolutions.com/about-og.jpg"],
+  },
 };
 
 export default function Home() {

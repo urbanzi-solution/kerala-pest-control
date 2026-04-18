@@ -37,7 +37,7 @@ export default function CockroachFAQ() {
       <div className="max-w-4xl mx-auto">
         
         {/* Heading */}
-        <h2 className="text-3xl md:text-4xl font-serif font-bold text-center text-emerald-800 mb-12">
+        <h2 className="text-3xl md:text-4xl font-serif font-bold text-center text-black mb-12">
           Frequently Asked Questions
         </h2>
 
@@ -57,7 +57,7 @@ export default function CockroachFAQ() {
                 <span className="font-semibold text-gray-900">
                   {item.q}
                 </span>
-                <span className="text-emerald-700 text-xl">
+                <span className="text-black text-xl">
                   {openIndex === index ? "−" : "+"}
                 </span>
               </button>

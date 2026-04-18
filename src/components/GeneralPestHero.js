@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function GeneralPestHero() {
   return (
-    <section className="bg-[#eaf0ea] py-20 px-6">
+    <section className="bg-[#f0f2f3] py-20 px-6">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
         {/* Left */}
         <div className="flex flex-col gap-6">
 
           {/* Label */}
-          <p className="text-[10px] font-bold tracking-[0.25em] text-emerald-700 uppercase">
+          <p className="text-[10px] font-bold tracking-[0.25em] text-[#3b7cff] uppercase">
             Clinical Grade Protection
           </p>
 
@@ -28,11 +28,11 @@ export default function GeneralPestHero() {
 </p>
           {/* CTA row */}
           <div className="flex flex-wrap items-center gap-4 mt-2">
-            <button className="bg-emerald-800 hover:bg-emerald-700 text-white font-bold text-[14px] px-7 py-4 rounded-xl transition-colors duration-200">
+            <button className="bg-[#3b7cff] hover:bg-[#4c86fb] text-white font-bold text-[14px] px-7 py-4 rounded-xl transition-colors duration-200">
               Request Free Inspection
             </button>
             <div className="flex items-center gap-2 text-slate-500 text-[13px]">
-              <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-emerald-600 shrink-0" stroke="currentColor" strokeWidth={2}>
+              <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-[#3b7cff] shrink-0" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
               </svg>
               Free inspection across Trivandrum and Kollam
@@ -58,7 +58,7 @@ export default function GeneralPestHero() {
 
           {/* Floating IPM card */}
           <div className="absolute bottom-4 left-4 bg-white rounded-2xl shadow-xl p-5 max-w-[260px] border border-slate-100">
-            <p className="text-[9px] font-bold tracking-[0.2em] text-emerald-600 uppercase mb-2">
+            <p className="text-[9px] font-bold tracking-[0.2em] text-[#3b7cff] uppercase mb-2">
               The IPM Framework
             </p>
             <p className="text-slate-500 text-[12px] leading-relaxed">

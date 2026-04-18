@@ -20,7 +20,7 @@ const areas = [
 const whyUs = [
   {
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-emerald-700" stroke="currentColor" strokeWidth={1.8}>
+      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-black" stroke="currentColor" strokeWidth={1.8}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
         <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
       </svg>
@@ -30,7 +30,7 @@ const whyUs = [
   },
   {
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-emerald-700" stroke="currentColor" strokeWidth={1.8}>
+      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-black" stroke="currentColor" strokeWidth={1.8}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41" />
       </svg>
     ),
@@ -39,7 +39,7 @@ const whyUs = [
   },
   {
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-emerald-700" stroke="currentColor" strokeWidth={1.8}>
+      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-black" stroke="currentColor" strokeWidth={1.8}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75" />
       </svg>
     ),
@@ -48,7 +48,7 @@ const whyUs = [
   },
   {
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-emerald-700" stroke="currentColor" strokeWidth={1.8}>
+      <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6 text-black" stroke="currentColor" strokeWidth={1.8}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0" />
       </svg>
     ),
@@ -67,7 +67,7 @@ export default function TrivandrumCoverageAndWhyUs() {
 
           {/* Left */}
           <div>
-            <h2 className="text-2xl lg:text-3xl font-extrabold text-emerald-900 leading-tight mb-8">
+            <h2 className="text-2xl lg:text-3xl font-extrabold text-black leading-tight mb-8">
               Service Coverage in<br />Thiruvananthapuram
             </h2>
 
@@ -107,7 +107,7 @@ export default function TrivandrumCoverageAndWhyUs() {
             ></iframe>
 
             {/* Label */}
-            <div className="absolute top-4 left-4 bg-white text-emerald-800 text-[11px] font-bold px-3 py-1.5 rounded-full shadow-sm border">
+            <div className="absolute top-4 left-4 bg-white text-black text-[11px] font-bold px-3 py-1.5 rounded-full shadow-sm border">
               Active Citywide
             </div>
 
@@ -120,7 +120,7 @@ export default function TrivandrumCoverageAndWhyUs() {
       <section className="bg-[#eaf4f0] py-20 px-6">
         <div className="max-w-6xl mx-auto">
 
-          <h2 className="text-3xl font-extrabold text-emerald-900 text-center mb-14">
+          <h2 className="text-3xl font-extrabold text-black text-center mb-14">
             Why Choose Us
           </h2>
 

@@ -12,7 +12,7 @@ import {
 
 export default function CommercialSection() {
   return (
-    <section className="bg-[#0b5c4b] text-white">
+    <section className="bg-gray-200 text-black">
       
       {/* TOP SECTION */}
       <div className="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
@@ -27,7 +27,7 @@ export default function CommercialSection() {
             For Restaurants and Food Businesses
           </h2>
 
-          <p className="text-green-100/90 mb-8 max-w-xl">
+          <p className="text-black mb-8 max-w-xl">
             We understand that a cockroach sighting in a commercial kitchen is a
             business-critical event. Our FSSAI-compliant protocols focus on
             discreet, rapid elimination without affecting your operations.
@@ -40,7 +40,7 @@ export default function CommercialSection() {
               <Utensils size={18} />
               <div>
                 <p className="font-semibold">Active Kitchen Safe</p>
-                <p className="text-green-100/80">
+                <p className="text-black">
                   Treatments designed for busy environments, no need to shut down prep areas.
                 </p>
               </div>
@@ -50,7 +50,7 @@ export default function CommercialSection() {
               <FileText size={18} />
               <div>
                 <p className="font-semibold">FSSAI Compliance</p>
-                <p className="text-green-100/80">
+                <p className="text-black">
                   Full audit documentation and chemical logs for health inspectors.
                 </p>
               </div>
@@ -60,7 +60,7 @@ export default function CommercialSection() {
               <ClipboardList size={18} />
               <div>
                 <p className="font-semibold">Flexible Contracts</p>
-                <p className="text-green-100/80">
+                <p className="text-black">
                   Proactive monthly or quarterly maintenance programs.
                 </p>
               </div>
@@ -70,7 +70,7 @@ export default function CommercialSection() {
               <Zap size={18} />
               <div>
                 <p className="font-semibold">Rapid Response</p>
-                <p className="text-green-100/80">
+                <p className="text-black">
                   Priority 4-hour response for commercial emergencies.
                 </p>
               </div>
@@ -95,12 +95,12 @@ export default function CommercialSection() {
       </div>
 
       {/* BOTTOM SECTION */}
-      <div className="bg-[#e9eeec] text-gray-900 py-16 px-6">
+      <div className="bg-[#e9e9e9] text-gray-900 py-16 px-6">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8">
 
           {/* LEFT BOX */}
           <div className="bg-white rounded-2xl p-8 shadow-sm">
-            <h3 className="text-xl font-semibold text-emerald-800 mb-6">
+            <h3 className="text-xl font-semibold text-black mb-6">
               Prevention Strategies
             </h3>
 
@@ -151,7 +151,7 @@ export default function CommercialSection() {
 
           {/* RIGHT BOX */}
           <div className="bg-white rounded-2xl p-8 shadow-sm">
-            <h3 className="text-xl font-semibold text-emerald-800 mb-6">
+            <h3 className="text-xl font-semibold text-black mb-6">
               Service Safety & Protocols
             </h3>
 

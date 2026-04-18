@@ -1,6 +1,6 @@
 export default function GPCCTA() {
   return (
-    <section className="bg-emerald-800 py-20 px-6 text-center">
+    <section className="bg-[#3b7cff] py-20 px-6 text-center">
       <div className="max-w-2xl mx-auto flex flex-col items-center gap-6">
 
         <h2 className="text-3xl lg:text-4xl font-extrabold text-white leading-tight tracking-tight">
@@ -12,7 +12,7 @@ export default function GPCCTA() {
           From IT parks to private residences, we deliver excellence.
         </p>
 
-        <button className="bg-white hover:bg-slate-50 text-emerald-900 font-bold text-[15px] px-10 py-4 rounded-full shadow-sm transition-colors duration-200 mt-2">
+        <button className="bg-white hover:bg-slate-50 text-black font-bold text-[15px] px-10 py-4 rounded-full shadow-sm transition-colors duration-200 mt-2">
           Book Your GPC Service Now
         </button>
 

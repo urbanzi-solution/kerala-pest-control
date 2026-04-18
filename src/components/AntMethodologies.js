@@ -27,7 +27,7 @@ export default function AntMethodologies() {
       <div className="max-w-6xl mx-auto">
 
         {/* Header */}
-        <h2 className="text-3xl lg:text-4xl font-extrabold text-emerald-900 text-center tracking-tight mb-14">
+        <h2 className="text-3xl lg:text-4xl font-extrabold text-black text-center tracking-tight mb-14">
           Applied Methodologies
         </h2>
 
@@ -55,7 +55,7 @@ export default function AntMethodologies() {
 
               {/* Text */}
               <div>
-                <h3 className="text-[16px] font-extrabold text-emerald-900 mb-2">
+                <h3 className="text-[16px] font-extrabold text-black mb-2">
                   {method.title}
                 </h3>
                 <p className="text-slate-500 text-[13px] leading-relaxed">

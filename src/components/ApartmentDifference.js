@@ -3,7 +3,7 @@ export default function ApartmentDifference() {
     <section className="bg-[#f0f4ee] py-20 px-6">
       <div className="max-w-3xl mx-auto flex flex-col items-center gap-7 text-center">
 
-        <h2 className="text-2xl lg:text-3xl font-extrabold text-emerald-900 leading-tight tracking-tight">
+        <h2 className="text-2xl lg:text-3xl font-extrabold text-black leading-tight tracking-tight">
           Why Apartment Pest Control Requires a Different Approach
         </h2>
 
@@ -13,7 +13,7 @@ The most effective apartment pest management works at the building level. Housin
 
         </p>
 
-        <div className="w-full bg-emerald-700 rounded-2xl px-8 py-6">
+        <div className="w-full bg-[#3b7cff] rounded-2xl px-8 py-6">
           <p className="text-white text-[15px] leading-relaxed">
              Kerala Pest Solutions offers both individual flat treatment and coordinated building-wide contracts, and we will always advise honestly on which approach will deliver better results for your specific situation.
           </p>

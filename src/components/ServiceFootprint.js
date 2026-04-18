@@ -13,7 +13,7 @@ export default function ServiceFootprint() {
           
           {/* Trivandrum */}
           <div className="bg-gray-200 rounded-2xl p-10 text-center shadow-sm hover:shadow-md transition">
-            <Map className="w-10 h-10 text-green-700 mx-auto mb-6" />
+            <Map className="w-10 h-10 text-[#3b7cff] mx-auto mb-6" />
             
             <h3 className="text-2xl text-black font-semibold mb-3">
               Trivandrum Service Area
@@ -25,7 +25,7 @@ export default function ServiceFootprint() {
 
             <a
               href="/trivandrum"
-              className="text-green-700 font-bold tracking-wide hover:underline"
+              className="text-[#3b7cff] font-bold tracking-wide hover:underline"
             >
               VIEW LOCAL HUB →
             </a>
@@ -33,7 +33,7 @@ export default function ServiceFootprint() {
 
           {/* Kollam */}
           <div className="bg-gray-200 rounded-2xl p-10 text-center shadow-sm hover:shadow-md transition">
-            <Building className="w-10 h-10 text-green-700 mx-auto mb-6" />
+            <Building className="w-10 h-10 text-[#3b7cff] mx-auto mb-6" />
             
             <h3 className="text-2xl text-black font-semibold mb-3">
               Kollam Service Area
@@ -45,7 +45,7 @@ export default function ServiceFootprint() {
 
             <a
               href="/kollam"
-              className="text-green-700 font-bold tracking-wide hover:underline"
+              className="text-[#3b7cff] font-bold tracking-wide hover:underline"
             >
               VIEW LOCAL HUB →
             </a>

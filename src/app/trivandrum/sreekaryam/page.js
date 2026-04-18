@@ -7,11 +7,51 @@ import SreekaryamCoverage from "@/components/SreekaryamCoverage";
 import SreekaryamFAQ from "@/components/SreekaryamFAQ";
 import SreekaryamCTA from "@/components/SreekaryamCTA";
 
-// ✅ SEO METADATA (location-specific + student/rental + residential focus)
+// ✅ SEO METADATA (Enhanced - Student + Rental + Residential Targeting)
 export const metadata = {
   title: "Pest Control Services in Sreekaryam | Home & Hostel Solutions",
+
   description:
-    "Professional pest control services in Sreekaryam for homes, hostels and rentals. Safe treatments to eliminate bed bugs, cockroaches and rodents effectively.",
+    "Looking for pest control in Sreekaryam? Kerala Pest Solutions offers safe, eco-friendly treatments for homes, hostels, and rental properties with effective control of bed bugs, cockroaches, and rodents.",
+
+  keywords: [
+    "Pest control Sreekaryam",
+    "Hostel pest control Sreekaryam",
+    "Rental pest control Sreekaryam",
+    "Bed bug treatment Sreekaryam",
+    "Cockroach control Sreekaryam",
+    "Rodent control Sreekaryam",
+    "Pest control Trivandrum",
+  ],
+
+  alternates: {
+    canonical: "https://keralapestsolutions.com/pest-control-sreekaryam",
+  },
+
+  openGraph: {
+    title: "Pest Control in Sreekaryam | Kerala Pest Solutions",
+    description:
+      "Professional pest control services in Sreekaryam for homes, hostels, and rentals. Safe and effective pest management solutions.",
+    url: "https://keralapestsolutions.com/pest-control-sreekaryam",
+    siteName: "Kerala Pest Solutions",
+    images: [
+      {
+        url: "https://keralapestsolutions.com/about-og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Pest Control in Sreekaryam",
+      },
+    ],
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Pest Control in Sreekaryam",
+    description:
+      "Trusted pest control services for homes, hostels, and rental properties.",
+    images: ["https://keralapestsolutions.com/about-og.jpg"],
+  },
 };
 
 export default function Home() {

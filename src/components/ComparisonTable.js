@@ -27,7 +27,7 @@ export default function ComparisonTable() {
       <div className="max-w-4xl mx-auto">
 
         {/* Heading */}
-        <h2 className="text-3xl lg:text-4xl font-extrabold text-emerald-900 text-center mb-12 tracking-tight">
+        <h2 className="text-3xl lg:text-4xl font-extrabold text-black text-center mb-12 tracking-tight">
           Pre-Construction vs. Post-Construction
         </h2>
 
@@ -35,7 +35,7 @@ export default function ComparisonTable() {
         <div className="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100">
 
           {/* Header row */}
-          <div className="grid grid-cols-3 bg-emerald-900 px-8 py-5">
+          <div className="grid grid-cols-3 bg-[#3b7cff] px-8 py-5">
             <p className="text-[11px] font-bold tracking-[0.18em] text-white/70 uppercase">Feature</p>
             <p className="text-[11px] font-bold tracking-[0.18em] text-white/70 uppercase">Pre-Construction</p>
             <p className="text-[11px] font-bold tracking-[0.18em] text-white/70 uppercase">Post-Construction</p>
@@ -49,7 +49,7 @@ export default function ComparisonTable() {
                 i !== rows.length - 1 ? "border-b border-slate-100" : ""
               }`}
             >
-              <p className="text-[11px] font-bold tracking-[0.15em] text-emerald-900 uppercase">
+              <p className="text-[11px] font-bold tracking-[0.15em] text-black uppercase">
                 {row.feature}
               </p>
               <p className="text-[15px] text-slate-600">{row.pre}</p>

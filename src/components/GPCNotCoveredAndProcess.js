@@ -104,7 +104,7 @@ export default function GPCNotCoveredAndProcess() {
       <div className="border-t border-slate-200 mx-6 lg:mx-20" />
 
       {/* ── Four Stage Treatment Process ── */}
-      <section className="bg-[#f0f2f0] py-20 px-6">
+      <section className="bg-[#ffffff] py-20 px-6">
         <div className="max-w-6xl mx-auto">
 
           {/* Header */}
@@ -124,7 +124,7 @@ export default function GPCNotCoveredAndProcess() {
 
                 {/* Number + connector */}
                 <div className="flex items-center gap-3">
-                  <div className="w-11 h-11 rounded-full bg-emerald-800 flex items-center justify-center shrink-0">
+                  <div className="w-11 h-11 rounded-full bg-[#3b7cff] flex items-center justify-center shrink-0">
                     <span className="text-white font-extrabold text-[15px]">{step.number}</span>
                   </div>
                   {i < steps.length - 1 && (

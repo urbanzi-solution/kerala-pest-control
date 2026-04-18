@@ -61,7 +61,7 @@ export default function AdvancedDefenseSystems() {
           <p className="text-[10px] font-semibold tracking-[0.3em] text-slate-400 uppercase mb-5">
             Our Solutions
           </p>
-          <h2 className="text-4xl lg:text-5xl font-extrabold text-emerald-900 mb-5 tracking-tight">
+          <h2 className="text-4xl lg:text-5xl font-extrabold text-black mb-5 tracking-tight">
             Advanced Defense Systems
           </h2>
           <p className="text-slate-500 text-[15px] max-w-lg mx-auto leading-relaxed">
@@ -77,12 +77,12 @@ export default function AdvancedDefenseSystems() {
       className="group bg-white rounded-2xl p-8 shadow-sm border border-slate-100 flex flex-col gap-5 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 w-full sm:w-[calc(50%-10px)] lg:w-[calc(33.333%-14px)]"
     >
       {/* Icon */}
-      <div className="w-14 h-14 rounded-2xl bg-emerald-900 flex items-center justify-center shrink-0 group-hover:bg-emerald-800 transition-colors duration-200">
+      <div className="w-14 h-14 rounded-2xl bg-[#3b7cff] flex items-center justify-center shrink-0 group-hover:bg-[#528af9] transition-colors duration-200">
         {solution.icon}
       </div>
 
       {/* Divider */}
-      <div className="w-8 h-0.5 bg-emerald-200 rounded-full" />
+      <div className="w-8 h-0.5 bg-black rounded-full" />
 
       {/* Text */}
       <div className="flex flex-col gap-2">

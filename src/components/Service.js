@@ -13,9 +13,9 @@ export default function Service() {
 
           <h1 className="text-4xl md:text-6xl lg:text-5xl font-serif font-bold text-gray-900 leading-tight">
             Pest Control Services in<br />
-            <span className="text-green-700 italic">
+           
               Kerala
-            </span>
+           
           </h1>
 
           <p className="mt-6 text-gray-600 text-lg max-w-xl">
@@ -24,11 +24,11 @@ This page gives you an overview of every service we provide, what each one cover
           </p>
 
           <div className="mt-8 flex gap-4">
-            <button className="bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-md">
+            <button className="bg-[#3b7cff] hover:bg-[#246dff] text-white px-6 py-3 rounded-md">
               Book a Free Inspection →
             </button>
 
-            <button className="bg-white hover:bg-gray-100 text-black px-6 py-3 rounded-md">
+            <button className="bg-white hover:bg-gray-100 border-2 border-[#3b7cff] text-black px-6 py-3 rounded-md">
               View Methodology
             </button>
           </div>

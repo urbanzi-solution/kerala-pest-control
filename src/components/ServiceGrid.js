@@ -71,7 +71,7 @@ export default function ServiceGrid() {
               <div className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition cursor-pointer">
                 
                 {/* Icon */}
-                <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-green-100 text-green-700 mb-5">
+                <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-gray-100 text-[#3b7cff] mb-5">
                   {item.icon}
                 </div>
 
@@ -86,7 +86,7 @@ export default function ServiceGrid() {
                 </p>
 
                 {/* Link text */}
-                <div className="mt-6 text-green-700 text-sm font-semibold">
+                <div className="mt-6 text-[#3b7cff] text-sm font-semibold">
                   LEARN PROTOCOL →
                 </div>
               </div>
@@ -99,7 +99,7 @@ export default function ServiceGrid() {
           <div className="mt-4 bg-white rounded-2xl p-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition cursor-pointer">
             
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-green-100 text-green-700">
+              <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-gray-100 text-[#3b7cff]">
                 <Shield size={22} />
               </div>
 
@@ -113,7 +113,7 @@ export default function ServiceGrid() {
               </div>
             </div>
 
-            <div className="text-green-700 font-semibold text-sm whitespace-nowrap">
+            <div className="text-[#3b7cff] font-semibold text-sm whitespace-nowrap">
               VIEW FULL PROGRAM →
             </div>
           </div>

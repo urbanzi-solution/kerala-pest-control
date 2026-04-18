@@ -8,7 +8,7 @@ export default function KollamChallenges() {
           <h2 className="text-3xl lg:text-4xl font-extrabold text-slate-900 mb-3">
             Why Kollam Has Specific Pest Challenges
           </h2>
-          <div className="w-12 h-1 bg-emerald-700 rounded"></div>
+          <div className="w-12 h-1 bg-black rounded"></div>
         </div>
 
         {/* Grid */}

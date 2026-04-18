@@ -45,13 +45,13 @@ export default function WareHouseFAQ() {
                 onClick={() => toggle(i)}
                 className="w-full flex items-center justify-between gap-4 py-5 text-left"
               >
-                <span className={`text-[15px] font-semibold ${openIndex === i ? "text-emerald-800" : "text-emerald-900"}`}>
+                <span className={`text-[15px] font-semibold ${openIndex === i ? "text-black" : "text-black"}`}>
                   {faq.question}
                 </span>
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
-                  className={`w-4 h-4 text-emerald-700 shrink-0 transition-transform duration-200 ${openIndex === i ? "rotate-180" : ""}`}
+                  className={`w-4 h-4 text-black shrink-0 transition-transform duration-200 ${openIndex === i ? "rotate-180" : ""}`}
                   stroke="currentColor"
                   strokeWidth={2.5}
                 >

@@ -51,13 +51,13 @@ export default function BedBugFAQAndCTA() {
                   onClick={() => toggle(i)}
                   className="w-full flex items-center justify-between gap-4 py-5 text-left"
                 >
-                  <span className={`text-[15px] font-semibold ${openIndex === i ? "text-emerald-800" : "text-emerald-900"}`}>
+                  <span className={`text-[15px] font-semibold ${openIndex === i ? "text-black" : "text-black"}`}>
                     {faq.question}
                   </span>
                   <svg
                     viewBox="0 0 24 24"
                     fill="none"
-                    className={`w-4 h-4 text-emerald-700 shrink-0 transition-transform duration-200 ${openIndex === i ? "rotate-180" : ""}`}
+                    className={`w-4 h-4 text-black shrink-0 transition-transform duration-200 ${openIndex === i ? "rotate-180" : ""}`}
                     stroke="currentColor"
                     strokeWidth={2.5}
                   >
@@ -77,12 +77,12 @@ export default function BedBugFAQAndCTA() {
       </section>
 
       {/* ── CTA ── */}
-      <section className="bg-emerald-800 py-24 px-6 text-center">
+      <section className="bg-[#3b7cff] py-24 px-6 text-center">
         <div className="max-w-2xl mx-auto flex flex-col items-center gap-6">
           <h2 className="text-4xl lg:text-5xl font-extrabold text-white leading-tight tracking-tight">
             Ready to Sleep Peacefully?
           </h2>
-          <p className="text-emerald-200/80 text-[15px] leading-relaxed max-w-lg">
+          <p className="text-white text-[15px] leading-relaxed max-w-lg">
             Join over 2,500+ satisfied families in Kerala who chose our clinical eradication
             protocol. Don&apos;t let a minor problem become a structural nightmare.
           </p>

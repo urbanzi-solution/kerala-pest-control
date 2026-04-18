@@ -5,7 +5,7 @@ export default function KollamCTA() {
     <section className="bg-[#e8f0f8] py-24 px-6 text-center">
       <div className="max-w-2xl mx-auto flex flex-col items-center gap-6">
 
-        <h2 className="text-3xl lg:text-4xl font-extrabold text-emerald-900 leading-tight tracking-tight">
+        <h2 className="text-3xl lg:text-4xl font-extrabold text-black leading-tight tracking-tight">
           Ready to Solve Your Pest Problem in Kollam?
         </h2>
 

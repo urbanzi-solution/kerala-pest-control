@@ -1,14 +1,14 @@
 const stats = [
-  { value: "30+", label: "Pathogens Carried", color: "text-emerald-900" },
+  { value: "30+", label: "Pathogens Carried", color: "text-black" },
   { value: "99%", label: "Asthma Correlation", color: "text-orange-500" },
-  { value: "24h", label: "Bacteria Spread", color: "text-emerald-900" },
+  { value: "24h", label: "Bacteria Spread", color: "text-black" },
   { value: "Rapid", label: "Colony Growth", color: "text-orange-500" },
 ];
 
 const methods = [
   {
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5 text-emerald-700" stroke="currentColor" strokeWidth={1.8}>
+      <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5 text-[#3b7cff]" stroke="currentColor" strokeWidth={1.8}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 0-6.23-.693L5 14.5m14.8.8 1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0 1 12 21a48.309 48.309 0 0 1-8.135-.687c-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
       </svg>
     ),
@@ -18,7 +18,7 @@ const methods = [
   },
   {
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5 text-emerald-700" stroke="currentColor" strokeWidth={1.8}>
+      <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5 text-[#3b7cff]" stroke="currentColor" strokeWidth={1.8}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
       </svg>
     ),
@@ -28,7 +28,7 @@ const methods = [
   },
   {
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5 text-emerald-700" stroke="currentColor" strokeWidth={1.8}>
+      <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5 text-[#3b7cff]" stroke="currentColor" strokeWidth={1.8}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
       </svg>
     ),
@@ -48,7 +48,7 @@ export default function CockroachRiskAndMethods() {
 
           {/* Left */}
           <div className="flex flex-col gap-5">
-            <h2 className="text-3xl lg:text-4xl font-extrabold text-emerald-900 leading-tight">
+            <h2 className="text-3xl lg:text-4xl font-extrabold text-black leading-tight">
               More Than Just a Nuisance: A<br />Serious Medical Risk
             </h2>
             <p className="text-slate-600 text-[14px] leading-relaxed">
@@ -94,10 +94,10 @@ export default function CockroachRiskAndMethods() {
       <div className="relative mx-4 lg:mx-32 rounded-3xl overflow-hidden">
   
   {/* Background Gradient */}
-  <div className="absolute inset-0 bg-gradient-to-r from-emerald-900 via-emerald-800 to-emerald-700" />
+  <div className="absolute inset-0 bg-gradient-to-r from-[#1c56cb] via-[#2963d8] to-[#3b7cff]" />
 
   {/* Soft Glow */}
-  <div className="absolute -top-10 -right-10 w-40 h-40 bg-emerald-400/20 blur-3xl rounded-full" />
+  <div className="absolute -top-10 -right-10 w-40 h-40 bg-[#3b7cff] blur-3xl rounded-full" />
 
   {/* Content */}
   <div className="relative px-6 md:px-12 py-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-8">
@@ -113,14 +113,14 @@ export default function CockroachRiskAndMethods() {
         Seeing Cockroaches During the Day?
       </p>
 
-      <p className="text-emerald-100/90 text-sm md:text-base leading-relaxed">
+      <p className="text-white text-sm md:text-base leading-relaxed">
         This is a serious warning sign. Cockroaches are nocturnal; seeing them in daylight
         usually means the harborage is overcrowded. Act now before the infestation escalates.
       </p>
     </div>
 
     {/* Button */}
-    <button className="relative shrink-0 bg-white text-emerald-900 font-semibold text-xs tracking-wider uppercase px-7 py-3.5 rounded-xl transition-all duration-300 hover:bg-emerald-50 hover:shadow-lg hover:-translate-y-0.5">
+    <button className="relative shrink-0 bg-white text-black font-semibold text-xs tracking-wider uppercase px-7 py-3.5 rounded-xl transition-all duration-300 hover:bg-emerald-50 hover:shadow-lg hover:-translate-y-0.5">
       Free Inspection Now →
     </button>
 
@@ -133,7 +133,7 @@ export default function CockroachRiskAndMethods() {
 
           {/* Header */}
           <div className="text-center mb-14">
-            <h2 className="text-3xl lg:text-4xl font-extrabold text-emerald-900 tracking-tight mb-4">
+            <h2 className="text-3xl lg:text-4xl font-extrabold text-black tracking-tight mb-4">
               Scientifically Proven Methods
             </h2>
             <p className="text-slate-500 text-[14px] max-w-lg mx-auto leading-relaxed">

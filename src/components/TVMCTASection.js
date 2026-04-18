@@ -4,7 +4,7 @@ export default function TVMCTASection() {
       <div className="max-w-4xl mx-auto text-center">
 
         {/* Heading */}
-        <h2 className="text-3xl lg:text-4xl font-extrabold text-emerald-800 mb-4">
+        <h2 className="text-3xl lg:text-4xl font-extrabold text-black mb-4">
           Ready for a Pest-Free Home?
         </h2>
 

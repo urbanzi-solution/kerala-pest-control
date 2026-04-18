@@ -1,85 +1,71 @@
-"use client";
 
-import { ShieldCheck } from "lucide-react";
+import Image from "next/image";
 
 export default function TermiteHero() {
   return (
-    <section className="relative min-h-[90vh] flex items-center bg-green-950 text-white">
-      
-      {/* Background Image */}
-      <div className="absolute inset-0">
-        <img
-          src="/house.jpg" // replace with your image
-          alt="background"
-          className="w-full h-full object-cover opacity-20"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-green-950 via-green-900 to-green-800 opacity-95"></div>
-      </div>
+    <section className="bg-[#f0f2f3] py-20 px-6 ">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
-      {/* Content */}
-      <div className="relative max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
-        
-        {/* LEFT */}
-        <div>
-          <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
-            Termite <span className="text-amber-400">Care</span>
-            <br />
-            for Kerala
+        {/* Left */}
+        <div className="flex flex-col gap-6">
+
+          {/* Label */}
+          <p className="text-[10px] font-bold tracking-[0.25em] text-[#3b7cff] uppercase">
+            Clinical Grade Protection
+          </p>
+
+          {/* Heading */}
+          <h1 className="text-4xl lg:text-5xl font-extrabold text-black leading-tight tracking-tight">
+            Termite Pest<br />Control Kerala
           </h1>
 
-          <p className="text-green-100 text-lg mb-6 max-w-xl">
-            Did you know termites cause more property damage annually than floods
-            and fires combined? In Kerala's high-humidity climate (exceeding
-            70%), subterranean termites cause silent, catastrophic devastation
-            to homes.
+          {/* Body */}
+          <p className="text-slate-600 text-[15px] leading-relaxed">
+          Termites cause more structural damage to Indian homes than floods and fires combined. In Kerala, where year-round humidity above 70%, warm soil temperatures, and the widespread use of timber in both heritage and modern construction converge, subterranean termite colonies can silently destroy the structural integrity of a building within three to five years. By the time visible signs appear — a sagging door frame, a hollow-sounding wall panel, or a swarm of winged insects near a light source — significant and costly damage has already been done.
+
           </p>
-
-          <p className="text-green-200 text-sm mb-10 max-w-xl">
-            Warning signs like sagging door frames, buckling floorboards, or
-            hollow-sounding wood panels are often the final indicators of
-            deep-seated infestation. We provide CIB&RC-approved, surgical
-            precision protection for your property legacy.
-          </p>
-
-          {/* CTA */}
-          <button className="bg-amber-200 text-green-900 font-semibold px-8 py-4 rounded-full hover:bg-amber-300 transition">
-            Book a Free Termite Inspection →
-          </button>
-        </div>
-
-        {/* RIGHT CARD */}
-        <div className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-8 shadow-xl">
-          
-          <div className="flex items-center gap-4 mb-6">
-            <div className="w-12 h-12 flex items-center justify-center rounded-full bg-white/10">
-              <ShieldCheck className="text-white" />
-            </div>
-            <div>
-              <p className="font-semibold">Government Approved</p>
-              <p className="text-sm text-green-200">
-                IPM Certified Specialists
-              </p>
+            <p className="text-slate-600 text-[15px] leading-relaxed">
+               Kerala Pest Solutions provides comprehensive termite treatment for residential and commercial properties across Trivandrum and Kollam. Our approach combines government-approved soil barrier treatments, targeted baiting systems, and structural inspections to eliminate active colonies and prevent new infestations from establishing.
+</p>
+          {/* CTA row */}
+          <div className="flex flex-wrap items-center gap-4 mt-2">
+            <button className="bg-[#3b7cff] hover:bg-[#4c86fb] text-white font-bold text-[14px] px-7 py-4 rounded-xl transition-colors duration-200">
+              Request Free Inspection
+            </button>
+            <div className="flex items-center gap-2 text-slate-500 text-[13px]">
+              <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-[#3b7cff] shrink-0" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+              Free inspection across Trivandrum and Kollam
             </div>
           </div>
+        </div>
 
-          <div className="space-y-5 text-sm">
-            <div className="flex justify-between border-b border-white/10 pb-3">
-              <span className="text-green-200">Methodology</span>
-              <span className="font-semibold">CIB&RC Standard</span>
-            </div>
+        {/* Right — image + floating card */}
+        <div className="relative">
+          <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-xl">
+            {/*
+              Replace src with your actual image e.g. /images/general-pest-technician.jpg
+              Place in /public/images/
+            */}
+            <Image
+              src="/termite-pest-technician.jpg"
+              alt="General pest control technician"
+              fill
+              className="object-cover object-top"
+              priority
+            />
+          </div>
 
-            <div className="flex justify-between border-b border-white/10 pb-3">
-              <span className="text-green-200">Service Area</span>
-              <span className="font-semibold">Trivandrum & Kollam</span>
-            </div>
-
-            <div className="flex justify-between items-center">
-              <span className="text-green-200">Response Time</span>
-              <span className="font-semibold flex items-center gap-2">
-                <span className="w-2 h-2 bg-green-400 rounded-full"></span>
-                &lt; 24 Hours
-              </span>
-            </div>
+          {/* Floating IPM card */}
+          <div className="absolute bottom-4 left-4 bg-white rounded-2xl shadow-xl p-5 max-w-[260px] border border-slate-100">
+            <p className="text-[9px] font-bold tracking-[0.2em] text-[#3b7cff] uppercase mb-2">
+              The IPM Framework
+            </p>
+            <p className="text-slate-500 text-[12px] leading-relaxed">
+              We combine targeted gel baiting, residual barrier sprays, and environmental advice to
+              eliminate pests at the root cause, rather than just treating symptoms.
+            </p>
           </div>
         </div>
 

@@ -18,7 +18,7 @@ function Card({
       >
         {/* TEXT */}
         <div className={`${reverse ? "md:order-2" : ""}`}>
-          <p className="text-green-700 text-xs tracking-widest font-semibold mb-3">
+          <p className="text-[#3b7cff] text-xs tracking-widest font-semibold mb-3">
             {label}
           </p>
 
@@ -54,7 +54,7 @@ function Card({
             </div>
           </div>
 
-          <div className="mt-6 text-green-700 font-semibold text-sm cursor-pointer">
+          <div className="mt-6 text-[#3b7cff] font-semibold text-sm cursor-pointer">
             Full details, methods, and FAQ →
           </div>
         </div>

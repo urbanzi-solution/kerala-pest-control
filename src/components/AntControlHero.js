@@ -9,12 +9,12 @@ export default function AntControlHero() {
         <div className="flex flex-col gap-6">
 
           {/* Badge */}
-          <span className="inline-flex self-start bg-emerald-100 text-emerald-800 text-[10px] font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full">
+          <span className="inline-flex self-start bg-[#d5d5d5] text-black text-[10px] font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full">
             Ant Control Kerala
           </span>
 
           {/* Heading */}
-          <h1 className="text-4xl lg:text-5xl font-extrabold text-emerald-900 leading-tight tracking-tight">
+          <h1 className="text-4xl lg:text-5xl font-extrabold text-black leading-tight tracking-tight">
             Professional Ant<br />Control in Kerala
           </h1>
 
@@ -31,7 +31,7 @@ export default function AntControlHero() {
           </div>
 
           {/* Blockquote */}
-          <div className="border-l-4 border-emerald-200 pl-5 py-1">
+          <div className="border-l-4 border-black pl-5 py-1">
             <p className="text-slate-500 text-[14px] leading-relaxed italic">
               Kerala Pest Solutions provides targeted ant control for homes, food businesses, and
               commercial properties across Trivandrum and Kollam. Our methods address the colony

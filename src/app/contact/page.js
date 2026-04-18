@@ -28,7 +28,7 @@ export const metadata = {
     siteName: "Kerala Pest Solutions",
     images: [
       {
-        url: "https://keralapestsolutions.com/assets/images/contact-og-image.jpg",
+        url: "https://keralapestsolutions.com/contact-og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Contact Pest Control Services in Trivandrum",

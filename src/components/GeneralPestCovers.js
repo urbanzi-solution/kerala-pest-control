@@ -22,7 +22,7 @@ export default function GeneralPestCovers() {
 
           {/* Cockroaches card */}
           <div className="bg-slate-50 rounded-2xl p-7 border border-slate-100 flex flex-col gap-4">
-            <span className="self-start bg-emerald-100 text-emerald-700 text-[9px] font-bold tracking-[0.18em] uppercase px-3 py-1.5 rounded-full">
+            <span className="self-start bg-[#dde3ef] text-[#3b7cff] text-[9px] font-bold tracking-[0.18em] uppercase px-3 py-1.5 rounded-full">
               Blattodea
             </span>
             <div>
@@ -35,7 +35,7 @@ export default function GeneralPestCovers() {
               <ul className="flex flex-col gap-2">
                 {["No need to empty cupboards", "Odourless and non-invasive"].map((item) => (
                   <li key={item} className="flex items-center gap-2">
-                    <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-emerald-600 shrink-0" stroke="currentColor" strokeWidth={2}>
+                    <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-[#3b7cff] shrink-0" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                     </svg>
                     <span className="text-slate-500 text-[13px]">{item}</span>
@@ -60,7 +60,7 @@ export default function GeneralPestCovers() {
 
           {/* Ants card */}
           <div className="bg-slate-50 rounded-2xl p-7 border border-slate-100 flex flex-col gap-4">
-            <span className="self-start bg-emerald-100 text-emerald-700 text-[9px] font-bold tracking-[0.18em] uppercase px-3 py-1.5 rounded-full">
+            <span className="self-start bg-[#dde3ef] text-[#3b7cff] text-[9px] font-bold tracking-[0.18em] uppercase px-3 py-1.5 rounded-full">
               Formicidae
             </span>
             <div>
@@ -84,7 +84,7 @@ export default function GeneralPestCovers() {
 
           {/* Silverfish card */}
           <div className="bg-slate-50 rounded-2xl p-7 border border-slate-100 flex flex-col gap-4">
-            <span className="self-start bg-emerald-100 text-emerald-700 text-[9px] font-bold tracking-[0.18em] uppercase px-3 py-1.5 rounded-full">
+            <span className="self-start bg-[#dde3ef] text-[#3b7cff] text-[9px] font-bold tracking-[0.18em] uppercase px-3 py-1.5 rounded-full">
               Zygentoma
             </span>
             <div>
@@ -95,17 +95,17 @@ export default function GeneralPestCovers() {
                 specialized applications.
               </p>
             </div>
-            <button className="self-start text-emerald-700 font-bold text-[13px] mt-auto hover:text-emerald-600 transition-colors">
+            <button className="self-start text-[#3b7cff] font-bold text-[13px] mt-auto hover:text-[#3370ea] transition-colors">
               Climate-Specific Treatment →
             </button>
           </div>
 
           {/* Centipedes dark card */}
-          <div className="lg:col-span-2 bg-emerald-900 rounded-2xl p-8 flex flex-col gap-5">
+          <div className="lg:col-span-2 bg-[#6bb3ee] rounded-2xl p-8 flex flex-col gap-5">
             <h3 className="text-xl font-extrabold text-white leading-snug">
               Centipedes, Millipedes & Spiders
             </h3>
-            <p className="text-emerald-100/70 text-[13px] leading-relaxed max-w-lg">
+            <p className="text-[#dde3ef] text-[13px] leading-relaxed max-w-lg">
               Our residual barrier sprays are designed for monsoon protection, preventing crawling
               insects like centipedes and millipedes from entering through cracks. For spiders, we
               focus on clearing webs and treating hidden corners to prevent re-infestation.
@@ -113,15 +113,15 @@ export default function GeneralPestCovers() {
 
             {/* Stats row */}
             <div className="grid grid-cols-2 gap-4 mt-auto">
-              <div className="bg-emerald-800/60 rounded-xl p-4">
+              <div className="bg-[#3b7cff] rounded-xl p-4">
                 <p className="text-3xl font-extrabold text-white mb-1">98%</p>
-                <p className="text-emerald-300/70 text-[10px] font-bold tracking-[0.15em] uppercase">
+                <p className="text-[#f5f5f5] text-[10px] font-bold tracking-[0.15em] uppercase">
                   Barrier Efficacy
                 </p>
               </div>
-              <div className="bg-emerald-800/60 rounded-xl p-4">
+              <div className="bg-[#3b7cff] rounded-xl p-4">
                 <p className="text-3xl font-extrabold text-white mb-1">100%</p>
-                <p className="text-emerald-300/70 text-[10px] font-bold tracking-[0.15em] uppercase">
+                <p className="text-[#f5f5f5] text-[10px] font-bold tracking-[0.15em] uppercase">
                   Corners Covered
                 </p>
               </div>

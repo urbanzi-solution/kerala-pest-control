@@ -5,16 +5,64 @@ import KazhakootamManagement from "@/components/KazhakootamManagement";
 import KazhakootamCoverage from "@/components/KazhakootamCoverage";
 import KazhakkoottamFAQ from "@/components/KazhakkoottamFAQ";
 import KazhakootamCTA from "@/components/KazhakootamCTA";
+
+// ✅ SEO METADATA (Location Specific)
+export const metadata = {
+  title: "Pest Control Services in Kazhakkoottam | Safe & Expert Solutions",
+
+  description:
+    "Looking for pest control in Kazhakkoottam? Kerala Pest Solutions provides safe, eco-friendly treatments for termites, rodents, cockroaches, and other pests for homes and businesses.",
+
+  keywords: [
+    "Pest control Kazhakkoottam",
+    "Termite treatment Kazhakkoottam",
+    "Rodent control Kazhakkoottam",
+    "Home pest control Kazhakkoottam",
+    "Commercial pest control Kazhakkoottam",
+    "Cockroach control Kazhakkoottam",
+    "Pest control Trivandrum",
+  ],
+
+  alternates: {
+    canonical: "https://keralapestsolutions.com/pest-control-kazhakkoottam",
+  },
+
+  openGraph: {
+    title: "Pest Control in Kazhakkoottam | Kerala Pest Solutions",
+    description:
+      "Professional pest control services in Kazhakkoottam for homes and businesses. Safe and effective solutions for termites, rodents, and insects.",
+    url: "https://keralapestsolutions.com/pest-control-kazhakkoottam",
+    siteName: "Kerala Pest Solutions",
+    images: [
+      {
+        url: "https://keralapestsolutions.com/about-og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Pest Control in Kazhakkoottam",
+      },
+    ],
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Pest Control in Kazhakkoottam",
+    description:
+      "Trusted pest control services in Kazhakkoottam for homes and businesses.",
+    images: ["https://keralapestsolutions.com/about-og.jpg"],
+  },
+};
+
 export default function Home() {
   return (
     <>
-    <KazhakoottamHero />
-    <KazhakootamChallenges />
-    <KazhakootamSolutions />
-    <KazhakootamManagement />
-    <KazhakootamCoverage />
-    <KazhakkoottamFAQ />
-    <KazhakootamCTA />
+      <KazhakoottamHero />
+      <KazhakootamChallenges />
+      <KazhakootamSolutions />
+      <KazhakootamManagement />
+      <KazhakootamCoverage />
+      <KazhakkoottamFAQ />
+      <KazhakootamCTA />
     </>
   );
 }

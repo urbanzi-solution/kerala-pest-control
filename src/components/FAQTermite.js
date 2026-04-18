@@ -42,7 +42,7 @@ const toggle = (i) => setOpenIndex(openIndex === i ? null : i);
           <p className="text-[10px] font-semibold tracking-[0.3em] text-slate-400 uppercase mb-4">
             Got Questions?
           </p>
-          <h2 className="text-3xl lg:text-4xl font-extrabold text-emerald-900 tracking-tight">
+          <h2 className="text-3xl lg:text-4xl font-extrabold text-black tracking-tight">
             Frequently Asked Questions
           </h2>
         </div>
@@ -55,7 +55,7 @@ const toggle = (i) => setOpenIndex(openIndex === i ? null : i);
               <div
                 key={i}
                 className={`bg-white rounded-2xl border transition-all duration-200 overflow-hidden ${
-                  isOpen ? "border-emerald-200 shadow-sm" : "border-slate-100"
+                  isOpen ? "border shadow-sm" : "border-slate-100"
                 }`}
               >
                 {/* Question row */}
@@ -65,7 +65,7 @@ const toggle = (i) => setOpenIndex(openIndex === i ? null : i);
                 >
                   <span
                     className={`text-[15px] font-semibold leading-snug transition-colors ${
-                      isOpen ? "text-emerald-900" : "text-slate-800"
+                      isOpen ? "text-black" : "text-slate-800"
                     }`}
                   >
                     {faq.question}
@@ -74,7 +74,7 @@ const toggle = (i) => setOpenIndex(openIndex === i ? null : i);
                   {/* +/- icon */}
                   <span
                     className={`shrink-0 w-7 h-7 rounded-full flex items-center justify-center transition-colors duration-200 ${
-                      isOpen ? "bg-emerald-900" : "bg-slate-100"
+                      isOpen ? "bg-slate-100" : "bg-slate-100"
                     }`}
                   >
                     <svg
@@ -83,7 +83,7 @@ const toggle = (i) => setOpenIndex(openIndex === i ? null : i);
                       stroke="currentColor"
                       strokeWidth={2.5}
                       className={`w-3.5 h-3.5 transition-colors ${
-                        isOpen ? "text-white" : "text-slate-500"
+                        isOpen ? "text-slate-500" : "text-slate-500"
                       }`}
                     >
                       {isOpen ? (
@@ -98,7 +98,7 @@ const toggle = (i) => setOpenIndex(openIndex === i ? null : i);
                 {/* Answer */}
                 {isOpen && (
                   <div className="px-7 pb-6">
-                    <div className="w-8 h-0.5 bg-emerald-200 rounded-full mb-4" />
+                    <div className="w-8 h-0.5 bg-black rounded-full mb-4" />
                     <p className="text-slate-500 text-[14px] leading-relaxed">{faq.answer}</p>
                   </div>
                 )}

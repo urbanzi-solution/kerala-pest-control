@@ -56,7 +56,7 @@ export default function TermiteRiskSection() {
             Environmental Context
           </p>
 
-          <h2 className="text-4xl lg:text-5xl font-extrabold text-emerald-900 leading-tight">
+          <h2 className="text-4xl lg:text-5xl font-extrabold text-black leading-tight">
             Why Termite Risk Is Exceptionally High in Kerala
           </h2>
 

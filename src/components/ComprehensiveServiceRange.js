@@ -68,12 +68,12 @@ const services = [
 
 export default function ComprehensiveServiceRange() {
   return (
-    <section className="bg-[#f5f7f2] py-24 px-6">
+    <section className="bg-[#f0f1ef] py-24 px-6">
       <div className="max-w-5xl mx-auto">
 
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-[10px] font-bold tracking-[0.28em] text-emerald-600 uppercase mb-4">
+          <p className="text-[10px] font-bold tracking-[0.28em] text-black uppercase mb-4">
             What We Offer
           </p>
           <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 tracking-tight mb-5">
@@ -92,22 +92,22 @@ export default function ComprehensiveServiceRange() {
           {services.map((service) => (
             <div
               key={service.title}
-              className="group relative bg-white rounded-2xl p-6 flex flex-col items-center gap-4 border border-slate-100 shadow-sm hover:shadow-md hover:border-emerald-200 hover:-translate-y-1 transition-all duration-200 cursor-pointer"
+              className="group relative bg-white rounded-2xl p-6 flex flex-col items-center gap-4 border border-slate-100 shadow-sm hover:shadow-md hover:border-[#eeeeee] hover:-translate-y-1 transition-all duration-200 cursor-pointer"
             >
               {/* Tag */}
               {service.tag && (
-                <span className="absolute top-3 right-3 bg-emerald-100 text-emerald-700 text-[9px] font-bold tracking-wider uppercase px-2 py-1 rounded-full">
+                <span className="absolute top-3 right-3 text-black text-[9px] font-bold tracking-wider uppercase px-2 py-1 rounded-full">
                   {service.tag}
                 </span>
               )}
 
               {/* Icon container */}
-              <div className="w-14 h-14 rounded-2xl bg-slate-50 group-hover:bg-emerald-50 border border-slate-100 group-hover:border-emerald-100 flex items-center justify-center transition-colors duration-200 text-slate-500 group-hover:text-emerald-700">
+              <div className="w-14 h-14 rounded-2xl bg-slate-50 flex items-center justify-center transition-colors duration-200 text-slate-500 group-hover:text-black">
                 {service.icon}
               </div>
 
               {/* Title */}
-              <p className="text-slate-700 group-hover:text-emerald-900 text-[13px] font-semibold text-center leading-snug transition-colors duration-200">
+              <p className="text-slate-700 text-[13px] font-semibold text-center leading-snug transition-colors duration-200">
                 {service.title}
               </p>
 
@@ -115,7 +115,7 @@ export default function ComprehensiveServiceRange() {
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
-                className="w-3.5 h-3.5 text-slate-300 group-hover:text-emerald-500 transition-colors duration-200"
+                className="w-3.5 h-3.5 text-slate-300 group-hover:text-[#3b7cff] transition-colors duration-200"
                 stroke="currentColor"
                 strokeWidth={2.5}
               >
@@ -129,7 +129,7 @@ export default function ComprehensiveServiceRange() {
         <div className="flex flex-wrap justify-center gap-8 mt-12">
           {["CIB&RC Approved", "IPM Certified", "Written Reports", "Free Inspection"].map((badge) => (
             <div key={badge} className="flex items-center gap-2">
-              <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-emerald-500 shrink-0" stroke="currentColor" strokeWidth={2.5}>
+              <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-[#3b7cff] shrink-0" stroke="currentColor" strokeWidth={2.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
               <span className="text-slate-400 text-[12px]">{badge}</span>

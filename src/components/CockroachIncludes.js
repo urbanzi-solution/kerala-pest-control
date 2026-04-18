@@ -28,11 +28,11 @@ const items = [
 
 export default function CockroachIncludes() {
   return (
-    <section className="bg-[#e9eeec] py-20 px-6">
+    <section className="bg-[#ededed] py-20 px-6">
       <div className="max-w-5xl mx-auto">
         
         {/* Heading */}
-        <h2 className="text-3xl md:text-4xl font-serif font-bold text-center text-emerald-800 mb-14">
+        <h2 className="text-3xl md:text-4xl font-serif font-bold text-center text-black mb-14">
           What’s Included in Every Cockroach Treatment
         </h2>
 
@@ -45,13 +45,13 @@ export default function CockroachIncludes() {
             >
               
               {/* Number */}
-              <div className="min-w-[56px] h-[56px] flex items-center justify-center rounded-xl bg-gray-100 text-emerald-700 font-semibold">
+              <div className="min-w-[56px] h-[56px] flex items-center justify-center rounded-xl bg-gray-100 text-black font-semibold">
                 {item.id}
               </div>
 
               {/* Content */}
               <div>
-                <h3 className="text-emerald-800 font-semibold mb-1">
+                <h3 className="text-black font-semibold mb-1">
                   {item.title}
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed">

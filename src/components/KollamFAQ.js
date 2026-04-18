@@ -48,7 +48,7 @@ export default function KollamFAQ() {
       <div className="max-w-4xl mx-auto">
 
         {/* Heading */}
-        <h2 className="text-3xl lg:text-4xl font-extrabold text-emerald-900 text-center mb-12">
+        <h2 className="text-3xl lg:text-4xl font-extrabold text-black text-center mb-12">
           Frequently Asked Questions — Pest Control in Kollam
         </h2>
 

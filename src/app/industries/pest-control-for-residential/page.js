@@ -7,12 +7,12 @@ import ResidentialAMCAndRelatedServices from "@/components/ResidentialAMCAndRela
 import ResidentialFAQ from "@/components/ResidentialFAQ";
 import ResidentialCTA from "@/components/ResidentialCTA";
 
-// ✅ SEO METADATA (UNIQUE for residential page)
+// ✅ SEO METADATA (Enhanced)
 export const metadata = {
   title: "Residential Pest Control in Trivandrum & Kollam | Safe Home Protection",
 
   description:
-    "Trusted residential pest control in Trivandrum & Kollam. Protect your home from termites, cockroaches, and rodents with safe, expert solutions.",
+    "Looking for residential pest control in Trivandrum & Kollam? Kerala Pest Solutions offers safe, eco-friendly treatments to protect your home from termites, cockroaches, and rodents.",
 
   keywords: [
     "Residential pest control Trivandrum",
@@ -23,6 +23,35 @@ export const metadata = {
     "Family safe pest control Kerala",
     "Home pest solutions Trivandrum",
   ],
+
+  alternates: {
+    canonical: "https://keralapestsolutions.com/residential-pest-control",
+  },
+
+  openGraph: {
+    title: "Residential Pest Control in Trivandrum & Kollam",
+    description:
+      "Protect your home with safe and effective pest control solutions for termites, cockroaches, and rodents.",
+    url: "https://keralapestsolutions.com/residential-pest-control",
+    siteName: "Kerala Pest Solutions",
+    images: [
+      {
+        url: "https://keralapestsolutions.com/about-og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Residential Pest Control Services",
+      },
+    ],
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Residential Pest Control in Trivandrum & Kollam",
+    description:
+      "Safe and eco-friendly pest control services to protect your home and family.",
+    images: ["https://keralapestsolutions.com/about-og.jpg"],
+  },
 };
 
 export default function Home() {

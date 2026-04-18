@@ -34,7 +34,7 @@ export default function WarehouseProgramme() {
 
         {/* Left */}
         <div className="flex flex-col gap-8">
-          <h2 className="text-3xl lg:text-4xl font-extrabold text-emerald-900 leading-tight">
+          <h2 className="text-3xl lg:text-4xl font-extrabold text-black leading-tight">
             Our Warehouse Pest<br />Management Programme
           </h2>
 
@@ -42,7 +42,7 @@ export default function WarehouseProgramme() {
             {steps.map((step) => (
               <div key={step.number} className="flex gap-5 items-start">
                 {/* Number badge */}
-                <div className="w-10 h-10 rounded-xl bg-emerald-800 flex items-center justify-center shrink-0 mt-0.5">
+                <div className="w-10 h-10 rounded-xl bg-[#d5d5d5] flex items-center justify-center shrink-0 mt-0.5">
                   <span className="text-white text-[11px] font-extrabold tracking-wide">
                     {step.number}
                   </span>
@@ -75,9 +75,9 @@ export default function WarehouseProgramme() {
           />
 
           {/* Stat overlay */}
-          <div className="absolute bottom-0 left-0 right-0 bg-emerald-900/90 backdrop-blur-sm px-7 py-5">
+          <div className="absolute bottom-0 left-0 right-0 bg-[#3b7cff] backdrop-blur-sm px-7 py-5">
             <p className="text-white text-3xl font-extrabold leading-none mb-1">100%</p>
-            <p className="text-emerald-300/80 text-[10px] font-bold tracking-[0.22em] uppercase">
+            <p className="text-white text-[10px] font-bold tracking-[0.22em] uppercase">
               Audit Compliance Rate
             </p>
           </div>

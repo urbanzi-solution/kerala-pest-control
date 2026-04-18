@@ -15,7 +15,7 @@ export default function RodentProofingSection() {
             </p>
 
             {/* Heading */}
-            <h2 className="text-3xl lg:text-4xl font-extrabold text-emerald-900 leading-tight">
+            <h2 className="text-3xl lg:text-4xl font-extrabold text-black leading-tight">
               Why Rodent Control Without Proofing Always Fails
             </h2>
 

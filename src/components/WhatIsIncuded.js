@@ -14,7 +14,7 @@ export default function WhatIsIncluded() {
 
         {/* Left */}
         <div>
-          <h2 className="text-3xl lg:text-4xl font-extrabold text-emerald-900 leading-tight mb-10">
+          <h2 className="text-3xl lg:text-4xl font-extrabold text-black leading-tight mb-10">
             What's Included in Every Termite Service
           </h2>
 
@@ -26,7 +26,7 @@ export default function WhatIsIncluded() {
                   <svg
                     viewBox="0 0 24 24"
                     fill="none"
-                    className="w-5 h-5 text-emerald-800"
+                    className="w-5 h-5 text-black"
                     stroke="currentColor"
                     strokeWidth={1.8}
                   >
@@ -45,10 +45,10 @@ export default function WhatIsIncluded() {
         </div>
 
         {/* Right — dark card */}
-        <div className="bg-emerald-900 rounded-2xl p-10 flex flex-col justify-between gap-8 min-h-[320px]">
+        <div className="bg-[#c7c9cd] rounded-2xl p-10 flex flex-col justify-between gap-8 min-h-[320px]">
           <div>
-            <h3 className="text-white text-xl font-bold mb-4">Safety & Compliance</h3>
-            <p className="text-emerald-100/80 text-[14px] leading-relaxed">
+            <h3 className="text-black text-xl font-bold mb-4">Safety & Compliance</h3>
+            <p className="text-black text-[14px] leading-relaxed">
               Your family's safety is our priority. All treatments use synthetic pyrethroid or
               fipronil-based formulations that are low-odor and CIB&RC-registered. We observe a
               strict 2-4 hour re-entry period for maximum safety. Our technicians are IPM-certified
@@ -61,11 +61,11 @@ export default function WhatIsIncluded() {
 
           {/* Badge row */}
           <div className="flex items-center gap-4">
-            <div className="w-10 h-10 rounded-full border-2 border-emerald-400/60 flex items-center justify-center shrink-0">
+            <div className="w-10 h-10 rounded-full border-2 border-black flex items-center justify-center shrink-0">
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
-                className="w-5 h-5 text-emerald-400"
+                className="w-5 h-5 text-black"
                 stroke="currentColor"
                 strokeWidth={1.8}
               >
@@ -76,7 +76,7 @@ export default function WhatIsIncluded() {
                 />
               </svg>
             </div>
-            <p className="text-white text-[11px] font-bold tracking-[0.2em] uppercase">
+            <p className="text-black text-[11px] font-bold tracking-[0.2em] uppercase">
               Certified & Insured Professionals
             </p>
           </div>

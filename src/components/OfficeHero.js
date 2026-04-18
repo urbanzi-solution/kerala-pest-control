@@ -22,7 +22,7 @@ export default function OfficeHero() {
         <div className="max-w-2xl flex flex-col gap-6">
 
           {/* Badge */}
-          <span className="inline-flex self-start border border-emerald-400/40 text-emerald-300 text-[10px] font-bold tracking-[0.22em] uppercase px-4 py-2 rounded-full">
+          <span className="inline-flex self-start border border-blue-700 text-blue-100 text-[10px] font-bold tracking-[0.22em] uppercase px-4 py-2 rounded-full">
             Industrial Precision
           </span>
 
@@ -36,17 +36,17 @@ export default function OfficeHero() {
 
           {/* Body */}
           <div className="flex flex-col gap-4">
-            <p className="text-emerald-100/70 text-[15px] leading-relaxed">
+            <p className="text-white text-[15px] leading-relaxed">
              A pest sighting in a workplace creates an immediate health and safety concern, disrupts productivity, and can damage client confidence if witnessed during a business meeting or site visit. In Trivandrum, where a large proportion of commercial property is occupied by IT companies, financial services, and government offices, the expectation of a professionally maintained workplace environment is high.
             </p>
-            <p className="text-emerald-100/70 text-[15px] leading-relaxed">
+            <p className="text-white text-[15px] leading-relaxed">
             Kerala Pest Solutions provides scheduled, documented pest management for offices, IT campuses, coworking spaces, banks, and commercial buildings across Trivandrum and Kollam. Our service is structured for minimal disruption: treatments are carried out during non-working hours where possible, all products are odourless, and every visit is documented.
             </p>
           </div>
 
           {/* CTAs */}
           <div className="flex flex-wrap gap-4 mt-2">
-            <button className="bg-white hover:bg-slate-100 text-emerald-900 font-bold text-[13px] px-7 py-4 rounded-xl transition-colors duration-200">
+            <button className="bg-white hover:bg-slate-100 text-black font-bold text-[13px] px-7 py-4 rounded-xl transition-colors duration-200">
               Book a office Pest Assessment
             </button>
             <button className="bg-transparent hover:bg-white/10 text-white font-bold text-[13px] px-7 py-4 rounded-xl border border-white/40 transition-colors duration-200">

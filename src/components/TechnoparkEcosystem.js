@@ -38,8 +38,8 @@ export default function TechnoparkEcosystem() {
           </div>
 
           {/* Canteen — dark emerald */}
-          <div className="bg-emerald-700 rounded-2xl p-8 flex flex-col gap-5">
-            <div className="w-11 h-11 rounded-xl bg-emerald-600/50 flex items-center justify-center shrink-0">
+          <div className="bg-[#3b7cff] rounded-2xl p-8 flex flex-col gap-5">
+            <div className="w-11 h-11 rounded-xl bg-gray-400 flex items-center justify-center shrink-0">
               <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5 text-white" stroke="currentColor" strokeWidth={1.8}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.871c1.355 0 2.697.056 4.024.166C17.155 8.51 18 9.473 18 10.608v2.513M15 8.25v-1.5M6 10.608v3.272c0 .83.672 1.502 1.5 1.502h9c.828 0 1.5-.671 1.5-1.502v-3.272M8.25 19.5h7.5" />
               </svg>
@@ -48,7 +48,7 @@ export default function TechnoparkEcosystem() {
               <h3 className="text-white text-[17px] font-extrabold mb-3">
                 Canteen Infrastructure
               </h3>
-              <p className="text-emerald-100/75 text-[13px] leading-relaxed">
+              <p className="text-white text-[13px] leading-relaxed">
                 Maintaining FSSAI standards in large-scale IT cafeterias requires zero-downtime,
                 non-toxic gel solutions for cockroach management.
               </p>

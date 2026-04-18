@@ -22,7 +22,7 @@ export default function ResidentialHero() {
         <div className="max-w-2xl flex flex-col gap-6">
 
           {/* Badge */}
-          <span className="inline-flex self-start border border-emerald-400/40 text-emerald-300 text-[10px] font-bold tracking-[0.22em] uppercase px-4 py-2 rounded-full">
+          <span className="inline-flex self-start border border-blue-700 text-blue-100 text-[10px] font-bold tracking-[0.22em] uppercase px-4 py-2 rounded-full">
             Industrial Precision
           </span>
 
@@ -45,7 +45,7 @@ export default function ResidentialHero() {
 
           {/* CTAs */}
           <div className="flex flex-wrap gap-4 mt-2">
-            <button className="bg-white hover:bg-slate-100 text-emerald-900 font-bold text-[13px] px-7 py-4 rounded-xl transition-colors duration-200">
+            <button className="bg-white hover:bg-slate-100 text-black font-bold text-[13px] px-7 py-4 rounded-xl transition-colors duration-200">
               Book a Residential Pest Assessment
             </button>
             <button className="bg-transparent hover:bg-white/10 text-white font-bold text-[13px] px-7 py-4 rounded-xl border border-white/40 transition-colors duration-200">

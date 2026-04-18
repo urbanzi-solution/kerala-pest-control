@@ -7,7 +7,7 @@ export default function FeaturesSection() {
         
         {/* Item 1 */}
         <div className="flex flex-col items-center md:items-start">
-          <Microscope className="text-green-700 w-10 h-10 mb-4" />
+          <Microscope className="text-[#3b7cff] w-10 h-10 mb-4" />
           <h3 className="text-2xl text-black font-semibold mb-3">
             Scientific Formulations
           </h3>
@@ -20,7 +20,7 @@ export default function FeaturesSection() {
 
         {/* Item 2 */}
         <div className="flex flex-col items-center md:items-start">
-          <GraduationCap className="text-green-700 w-10 h-10 mb-4" />
+          <GraduationCap className="text-[#3b7cff] w-10 h-10 mb-4" />
           <h3 className="text-2xl text-black font-semibold mb-3">
             IPM Trained Experts
           </h3>
@@ -33,7 +33,7 @@ export default function FeaturesSection() {
 
         {/* Item 3 */}
         <div className="flex flex-col items-center md:items-start">
-          <MapPin className="text-green-700 w-10 h-10 mb-4" />
+          <MapPin className="text-[#3b7cff] w-10 h-10 mb-4" />
           <h3 className="text-2xl text-black font-semibold mb-3">
             Kerala Local Intelligence
           </h3>

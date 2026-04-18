@@ -6,7 +6,7 @@ const sciencePoints = [
 
 export default function AntRepellentSection() {
   return (
-    <section className="bg-emerald-900 py-20 px-6">
+    <section className="bg-[#8e8e8e] py-20 px-6">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
 
         {/* Left */}
@@ -15,7 +15,7 @@ export default function AntRepellentSection() {
             <h2 className="text-3xl lg:text-4xl font-extrabold text-white leading-tight mb-5">
               Why Repellent Sprays Make Ant Infestations Worse
             </h2>
-            <p className="text-emerald-100/70 text-[14px] leading-relaxed">
+            <p className="text-white text-[14px] leading-relaxed">
               Standard over-the-counter sprays are repellent: they kill ants on contact but create
               a chemical barrier that ants detect and avoid. The colony remains intact and foraging
               is merely redirected to new routes. In multi-room properties, repellent sprays cause
@@ -24,11 +24,11 @@ export default function AntRepellentSection() {
           </div>
 
           {/* Budding card */}
-          <div className="bg-emerald-800/60 border border-emerald-700/50 rounded-2xl p-7">
-            <h3 className="text-emerald-300 text-[15px] font-bold mb-4">
+          <div className="bg-[#3b7cff] border-[#3b7cff] rounded-2xl p-7">
+            <h3 className="text-white text-[15px] font-bold mb-4">
               The &ldquo;Budding&rdquo; Phenomenon
             </h3>
-            <p className="text-emerald-100/65 text-[13px] leading-relaxed italic">
+            <p className="text-white text-[13px] leading-relaxed italic">
               For Pharaoh ants specifically, repellent sprays trigger budding — the colony splits
               into multiple sub-colonies that disperse throughout the building. A single Pharaoh ant
               colony treated with repellent spray can become ten colonies within weeks. This is the
@@ -58,7 +58,7 @@ export default function AntRepellentSection() {
           <ul className="flex flex-col gap-3 mt-1">
             {sciencePoints.map((point) => (
               <li key={point} className="flex items-center gap-3">
-                <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5 text-emerald-600 shrink-0" stroke="currentColor" strokeWidth={2}>
+                <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5 text-[#3b7cff] shrink-0" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                 </svg>
                 <span className="text-slate-700 text-[14px] font-semibold">{point}</span>

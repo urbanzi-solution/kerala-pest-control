@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function BedBugHero() {
   return (
-    <section className="bg-[#e8f0e8] py-14 lg:py-20 px-5 lg:px-6 lg:min-h-screen flex items-center">
+    <section className="bg-[#fdfdfd] py-14 lg:py-20 px-5 lg:px-6 lg:min-h-screen flex items-center">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
 
         {/* LEFT CONTENT */}
@@ -19,7 +19,7 @@ export default function BedBugHero() {
           </span>
 
           {/* Heading */}
-          <h1 className="text-3xl sm:text-4xl lg:text-6xl font-extrabold text-emerald-900 leading-tight tracking-tight">
+          <h1 className="text-3xl sm:text-4xl lg:text-6xl font-extrabold text-black leading-tight tracking-tight">
             Bed Bug Removal <br className="hidden sm:block" />
             Kerala
           </h1>
@@ -35,10 +35,10 @@ export default function BedBugHero() {
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 mt-3">
-            <button className="w-full sm:w-auto bg-red-800 hover:bg-red-700 text-white font-semibold text-[14px] px-6 py-3.5 rounded-xl transition">
+            <button className="w-full sm:w-auto bg-[#3b7cff] hover:bg-[#326bdd] text-white font-semibold text-[14px] px-6 py-3.5 rounded-xl transition">
               Book Same-Day Inspection
             </button>
-            <button className="w-full sm:w-auto bg-white hover:bg-slate-50 text-emerald-900 font-semibold text-[14px] px-6 py-3.5 rounded-xl border border-slate-200 transition">
+            <button className="w-full sm:w-auto bg-white hover:bg-slate-50 text-black font-semibold text-[14px] px-6 py-3.5 rounded-xl border border-slate-200 transition">
               View Scientific Process
             </button>
           </div>
@@ -47,14 +47,14 @@ export default function BedBugHero() {
           <div className="flex flex-wrap items-center gap-4 mt-3">
 
             <div className="flex items-center gap-2">
-              <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-emerald-700" stroke="currentColor" strokeWidth={1.8}>
+              <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-black" stroke="currentColor" strokeWidth={1.8}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75" />
               </svg>
               <span className="text-[12px] text-slate-600">Govt. Approved</span>
             </div>
 
             <div className="flex items-center gap-2">
-              <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-emerald-700" stroke="currentColor" strokeWidth={1.8}>
+              <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-black" stroke="currentColor" strokeWidth={1.8}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6l4 2" />
               </svg>
               <span className="text-[12px] text-slate-600">IPM Certified</span>

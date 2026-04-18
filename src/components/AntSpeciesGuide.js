@@ -41,7 +41,7 @@ export default function AntSpeciesGuide() {
           <p className="text-[10px] font-semibold tracking-[0.28em] text-slate-400 uppercase mb-3">
             Scientific Classification
           </p>
-          <h2 className="text-3xl lg:text-4xl font-extrabold text-emerald-900 tracking-tight">
+          <h2 className="text-3xl lg:text-4xl font-extrabold text-black tracking-tight">
             Species Identification Guide
           </h2>
         </div>
@@ -64,7 +64,7 @@ export default function AntSpeciesGuide() {
               {/* Text */}
               <div className="flex flex-col gap-2 pt-1">
                 <div className="flex items-center gap-2 flex-wrap">
-                  <h3 className="text-[17px] font-extrabold text-emerald-900">{s.name}</h3>
+                  <h3 className="text-[17px] font-extrabold text-black">{s.name}</h3>
                   {s.hazard && (
                     <span className="text-[9px] font-bold tracking-[0.15em] uppercase bg-red-100 text-red-600 border border-red-200 px-2.5 py-1 rounded-full">
                       Hazard

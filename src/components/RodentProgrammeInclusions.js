@@ -9,15 +9,15 @@ const inclusions = [
 
 export default function RodentProgrammeInclusions() {
   return (
-    <section className="bg-emerald-950 py-20 px-6">
+    <section className="bg-white py-20 px-6">
       <div className="max-w-2xl mx-auto">
 
         {/* Header */}
         <div className="mb-12">
-          <p className="text-[10px] font-semibold tracking-[0.28em] text-emerald-400/70 uppercase mb-3">
+          <p className="text-[10px] font-semibold tracking-[0.28em] text-black uppercase mb-3">
             Comprehensive Protection
           </p>
-          <h2 className="text-3xl lg:text-4xl font-extrabold text-white leading-tight">
+          <h2 className="text-3xl lg:text-4xl font-extrabold text-black leading-tight">
             What&apos;s Included in Your Programme
           </h2>
         </div>
@@ -27,10 +27,10 @@ export default function RodentProgrammeInclusions() {
           {inclusions.map((item, i) => (
             <div
               key={i}
-              className="flex items-start gap-4 bg-emerald-900/40 border border-emerald-800/40 rounded-2xl px-6 py-5"
+              className="flex items-start gap-4 bg-gray-300 border  rounded-2xl px-6 py-5"
             >
               {/* Check icon */}
-              <span className="shrink-0 mt-0.5 w-6 h-6 rounded-full bg-emerald-500 flex items-center justify-center">
+              <span className="shrink-0 mt-0.5 w-6 h-6 rounded-full bg-[#3b7cff] flex items-center justify-center">
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
@@ -41,7 +41,7 @@ export default function RodentProgrammeInclusions() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                 </svg>
               </span>
-              <p className="text-white/80 text-[14px] leading-relaxed">{item}</p>
+              <p className="text-black text-[14px] leading-relaxed">{item}</p>
             </div>
           ))}
         </div>

@@ -29,12 +29,12 @@ const visits = [
 
 export default function TwoVisitProtocol() {
   return (
-    <section className="bg-[#c4e8c4] py-24 px-6">
+    <section className="bg-[#e3e8e3] py-24 px-6">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
 
         {/* Left */}
         <div>
-          <h2 className="text-4xl font-extrabold text-emerald-900 leading-tight tracking-tight mb-6">
+          <h2 className="text-4xl font-extrabold text-black leading-tight tracking-tight mb-6">
             Our Two-Visit<br />Elimination Protocol
           </h2>
           <p className="text-slate-600 text-[15px] leading-relaxed mb-12">
@@ -48,12 +48,12 @@ export default function TwoVisitProtocol() {
             {visits.map((visit) => (
               <div key={visit.number} className="flex gap-6">
                 {/* Big number */}
-                <span className="text-5xl font-extrabold text-emerald-300 leading-none select-none shrink-0 w-14">
+                <span className="text-5xl font-extrabold text-black leading-none select-none shrink-0 w-14">
                   {visit.number}
                 </span>
 
                 <div className="flex flex-col gap-3">
-                  <h3 className="text-[16px] font-bold text-emerald-800">{visit.title}</h3>
+                  <h3 className="text-[16px] font-bold text-black">{visit.title}</h3>
                   <p className="text-slate-600 text-[14px] leading-relaxed">{visit.description}</p>
 
                   {/* Tags */}
@@ -95,7 +95,7 @@ export default function TwoVisitProtocol() {
           </div>
 
           {/* Safety card */}
-          <div className="bg-emerald-700 rounded-2xl p-8 flex flex-col gap-6">
+          <div className="bg-[#3b7cff] rounded-2xl p-8 flex flex-col gap-6">
             <div className="flex items-center gap-3">
               <svg
                 viewBox="0 0 24 24"
@@ -119,7 +119,7 @@ export default function TwoVisitProtocol() {
               serve all areas including Technopark, Kazhakootam, Karunagappally, and Kottarakkara.
             </p>
 
-            <button className="w-full bg-white hover:bg-slate-50 text-emerald-900 font-bold text-[14px] py-4 rounded-xl transition-colors duration-200">
+            <button className="w-full bg-white hover:bg-slate-50 text-black font-bold text-[14px] py-4 rounded-xl transition-colors duration-200">
               Book Inspection Now
             </button>
           </div>

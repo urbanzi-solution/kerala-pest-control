@@ -14,24 +14,24 @@ export default function AMCSection() {
   const [phone, setPhone] = useState("");
 
   return (
-    <section className="bg-emerald-950 py-16 px-6">
+    <section className="bg-white py-16 px-6">
       <div className="max-w-6xl mx-auto">
-        <div className="bg-emerald-900/60 rounded-3xl border border-emerald-800/40 px-10 py-14 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+        <div className="bg-[#c7c9cd] rounded-3xl border border-white px-10 py-14 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
           {/* Left */}
           <div>
             {/* Badge */}
-            <span className="inline-block border border-emerald-600/60 text-emerald-300 text-[10px] font-semibold tracking-[0.25em] uppercase px-4 py-1.5 rounded-full mb-8">
+            <span className="inline-block border border-white text-black text-[10px] font-semibold tracking-[0.25em] uppercase px-4 py-1.5 rounded-full mb-8">
               Guardian Program
             </span>
 
             {/* Heading */}
-            <h2 className="text-3xl lg:text-4xl font-extrabold text-white leading-tight mb-6">
+            <h2 className="text-3xl lg:text-4xl font-extrabold text-black leading-tight mb-6">
               Annual Maintenance <br /> Contract (AMC)
             </h2>
 
             {/* Description */}
-            <p className="text-emerald-100/70 text-[15px] leading-relaxed mb-10 max-w-md">
+            <p className="text-black text-[15px] leading-relaxed mb-10 max-w-md">
               Continuous vigilance for complete peace of mind. Termites are a recurring threat in
               Kerala; our AMC program provides active protection 365 days a year to ensure your
               home remains termite-free even as soil conditions shift.
@@ -41,11 +41,11 @@ export default function AMCSection() {
             <ul className="flex flex-col gap-5">
               {benefits.map((item, i) => (
                 <li key={i} className="flex items-start gap-4">
-                  <span className="mt-0.5 shrink-0 w-7 h-7 rounded-lg border border-emerald-600/50 flex items-center justify-center">
+                  <span className="mt-0.5 shrink-0 w-7 h-7 rounded-lg border border-white flex items-center justify-center">
                     <svg
                       viewBox="0 0 24 24"
                       fill="none"
-                      className="w-4 h-4 text-emerald-400"
+                      className="w-4 h-4 text-black"
                       stroke="currentColor"
                       strokeWidth={2}
                     >
@@ -53,7 +53,7 @@ export default function AMCSection() {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
                     </svg>
                   </span>
-                  <p className="text-emerald-100/80 text-[14px] leading-relaxed">{item}</p>
+                  <p className="text-black text-[14px] leading-relaxed">{item}</p>
                 </li>
               ))}
             </ul>
@@ -98,7 +98,7 @@ export default function AMCSection() {
               {/* Submit */}
               <button
                 onClick={() => console.log({ name, phone })}
-                className="mt-2 w-full bg-emerald-900 hover:bg-emerald-800 text-white font-semibold text-[15px] py-4 rounded-full transition-colors duration-200"
+                className="mt-2 w-full bg-[#3b7cff] hover:bg-[#4a83f7] text-white font-semibold text-[15px] py-4 rounded-full transition-colors duration-200"
               >
                 Send Request
               </button>

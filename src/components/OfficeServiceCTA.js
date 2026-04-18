@@ -32,24 +32,24 @@ export default function OfficeServiceCTA() {
 
           {/* Related Services */}
           <div>
-            <h3 className="text-[15px] font-extrabold text-emerald-900 mb-1">
+            <h3 className="text-[15px] font-extrabold text-black mb-1">
               Related Services
             </h3>
-            <div className="w-10 h-0.5 bg-emerald-700 rounded-full mb-6" />
+            <div className="w-10 h-0.5 bg-black rounded-full mb-6" />
 
             <ul className="divide-y divide-slate-100">
               {relatedServices.map((service) => (
                 <li key={service.name}>
                   <Link
                     href={service.href}
-                    className="flex items-center justify-between py-4 text-slate-500 text-[13px] hover:text-emerald-700 transition-colors duration-200 group"
+                    className="flex items-center justify-between py-4 text-slate-500 text-[13px] hover:text-[#3b7cff] transition-colors duration-200 group"
                   >
                     {service.name}
 
                     <svg
                       viewBox="0 0 24 24"
                       fill="none"
-                      className="w-3.5 h-3.5 text-slate-300 group-hover:text-emerald-500 transition-colors shrink-0 ml-4"
+                      className="w-3.5 h-3.5 text-slate-300 group-hover:text-[#3b7cff] transition-colors shrink-0 ml-4"
                       stroke="currentColor"
                       strokeWidth={2.5}
                     >
@@ -67,17 +67,17 @@ export default function OfficeServiceCTA() {
 
           {/* Areas We Serve */}
           <div>
-            <h3 className="text-[15px] font-extrabold text-emerald-900 mb-1">
+            <h3 className="text-[15px] font-extrabold text-black mb-1">
               Areas We Serve
             </h3>
-            <div className="w-10 h-0.5 bg-emerald-700 rounded-full mb-6" />
+            <div className="w-10 h-0.5 bg-black rounded-full mb-6" />
 
             <div className="grid grid-cols-2 gap-3">
               {areas.map((area) => (
                 <Link
                   key={area.name}
                   href={area.href}
-                  className="bg-slate-50 border border-slate-100 rounded-xl px-4 py-3 text-slate-600 text-[13px] font-medium hover:border-emerald-200 hover:bg-emerald-50/50 transition-all duration-200"
+                  className="bg-slate-50 border border-slate-100 rounded-xl px-4 py-3 text-slate-600 text-[13px] font-medium hover:border-gray-50 hover:bg-gray-100 transition-all duration-200"
                 >
                   {area.name}
                 </Link>
@@ -91,7 +91,7 @@ export default function OfficeServiceCTA() {
       {/* ── CTA Banner ── */}
       <section className="bg-white pb-10 px-6">
         <div className="max-w-5xl mx-auto">
-          <div className="bg-gradient-to-br from-emerald-900 to-emerald-800 rounded-2xl py-20 px-8 text-center relative overflow-hidden">
+          <div className="bg-[#3b7cff] rounded-2xl py-20 px-8 text-center relative overflow-hidden">
 
             {/* Decorative lines */}
             <div className="absolute inset-0 pointer-events-none opacity-10">
@@ -106,7 +106,7 @@ export default function OfficeServiceCTA() {
 
               <Link
                 href="/contact"
-                className="bg-white hover:bg-slate-100 text-emerald-900 font-bold text-[11px] tracking-[0.2em] uppercase px-10 py-4 rounded-xl transition-all duration-200 hover:shadow-md"
+                className="bg-white hover:bg-slate-100 text-black font-bold text-[11px] tracking-[0.2em] uppercase px-10 py-4 rounded-xl transition-all duration-200 hover:shadow-md"
               >
                 Request a Site Survey
               </Link>
