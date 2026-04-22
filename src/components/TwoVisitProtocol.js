@@ -1,3 +1,7 @@
+"use client";
+
+import { usePopup } from "@/components/PopupContext"; // ✅ import
+
 import Image from "next/image";
 
 const visits = [
@@ -28,6 +32,8 @@ const visits = [
 ];
 
 export default function TwoVisitProtocol() {
+  const { openPopup } = usePopup(); // ✅ use the popup context
+
   return (
     <section className="bg-[#e3e8e3] py-24 px-6">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
@@ -119,7 +125,9 @@ export default function TwoVisitProtocol() {
               serve all areas including Technopark, Kazhakootam, Karunagappally, and Kottarakkara.
             </p>
 
-            <button className="w-full bg-white hover:bg-slate-50 text-black font-bold text-[14px] py-4 rounded-xl transition-colors duration-200">
+            <button 
+            onClick={openPopup}
+            className="w-full bg-white hover:bg-slate-50 text-black font-bold text-[14px] py-4 rounded-xl transition-colors duration-200">
               Book Inspection Now
             </button>
           </div>

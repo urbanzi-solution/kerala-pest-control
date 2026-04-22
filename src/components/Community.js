@@ -33,9 +33,9 @@ export default function Community() {
 
         {/* Header */}
         <div className="mb-10 md:mb-16">
-          <h1 className="text-2xl md:text-[28px] font-semibold mb-4 tracking-tight">
+          <h2 className="text-2xl md:text-[28px] font-semibold mb-4 tracking-tight">
             Our Community
-          </h1>
+          </h2>
 
           <p className="text-sm md:text-[14px] text-gray-300 leading-relaxed max-w-3xl">
             We are committed to protecting homes and businesses while fostering

@@ -1,6 +1,11 @@
-import Image from "next/image";
+ "use client";
+
+import { usePopup } from "@/components/PopupContext"; // ✅ import
+ import Image from "next/image";
 
 export default function Service() {
+  const { openPopup } = usePopup(); // ✅ use the popup context
+
   return (
     <section className="bg-[#f5f7f6] py-16 lg:py-24">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -24,13 +29,13 @@ This page gives you an overview of every service we provide, what each one cover
           </p>
 
           <div className="mt-8 flex gap-4">
-            <button className="bg-[#3b7cff] hover:bg-[#246dff] text-white px-6 py-3 rounded-md">
+            <button
+              onClick={openPopup}
+              className="bg-[#3b7cff] hover:bg-[#246dff] text-white px-6 py-3 rounded-md">
               Book a Free Inspection →
             </button>
 
-            <button className="bg-white hover:bg-gray-100 border-2 border-[#3b7cff] text-black px-6 py-3 rounded-md">
-              View Methodology
-            </button>
+            
           </div>
         </div>
 

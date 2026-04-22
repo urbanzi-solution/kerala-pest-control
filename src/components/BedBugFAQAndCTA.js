@@ -1,4 +1,5 @@
 "use client";
+import { usePopup } from "@/components/PopupContext"; // ✅ import
 
 import { useState } from "react";
 
@@ -31,6 +32,7 @@ const faqs = [
 ];
 
 export default function BedBugFAQAndCTA() {
+  const { openPopup } = usePopup(); // ✅ get function
   const [openIndex, setOpenIndex] = useState(null);
   const toggle = (i) => setOpenIndex(openIndex === i ? null : i);
 
@@ -87,12 +89,14 @@ export default function BedBugFAQAndCTA() {
             protocol. Don&apos;t let a minor problem become a structural nightmare.
           </p>
           <div className="flex flex-wrap justify-center gap-4 mt-2">
-            <button className="bg-red-800 hover:bg-red-700 text-white font-bold text-[14px] px-8 py-4 rounded-xl transition-colors duration-200">
-              Book Your Treatment Now
-            </button>
-            <button className="bg-transparent hover:bg-emerald-700 text-white font-bold text-[14px] px-8 py-4 rounded-xl border border-white/40 transition-colors duration-200">
-              Request Free Quote
-            </button>
+             <button
+            onClick={openPopup}
+            className="bg-gray-200 text-black font-semibold px-8 py-4 rounded-lg hover:bg-white transition"
+          >
+            Book a Free Inspection →
+          </button>
+
+           
           </div>
         </div>
       </section>

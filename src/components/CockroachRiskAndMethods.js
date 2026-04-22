@@ -90,44 +90,7 @@ export default function CockroachRiskAndMethods() {
         </div>
       </section>
 
-      {/* ── Alert Banner ── */}
-      <div className="relative mx-4 lg:mx-32 rounded-3xl overflow-hidden">
-  
-  {/* Background Gradient */}
-  <div className="absolute inset-0 bg-gradient-to-r from-[#1c56cb] via-[#2963d8] to-[#3b7cff]" />
-
-  {/* Soft Glow */}
-  <div className="absolute -top-10 -right-10 w-40 h-40 bg-[#3b7cff] blur-3xl rounded-full" />
-
-  {/* Content */}
-  <div className="relative px-6 md:px-12 py-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-8">
-    
-    {/* Big faded symbol */}
-    <span className="absolute right-10 md:right-20 top-1/2 -translate-y-1/2 text-[100px] md:text-[140px] font-extrabold text-white/5 select-none pointer-events-none">
-      !
-    </span>
-
-    {/* Text */}
-    <div className="max-w-xl">
-      <p className="text-white font-semibold text-sm tracking-widest uppercase mb-3">
-        Seeing Cockroaches During the Day?
-      </p>
-
-      <p className="text-white text-sm md:text-base leading-relaxed">
-        This is a serious warning sign. Cockroaches are nocturnal; seeing them in daylight
-        usually means the harborage is overcrowded. Act now before the infestation escalates.
-      </p>
-    </div>
-
-    {/* Button */}
-    <button className="relative shrink-0 bg-white text-black font-semibold text-xs tracking-wider uppercase px-7 py-3.5 rounded-xl transition-all duration-300 hover:bg-emerald-50 hover:shadow-lg hover:-translate-y-0.5">
-      Free Inspection Now →
-    </button>
-
-  </div>
-</div>
-
-      {/* ── Scientifically Proven Methods ── */}
+      
       <section className="bg-[#f0f2f0] py-20 px-6">
         <div className="max-w-7xl mx-auto">
 

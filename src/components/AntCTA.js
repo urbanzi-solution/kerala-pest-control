@@ -1,4 +1,7 @@
+"use client";
+import { usePopup } from "@/components/PopupContext"; // ✅ import
 export default function AntCTA() {
+  const { openPopup } = usePopup(); // ✅ get function
   return (
     <section className="bg-[#3b7cff] py-24 px-6 text-center">
       <div className="max-w-2xl mx-auto flex flex-col items-center gap-6">
@@ -12,14 +15,14 @@ export default function AntCTA() {
           Book your treatment across Trivandrum and Kollam today.
         </p>
 
-        <button className="bg-white hover:bg-gray-100 text-black font-bold text-[15px] px-10 py-4 rounded-xl transition-colors duration-200 mt-2">
-          Book Ant Control Now
-        </button>
+        <button
+            onClick={openPopup}
+            className="bg-gray-200 text-black font-semibold px-8 py-4 rounded-lg hover:bg-white transition"
+          >
+            Book a Free Inspection →
+          </button>
 
-        <p className="text-white text-[12px] mt-2">
-          Based in Trivandrum&nbsp;|&nbsp;Professional pest management across Trivandrum and Kollam districts.
-        </p>
-
+        
       </div>
     </section>
   );

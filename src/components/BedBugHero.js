@@ -1,8 +1,14 @@
 "use client";
 
+
+import { usePopup } from "@/components/PopupContext"; // ✅ import
+
 import Image from "next/image";
 
 export default function BedBugHero() {
+  const { openPopup } = usePopup(); // ✅ use the popup context
+
+
   return (
     <section className="bg-[#fdfdfd] py-14 lg:py-20 px-5 lg:px-6 lg:min-h-screen flex items-center">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
@@ -35,12 +41,13 @@ export default function BedBugHero() {
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 mt-3">
-            <button className="w-full sm:w-auto bg-[#3b7cff] hover:bg-[#326bdd] text-white font-semibold text-[14px] px-6 py-3.5 rounded-xl transition">
+            <button
+              onClick={openPopup}
+              className="w-full sm:w-auto bg-[#3b7cff] hover:bg-[#326bdd] text-white font-semibold text-[14px] px-6 py-3.5 rounded-xl transition"
+            >
               Book Same-Day Inspection
             </button>
-            <button className="w-full sm:w-auto bg-white hover:bg-slate-50 text-black font-semibold text-[14px] px-6 py-3.5 rounded-xl border border-slate-200 transition">
-              View Scientific Process
-            </button>
+           
           </div>
 
           {/* Trust badges */}

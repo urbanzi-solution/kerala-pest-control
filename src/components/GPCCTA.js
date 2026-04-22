@@ -1,4 +1,8 @@
+"use client";
+
+import { usePopup } from "@/components/PopupContext"; // ✅ import
 export default function GPCCTA() {
+   const { openPopup } = usePopup(); // ✅ get function
   return (
     <section className="bg-[#3b7cff] py-20 px-6 text-center">
       <div className="max-w-2xl mx-auto flex flex-col items-center gap-6">
@@ -7,14 +11,17 @@ export default function GPCCTA() {
           Year-Round Pest-Free Living in Kerala
         </h2>
 
-        <p className="text-emerald-100/70 text-[15px] leading-relaxed">
+        <p className="text-white text-[15px] leading-relaxed">
           Experience the clinical precision of Kerala&apos;s most trusted pest control specialists.
           From IT parks to private residences, we deliver excellence.
         </p>
 
-        <button className="bg-white hover:bg-slate-50 text-black font-bold text-[15px] px-10 py-4 rounded-full shadow-sm transition-colors duration-200 mt-2">
-          Book Your GPC Service Now
-        </button>
+        <button
+            onClick={openPopup}
+            className="bg-gray-200 text-black font-semibold px-8 py-4 rounded-lg hover:bg-white transition"
+          >
+            Book a Free Inspection →
+          </button>
 
       </div>
     </section>

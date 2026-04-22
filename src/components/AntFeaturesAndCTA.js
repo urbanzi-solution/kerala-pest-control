@@ -1,3 +1,7 @@
+"use client";
+
+import { usePopup } from "@/components/PopupContext"; // ✅ import
+
 const features = [
   {
     icon: (
@@ -42,6 +46,9 @@ const features = [
 ];
 
 export default function AntFeaturesAndCTA() {
+  const { openPopup } = usePopup(); // ✅ use the popup context
+
+
   return (
     <div>
 
@@ -75,7 +82,9 @@ export default function AntFeaturesAndCTA() {
             The queen and colony remain intact. Professional treatment targets the source. Free
             assessment across Trivandrum and Kollam.
           </p>
-          <button className="inline-flex items-center gap-2 bg-[#3b7cff] hover:bg-[#346fe5] text-white font-bold text-[14px] px-8 py-4 rounded-xl transition-colors duration-200 mt-2">
+          <button
+            onClick={openPopup}
+            className="inline-flex items-center gap-2 bg-[#3b7cff] hover:bg-[#346fe5] text-white font-bold text-[14px] px-8 py-4 rounded-xl transition-colors duration-200 mt-2">
             Book an Ant Control Assessment
             <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4" stroke="currentColor" strokeWidth={2.5}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />

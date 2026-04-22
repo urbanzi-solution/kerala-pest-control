@@ -11,10 +11,9 @@ import OfferForm from "@/components/OfferForm";
 
 /* ✅ SEO METADATA (App Router way) */
 export const metadata = {
-  title: "Expert Pest Control Services in Trivandrum | Kerala Pest Solutions",
+  title: "Expert Pest Control Services in Kerala | Kerala Pest Solutions",
   description:
-    "Get reliable, eco-friendly pest and termite control services in Trivandrum. Safe for homes and businesses. Guaranteed results by certified professionals.",
-
+"Kerala Pest Solutions offers professional pest control across Kerala with safe, science-based treatments for termites, rodents, cockroaches, and more. Book a free inspection today.",
   keywords: [
     "pest control Trivandrum",
     "termite control Trivandrum",
@@ -36,9 +35,9 @@ export const metadata = {
 
   openGraph: {
     title:
-      "Expert Pest Control Services in Trivandrum | Kerala Pest Solutions",
+      "Expert Pest Control Services in Kerala | Kerala Pest Solutions",
     description:
-      "Get reliable, eco-friendly pest and termite control services in Trivandrum. Safe for homes and businesses.",
+      "Get reliable, eco-friendly pest and termite control services in Kerala. Safe for homes and businesses.",
     url: "https://keralapestsolutions.com",
     siteName: "Kerala Pest Solutions",
     images: [
@@ -46,7 +45,7 @@ export const metadata = {
         url: "/assets/images/og-image.jpg", // better use local image
         width: 1200,
         height: 630,
-        alt: "Professional Pest Control Services in Trivandrum",
+        alt: "Professional Pest Control Services in Kerala",
       },
     ],
     locale: "en_IN",
@@ -56,9 +55,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Expert Pest Control Services in Trivandrum | Kerala Pest Solutions",
+      "Expert Pest Control Services in Kerala | Kerala Pest Solutions",
     description:
-      "Eco-friendly pest control services in Trivandrum with guaranteed results.",
+      "Eco-friendly pest control services in Kerala with guaranteed results.",
     images: ["/og-image.jpg"],
   },
 

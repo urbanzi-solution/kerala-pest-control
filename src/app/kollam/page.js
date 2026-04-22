@@ -1,4 +1,4 @@
-import KollamHero from "@/components/KollamHero";
+import KollamPageClient from "@/components/KollamPageClient";
 import KollamChallenges from "@/components/KollamChallenges";
 import KollamTreatments from "@/components/KollamTreatments";
 import KollamCoverageAndWhyUs from "@/components/KollamCoverageAndWhyUs";
@@ -10,9 +10,8 @@ import KollamCTA from "@/components/KollamCTA";
 export const metadata = {
   title: "Pest Control Services in Kollam | Safe & Professional Solutions",
 
-  description:
-    "Looking for pest control services in Kollam? Kerala Pest Solutions provides safe, eco-friendly treatments for termites, rodents, cockroaches, and other pests for homes and businesses.",
-
+ description:
+"Reliable pest control services in Kollam for homes and businesses. Get expert treatment for termites, rodents, and cockroaches with safe, long-lasting protection."  ,
   keywords: [
     "Pest control Kollam",
     "Termite treatment Kollam",
@@ -56,13 +55,15 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <KollamHero />
+      <KollamPageClient />
       <KollamChallenges />
       <KollamTreatments />
       <KollamCoverageAndWhyUs />
       <ProfessionalStandards />
       <KollamFAQ />
       <KollamCTA />
+     
+      
     </>
   );
 }

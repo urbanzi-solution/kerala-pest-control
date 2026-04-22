@@ -13,8 +13,7 @@ export const metadata = {
   title: "Pest Control Services in Kerala | Complete Home & Commercial Solutions",
 
   description:
-    "Looking for pest control services in Kerala? Kerala Pest Solutions provides safe, eco-friendly treatments for termites, rodents, mosquitoes, cockroaches and more for homes and businesses.",
-
+"Explore complete pest control services including termite treatment, rodent control, mosquito management, and cockroach solutions. Tailored plans for homes and businesses in Kerala.",
   keywords: [
     "Pest control Kerala",
     "Pest control services Trivandrum",
@@ -35,7 +34,7 @@ export const metadata = {
   openGraph: {
     title: "Pest Control Services in Kerala | Kerala Pest Solutions",
     description:
-      "Complete pest control solutions for homes and businesses. Safe, reliable, and eco-friendly services across Kerala.",
+"Explore complete pest control services including termite treatment, rodent control, mosquito management, and cockroach solutions. Tailored plans for homes and businesses in Kerala.",
     url: "https://keralapestsolutions.com/pest-control-services",
     siteName: "Kerala Pest Solutions",
     images: [

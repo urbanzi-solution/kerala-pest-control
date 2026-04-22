@@ -1,6 +1,12 @@
+"use client";
+
+import { usePopup } from "@/components/PopupContext"; // ✅ import
+
 import { CheckCircle } from "lucide-react";
 
 export default function CTAcocSection() {
+  const { openPopup } = usePopup(); // ✅ get function
+
   return (
     <section className="bg-[#e9eeec] py-20 px-6">
       <div className="max-w-4xl mx-auto bg-white rounded-3xl shadow-lg px-6 md:px-16 py-14 text-center">
@@ -17,9 +23,12 @@ export default function CTAcocSection() {
         </p>
 
         {/* Button */}
-        <button className="bg-[#3b7cff] hover:bg-[#4375db] text-white font-semibold text-lg px-10 py-4 rounded-xl shadow-md transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5">
-          Book Cockroach Control Now
-        </button>
+        <button
+            onClick={openPopup}
+            className="bg-[#3874ea] text-black font-semibold px-8 py-4 rounded-lg hover:bg-[#3b7cff] transition"
+          >
+            Book a Free Inspection →
+          </button>
 
         {/* Features */}
         <div className="flex flex-wrap justify-center gap-6 mt-8 text-sm text-gray-600">

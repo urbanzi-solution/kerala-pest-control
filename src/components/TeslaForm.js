@@ -43,7 +43,7 @@ export default function TeslaForm() {
       setStatusMessage({ type: "", text: "" });
 
       await fetch(
-        "https://script.google.com/macros/s/AKfycby6HZsjpYYFDU7M_cwTnF-DIk_q32bdQwiy-89ldkZUwqmJW2mcOs6bkcFgEYj7cR8P/exec",
+        "https://script.google.com/macros/s/AKfycbzDgXr82qYpqFTrg-rdWYCdYNO-knWTOz0nLaeE9KKg2_BTuPdRybHha-9to0D3gg/exec",
         {
           method: "POST",
           body: payload,
@@ -104,7 +104,7 @@ export default function TeslaForm() {
                   onChange={handleChange}
                   required
                   placeholder="Enter your first name"
-                  className="bg-gray-100 px-4 py-3 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-black"
+                  className="bg-gray-100 text-gray-600 px-4 py-3 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-black"
                 />
               </div>
 
@@ -120,7 +120,7 @@ export default function TeslaForm() {
                   onChange={handleChange}
                   required
                   placeholder="Enter your last name"
-                  className="bg-gray-100 px-4 py-3 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-black"
+                  className="bg-gray-100 text-gray-600 px-4 py-3 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-black"
                 />
               </div>
 
@@ -136,7 +136,7 @@ export default function TeslaForm() {
                   onChange={handleChange}
                   required
                   placeholder="Enter email"
-                  className="bg-gray-100 px-4 py-3 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-black"
+                  className="bg-gray-100 text-gray-600 px-4 py-3 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-black"
                 />
               </div>
 
@@ -153,7 +153,7 @@ export default function TeslaForm() {
                   pattern="[0-9]{10}"
                   required
                   placeholder="10 digit number"
-                  className="bg-gray-100 px-4 py-3 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-black"
+                  className="bg-gray-100 text-gray-600 px-4 py-3 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-black"
                 />
               </div>
             </div>
@@ -169,7 +169,7 @@ export default function TeslaForm() {
                 onChange={handleChange}
                 rows={4}
                 placeholder="Tell us your requirements..."
-                className="bg-gray-100 px-4 py-3 rounded-md text-sm resize-none focus:outline-none focus:ring-2 focus:ring-black"
+                className="bg-gray-100 text-gray-600 px-4 py-3 rounded-md text-sm resize-none focus:outline-none focus:ring-2 focus:ring-black"
               />
             </div>
 

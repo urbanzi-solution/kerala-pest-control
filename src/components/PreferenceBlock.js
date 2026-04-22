@@ -121,12 +121,7 @@ export default function PreferenceBlock() {
               ))}
             </div>
 
-            <button
-              onClick={handleNavigateToJobPreferences}
-              className="mt-6 bg-black text-white px-6 py-3 rounded-xl hover:bg-gray-900 transition"
-            >
-              Get Quote
-            </button>
+          
           </div>
 
           {/* IMAGE PANEL */}

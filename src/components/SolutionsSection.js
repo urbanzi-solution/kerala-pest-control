@@ -68,12 +68,12 @@ const aboutItems = [
           {/* RIGHT CONTENT */}
           <div className="lg:col-span-7 lg:pl-10">
 
-            <h2 className="text-3xl md:text-4xl lg:text-[42px] font-medium text-gray-900 mb-5">
-              About Us
-            </h2>
+            <h1 className="text-3xl md:text-4xl lg:text-[42px] font-medium text-gray-900 mb-5">
+              About Kerala Pest Solutions
+            </h1>
 
             <p className="text-sm md:text-[15px] text-gray-600 leading-relaxed mb-8">
-              <strong>PestControl Solutions</strong> is a professional pest
+              <strong>Kerala Pest Solutions</strong> is a professional pest
               management company based in Trivandrum.{" "}
               <strong>Established in 2007</strong>, we provide comprehensive pest
               control services for homes, offices, and commercial spaces.

@@ -1,3 +1,7 @@
+"use client";
+
+import { usePopup } from "@/components/PopupContext"; // ✅ import
+
 const features = [
   {
     icon: (
@@ -42,6 +46,9 @@ const features = [
 ];
 
 export default function RodentFeaturesAndCTA() {
+  const { openPopup } = usePopup(); // ✅ use the popup context
+
+
   return (
     <div>
 
@@ -83,7 +90,10 @@ export default function RodentFeaturesAndCTA() {
             </div>
 
             {/* Button */}
-            <button className="shrink-0 bg-[#3b7cff] hover:bg-[#2153b7] text-white font-bold text-[14px] px-7 py-4 rounded-xl transition-colors duration-200 whitespace-nowrap">
+            <button
+              onClick={openPopup}
+              className="shrink-0 bg-[#3b7cff] hover:bg-[#2153b7] text-white font-bold text-[14px] px-7 py-4 rounded-xl transition-colors duration-200 whitespace-nowrap"
+            >
               Book a Rodent Inspection →
             </button>
           </div>

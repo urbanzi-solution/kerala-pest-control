@@ -1,4 +1,8 @@
-export default function RodentCTA() {
+ "use client";
+
+import { usePopup } from "@/components/PopupContext"; // ✅ import
+ export default function RodentCTA() {
+  const { openPopup } = usePopup(); // ✅ get function
   return (
     <section className="bg-[#3b7cff] py-28 px-6 text-center relative overflow-hidden">
 
@@ -16,9 +20,13 @@ export default function RodentCTA() {
           your health, your structure, and your business reputation.
         </p>
 
-        <button className="bg-gray-300 hover:bg-gray-400 text-black font-bold text-[15px] px-10 py-4 rounded-xl transition-colors duration-200">
-          Book Your Rodent Control Programme →
-        </button>
+         <button
+            onClick={openPopup}
+            className="bg-gray-200 text-black font-semibold px-8 py-4 rounded-lg hover:bg-white transition"
+          >
+            Book a Free Inspection →
+          </button>
+
 
       </div>
     </section>

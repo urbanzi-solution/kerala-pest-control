@@ -1,7 +1,14 @@
+"use client";
+
+import { usePopup } from "@/components/PopupContext"; // ✅ import
+
 import Image from "next/image";
 import { ShieldCheck } from "lucide-react";
 
 export default function MosquitoHero() {
+  const { openPopup } = usePopup(); // ✅ use the popup context
+
+
   return (
     <section className="bg-[#eef2f1] py-20 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
@@ -25,7 +32,10 @@ export default function MosquitoHero() {
           </p>
 
           {/* Button */}
-          <button className="bg-[#3b7cff] hover:bg-[#346fe6] text-white font-semibold px-6 py-3 rounded-xl transition flex items-center gap-2">
+          <button
+            onClick={openPopup}
+            className="bg-[#3b7cff] hover:bg-[#346fe6] text-white font-semibold px-6 py-3 rounded-xl transition flex items-center gap-2"
+          >
             Get a Mosquito Management Assessment →
           </button>
         </div>

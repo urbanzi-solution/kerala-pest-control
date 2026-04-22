@@ -15,37 +15,37 @@ const services = [
     icon: <Bug size={22} />,
     title: "TERMITE TREATMENT",
     desc: "Prevent catastrophic structural damage with our multi-layered defense utilizing soil-barrier technology and targeted colony baiting systems.",
-    href: "/services/termite",
+    href: "/services/termite-control",
   },
   {
     icon: <Bed size={22} />,
     title: "BED BUG REMOVAL",
     desc: "A specialized two-visit clinical protocol ensuring complete lifecycle disruption from eggs to adults for immediate relief and long-term peace.",
-    href: "/services/bed-bugs",
+    href: "/services/bed-bugs-control",
   },
   {
     icon: <Bug size={22} />,
     title: "COCKROACH CONTROL",
     desc: "Deployment of targeted advanced gel baits and clinical pheromone traps designed for maximum efficiency in kitchens and sensitive storage areas.",
-    href: "/services/cockroach",
+    href: "/services/cockroach-control",
   },
   {
     icon: <Wind size={22} />,
     title: "MOSQUITO MANAGEMENT",
     desc: "Protect your family from vector-borne diseases with seasonal ULV cold fogging and source reduction protocols tailored for the Kerala monsoon.",
-    href: "/services/mosquito",
+    href: "/services/mosquito-control",
   },
   {
     icon: <Mouse size={22} />,
     title: "RODENT CONTROL",
     desc: "Scientific proofing and sealing of structural entry points combined with tamper-resistant monitoring stations for sustainable rodent management.",
-    href: "/services/rodent",
+    href: "/services/rodent-control",
   },
   {
     icon: <Flower size={22} />,
     title: "ANT CONTROL",
     desc: "Precision baiting strategies that leverage worker behavior to transport clinical formulations directly to the queen, ensuring total colony collapse.",
-    href: "/services/ant",
+    href: "/services/ant-control",
   },
 ];
 

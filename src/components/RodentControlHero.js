@@ -1,6 +1,12 @@
+
+"use client";
+
+import { usePopup } from "@/components/PopupContext"; // ✅ import
 import Image from "next/image";
 
 export default function RodentControlHero() {
+  const { openPopup } = usePopup(); // ✅ use the popup context
+
   return (
     <section className="bg-[#f0f2f3] py-20 px-6 min-h-[560px] flex items-center">
       <div className="max-w-6xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
@@ -38,7 +44,10 @@ export default function RodentControlHero() {
 
           {/* CTA */}
           <div className="mt-2">
-            <button className="inline-flex items-center gap-2 bg-[#3b7cff] hover:bg-[#4374d7] text-white font-bold text-[14px] px-7 py-4 rounded-xl transition-colors duration-200">
+            <button
+              onClick={openPopup}
+              className="inline-flex items-center gap-2 bg-[#3b7cff] hover:bg-[#4374d7] text-white font-bold text-[14px] px-7 py-4 rounded-xl transition-colors duration-200"
+            >
               Book Your Rodent Control Programme
               <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4" stroke="currentColor" strokeWidth={2.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />

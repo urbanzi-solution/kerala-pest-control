@@ -110,7 +110,7 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center gap-3">
             
             <a
-              href="tel:6282651476"
+              href="tel: 9074368674"
               className="w-10 h-10 flex items-center justify-center rounded-full 
               bg-black backdrop-blur-md border border-white/30 
               hover:bg-white/10 transition shadow-sm"

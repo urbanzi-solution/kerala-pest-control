@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function KollamHero() {
+export default function KollamHero({ openPopup }) {
   return (
     <div>
 
@@ -29,7 +29,9 @@ export default function KollamHero() {
             </p>
 
             {/* CTA */}
-            <button className="self-start bg-[#3067d5] hover:bg-[#3b7cff] text-white font-bold text-[13px] px-7 py-4 rounded-xl tracking-wide transition-colors duration-200">
+            <button 
+            onClick={openPopup}
+            className="self-start bg-[#3067d5] hover:bg-[#3b7cff] text-white font-bold text-[13px] px-7 py-4 rounded-xl tracking-wide transition-colors duration-200">
               [ Book Your Free Kollam Inspection → ]
             </button>
           </div>

@@ -1,4 +1,4 @@
-import TrivandrumHero from "@/components/TrivandrumHero";
+import TrivandrumPageClient from "@/components/TrivandrumPageClient";
 import TrivandrumChallenges from "@/components/TrivandrumChallenges";
 import TrivandrumTreatments from "@/components/TrivandrumTreatments";
 import TrivandrumCoverageAndWhyUs from "@/components/TrivandrumCoverageAndWhyUs";
@@ -6,13 +6,13 @@ import TVMProfessionalStandards from "@/components/TVMProfessionalStandards";
 import TVMFAQSection from "@/components/TVMFAQSection";
 import TVMCTASection from "@/components/TVMCTASection";
 
+
 // ✅ SEO METADATA (Enhanced - Main City Authority Page)
 export const metadata = {
   title: "Pest Control Services in Trivandrum | Expert Pest Control Kerala",
 
-  description:
-    "Looking for pest control in Trivandrum? Kerala Pest Solutions provides safe, eco-friendly treatments for homes and businesses with expert control of termites, cockroaches, rodents, ants and mosquitoes.",
-
+ description:
+"Professional pest control in Trivandrum with localized solutions for apartments, heritage homes, and IT corridors. Expert treatment for termites, cockroaches, and recurring infestations.",
   keywords: [
     "Pest control Trivandrum",
     "Pest control Thiruvananthapuram",
@@ -31,7 +31,7 @@ export const metadata = {
   openGraph: {
     title: "Pest Control in Trivandrum | Kerala Pest Solutions",
     description:
-      "Trusted pest control services in Trivandrum for homes and businesses. Safe, effective solutions for termites, rodents, cockroaches and more.",
+"Professional pest control in Trivandrum with localized solutions for apartments, heritage homes, and IT corridors. Expert treatment for termites, cockroaches, and recurring infestations.",
     url: "https://keralapestsolutions.com/pest-control-trivandrum",
     siteName: "Kerala Pest Solutions",
     images: [
@@ -57,13 +57,14 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <TrivandrumHero />
+     <TrivandrumPageClient />
       <TrivandrumChallenges />
       <TrivandrumTreatments />
       <TrivandrumCoverageAndWhyUs />
       <TVMProfessionalStandards />
       <TVMFAQSection />
       <TVMCTASection />
+       
     </>
   );
 }

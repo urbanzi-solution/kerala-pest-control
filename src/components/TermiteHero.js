@@ -1,7 +1,12 @@
+"use client";
+
+import { usePopup } from "@/components/PopupContext"; // ✅ import
 
 import Image from "next/image";
 
 export default function TermiteHero() {
+  const { openPopup } = usePopup(); // ✅ use the popup context
+
   return (
     <section className="bg-[#f0f2f3] py-20 px-6 ">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
@@ -29,7 +34,10 @@ export default function TermiteHero() {
 </p>
           {/* CTA row */}
           <div className="flex flex-wrap items-center gap-4 mt-2">
-            <button className="bg-[#3b7cff] hover:bg-[#4c86fb] text-white font-bold text-[14px] px-7 py-4 rounded-xl transition-colors duration-200">
+            <button
+              onClick={openPopup}
+              className="bg-[#3b7cff] hover:bg-[#4c86fb] text-white font-bold text-[14px] px-7 py-4 rounded-xl transition-colors duration-200"
+            >
               Request Free Inspection
             </button>
             <div className="flex items-center gap-2 text-slate-500 text-[13px]">
