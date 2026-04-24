@@ -2,6 +2,7 @@ import TeslaCarousel from "@/components/TeslaCarousel";
 import InfoBanner from "@/components/InfoBanner";
 
 import AboutSection from "@/components/AboutSection";
+import ServiceGrid from "@/components/ServiceGrid";
 import IntegrationsSection from "@/components/IntegrationsSection";
 import ServiceCategories from "@/components/ServiceCategories";
 import PreferenceBlock from "@/components/PreferenceBlock";
@@ -80,6 +81,7 @@ export default function Home() {
       
 
       <AboutSection />
+      <ServiceGrid />
       <IntegrationsSection />
 
       <ServiceCategories />

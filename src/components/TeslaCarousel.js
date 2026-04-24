@@ -53,14 +53,22 @@ export default function TeslaCarousel() {
           }`}
           style={{ backgroundImage: `url(${slide.img})` }}
         >
-          {/* Overlay (optional for better text visibility) */}
+          {/* Overlay */}
           <div className="absolute inset-0 bg-black/40" />
 
           {/* Content */}
           <div className="absolute top-[40%] w-full text-center text-white px-4">
-            <h1 className="text-3xl md:text-5xl font-semibold mb-5">
-              {slide.title}
-            </h1>
+            
+            {/* ✅ FIXED HEADING */}
+            {i === 0 ? (
+              <h1 className="text-3xl md:text-5xl font-semibold mb-5">
+                {slide.title}
+              </h1>
+            ) : (
+              <h2 className="text-3xl md:text-4xl font-semibold mb-5">
+                {slide.title}
+              </h2>
+            )}
 
             <p className="text-sm md:text-lg mb-6 max-w-2xl mx-auto">
               {slide.subtitle}
