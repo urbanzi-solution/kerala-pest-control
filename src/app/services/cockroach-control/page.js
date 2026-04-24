@@ -8,10 +8,10 @@ import CTAcocSection from "@/components/CTAcocSection";
 
 // ✅ SEO METADATA (Enhanced - Service Focused)
 export const metadata = {
-  title: "Cockroach Control Services in Kerala | Safe & Effective Removal",
+  title: "Professional Cockroach Control in Kerala | Kerala Pest Solutions",
 
   description:
-    "Looking for cockroach control services in Kerala? Kerala Pest Solutions offers safe, eco-friendly treatments to eliminate cockroach infestations in homes and businesses with long-lasting results.",
+    "Gel bait cockroach control for homes, kitchens, and restaurants in Trivandrum and Kollam. Odourless, no evacuation required. FSSAI-compliant documentation. Free inspection.",
 
   keywords: [
     "Cockroach control Kerala",
@@ -28,9 +28,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Cockroach Control Services in Kerala | Kerala Pest Solutions",
+    title: "Professional Cockroach Control in Kerala | Kerala Pest Solutions",
     description:
-      "Professional cockroach control services for homes and businesses in Kerala. Safe and effective long-term solutions.",
+      "Gel bait cockroach control for homes, kitchens, and restaurants in Trivandrum and Kollam. Odourless, no evacuation required. FSSAI-compliant documentation. Free inspection.",
     url: "https://keralapestsolutions.com/cockroach-control",
     siteName: "Kerala Pest Solutions",
     images: [
@@ -46,7 +46,7 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Cockroach Control Services in Kerala",
+    title: "Professional Cockroach Control in Kerala | Kerala Pest Solutions",
     description:
       "Safe and effective cockroach removal services for homes and businesses.",
     images: ["https://keralapestsolutions.com/about-og.jpg"],

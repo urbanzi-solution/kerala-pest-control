@@ -9,10 +9,10 @@ import TVMCTASection from "@/components/TVMCTASection";
 
 // ✅ SEO METADATA (Enhanced - Main City Authority Page)
 export const metadata = {
-  title: "Pest Control Services in Trivandrum | Expert Pest Control Kerala",
+  title: "Pest Control in Trivandrum | Kerala Pest Solutions",
 
  description:
-"Professional pest control in Trivandrum with localized solutions for apartments, heritage homes, and IT corridors. Expert treatment for termites, cockroaches, and recurring infestations.",
+"Professional pest control across Trivandrum. Termite treatment, bed bug removal, cockroach control, mosquito management, rodent control, and ant control. Local office. Free inspection.",
   keywords: [
     "Pest control Trivandrum",
     "Pest control Thiruvananthapuram",
@@ -31,7 +31,7 @@ export const metadata = {
   openGraph: {
     title: "Pest Control in Trivandrum | Kerala Pest Solutions",
     description:
-"Professional pest control in Trivandrum with localized solutions for apartments, heritage homes, and IT corridors. Expert treatment for termites, cockroaches, and recurring infestations.",
+"Professional pest control across Trivandrum. Termite treatment, bed bug removal, cockroach control, mosquito management, rodent control, and ant control. Local office. Free inspection.",
     url: "https://keralapestsolutions.com/pest-control-trivandrum",
     siteName: "Kerala Pest Solutions",
     images: [

@@ -120,7 +120,7 @@ export default function PunalurServicePortfolio() {
             {services.map((service) => (
               <div
                 key={service.title}
-                className="flex flex-col items-center justify-center gap-3 py-8 px-4 border-r border-b border-slate-200 bg-[#fafafa] hover:bg-white transition-colors duration-200 cursor-pointer group"
+                className="flex flex-col items-center justify-center gap-3 py-8 px-4 border-r border-b border-slate-200 bg-[#fafafa]  transition-colors duration-200 cursor-pointer group"
               >
                 <div className="group-hover:scale-110 transition-transform duration-200">
                   {service.icon}

@@ -10,10 +10,10 @@ import CTASection from "@/components/CTASection";
 
 // ✅ SEO METADATA (Enhanced - Core Services Page)
 export const metadata = {
-  title: "Pest Control Services in Kerala | Complete Home & Commercial Solutions",
+  title: "Pest Control Services in Kerala | Kerala Pest Solutions",
 
   description:
-"Explore complete pest control services including termite treatment, rodent control, mosquito management, and cockroach solutions. Tailored plans for homes and businesses in Kerala.",
+"Professional pest control services for homes and businesses in Kerala. Termite treatment, bed bug removal, cockroach control, mosquito management, rodent control, ant control, and general pest control. Free inspection in Trivandrum and Kollam.",
   keywords: [
     "Pest control Kerala",
     "Pest control services Trivandrum",
@@ -34,7 +34,7 @@ export const metadata = {
   openGraph: {
     title: "Pest Control Services in Kerala | Kerala Pest Solutions",
     description:
-"Explore complete pest control services including termite treatment, rodent control, mosquito management, and cockroach solutions. Tailored plans for homes and businesses in Kerala.",
+"Professional pest control services for homes and businesses in Kerala. Termite treatment, bed bug removal, cockroach control, mosquito management, rodent control, ant control, and general pest control. Free inspection in Trivandrum and Kollam.",
     url: "https://keralapestsolutions.com/pest-control-services",
     siteName: "Kerala Pest Solutions",
     images: [

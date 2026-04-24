@@ -7,10 +7,10 @@ import HotelServiceCTA from "@/components/HotelServiceCTA";
 
 // ✅ SEO METADATA (Enhanced)
 export const metadata = {
-  title: "Hotel & Hostel Pest Control in Trivandrum & Kollam | Hygienic Solutions",
+  title: "'Pest Control for Hotels Kerala | Discreet Professional Service | Kerala Pest Solutions",
 
   description:
-    "Looking for hotel or hostel pest control in Trivandrum & Kollam? Kerala Pest Solutions provides safe, hygienic treatments for bed bugs, rodents, and insects with expert service.",
+    "Discreet, professional pest management for hotels, resorts, and serviced apartments in Trivandrum and Kollam. Bed bug specialists. Zero-disruption service. Kerala Pest Solutions.",
 
   keywords: [
     "Hotel pest control Trivandrum",
@@ -27,9 +27,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Hotel & Hostel Pest Control in Trivandrum & Kollam",
+    title: "'Pest Control for Hotels Kerala | Discreet Professional Service | Kerala Pest Solutions",
     description:
-      "Professional pest control services for hotels and hostels. Safe solutions for bed bugs, rodents, and insects.",
+      "Discreet, professional pest management for hotels, resorts, and serviced apartments in Trivandrum and Kollam. Bed bug specialists. Zero-disruption service. Kerala Pest Solutions.",
     url: "https://keralapestsolutions.com/hotel-pest-control",
     siteName: "Kerala Pest Solutions",
     images: [

@@ -9,10 +9,10 @@ import SreekaryamCTA from "@/components/SreekaryamCTA";
 
 // ✅ SEO METADATA (Enhanced - Student + Rental + Residential Targeting)
 export const metadata = {
-  title: "Pest Control Services in Sreekaryam | Home & Hostel Solutions",
+  title: "Pest Control in Sreekaryam, Trivandrum | Kerala Pest Solutions",
 
   description:
-    "Looking for pest control in Sreekaryam? Kerala Pest Solutions offers safe, eco-friendly treatments for homes, hostels, and rental properties with effective control of bed bugs, cockroaches, and rodents.",
+    "Pest control in Sreekaryam, Trivandrum. Termite treatment, bed bug removal for student accommodation, cockroach control for apartments. Free inspection.",
 
   keywords: [
     "Pest control Sreekaryam",
@@ -29,9 +29,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Pest Control in Sreekaryam | Kerala Pest Solutions",
+    title: "Pest Control in Sreekaryam, Trivandrum | Kerala Pest Solutions",
     description:
-      "Professional pest control services in Sreekaryam for homes, hostels, and rentals. Safe and effective pest management solutions.",
+      "Pest control in Sreekaryam, Trivandrum. Termite treatment, bed bug removal for student accommodation, cockroach control for apartments. Free inspection.",
     url: "https://keralapestsolutions.com/pest-control-sreekaryam",
     siteName: "Kerala Pest Solutions",
     images: [

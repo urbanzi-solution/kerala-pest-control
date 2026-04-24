@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-export default function KollamPopupForm({ open, setOpen }) {
+export default function PopupFormp({ open, setOpen, location }) {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [place, setPlace] = useState("");
@@ -17,15 +17,55 @@ export default function KollamPopupForm({ open, setOpen }) {
 
   const isValidPhone = (num) => /^[6-9]\d{9}$/.test(num);
 
-  const handleSubmit = () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
     if (!isValidPhone(phone)) {
       alert("Enter a valid 10-digit phone number");
-      return false;
+      return;
     }
+
     setLoading(true);
+
+    try {
+      const res = await fetch(
+        "https://script.google.com/macros/s/AKfycbz7jHiHx07PKLZY6rnDj5hFgBUJ2XqpeFy6-H865TNw1n-xbphqQnR5y_e5AoLx-ty_/exec",
+        {
+          method: "POST",
+          body: new URLSearchParams({
+            name,
+            phone,
+            place,
+            source: `${location} Page`,
+          }),
+        }
+      );
+
+      if (res.ok) {
+        setSuccess(true);
+        setName("");
+        setPhone("");
+        setPlace("");
+
+        // auto close after 2 sec
+        setTimeout(() => {
+          setOpen(false);
+          setSuccess(false);
+        }, 2000);
+      } else {
+        alert("Something went wrong. Try again.");
+      }
+    } catch (err) {
+      alert("Network error");
+    }
+
+    setLoading(false);
   };
 
-  const whatsappMessage = `Hi, I want to book a free inspection (Kollam).\nName: ${name}\nPhone: ${phone}\nPlace: ${place}`;
+  const whatsappMessage = `Hi, I want to book a free inspection (${location}).
+Name: ${name}
+Phone: ${phone}
+Place: ${place}`;
 
   const whatsappLink = `https://wa.me/9074368674?text=${encodeURIComponent(
     whatsappMessage
@@ -49,57 +89,44 @@ export default function KollamPopupForm({ open, setOpen }) {
         </button>
 
         <h2 className="text-xl text-black font-bold text-center mb-4">
-          Book Free Inspection (Kollam)
+          Book Free Inspection ({location})
         </h2>
 
         {success ? (
           <div className="text-center">
-            <p className="text-green-600 font-medium mb-4">
+            <p className="text-green-600 font-medium">
               ✅ Request submitted successfully!
             </p>
-            <button
-              onClick={() => setOpen(false)}
-              className="bg-black text-white px-4 py-2 rounded-lg"
-            >
-              Close
-            </button>
           </div>
         ) : (
           <>
             <form
-              action="https://script.google.com/macros/s/AKfycbz7jHiHx07PKLZY6rnDj5hFgBUJ2XqpeFy6-H865TNw1n-xbphqQnR5y_e5AoLx-ty_/exec"
-              method="POST"
-              className="flex flex-col gap-4"
               onSubmit={handleSubmit}
+              className="flex flex-col gap-4"
             >
               <input
-                name="name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 placeholder="Full Name"
                 required
-                className="border p-3 text-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="border p-3 text-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500"
               />
 
               <input
-                name="phone"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
                 placeholder="Phone Number"
                 required
-                className="border p-3 text-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="border p-3 text-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500"
               />
 
               <input
-                name="place"
                 value={place}
                 onChange={(e) => setPlace(e.target.value)}
                 placeholder="Your Area"
                 required
-                className="border p-3 text-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="border p-3 text-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500"
               />
-
-              <input type="hidden" name="source" value="Kollam Page" />
 
               <button
                 type="submit"
@@ -110,14 +137,14 @@ export default function KollamPopupForm({ open, setOpen }) {
               </button>
             </form>
 
-            {/* OR Divider */}
+            {/* Divider */}
             <div className="flex items-center my-4">
               <div className="flex-1 h-px bg-gray-300"></div>
               <span className="px-3 text-sm text-gray-500">OR</span>
               <div className="flex-1 h-px bg-gray-300"></div>
             </div>
 
-            {/* WhatsApp CTA */}
+            {/* WhatsApp */}
             <a
               href={whatsappLink}
               target="_blank"

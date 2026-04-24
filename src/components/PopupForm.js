@@ -103,7 +103,7 @@ export default function PopupForm({ open, setOpen }) {
 
         {/* WHATSAPP CTA */}
         <a
-          href={`https://wa.me/91XXXXXXXXXX?text=Hi, I need pest control service. Page: ${pathname}`}
+          href={`https://wa.me/9074368674?text=Hi, I need pest control service. Page: ${pathname}`}
           target="_blank"
           className="block w-full text-center bg-[#25D366] hover:bg-[#1ebe5d] text-white py-3 rounded-lg font-semibold transition"
         >

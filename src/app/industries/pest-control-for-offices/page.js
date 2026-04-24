@@ -7,10 +7,10 @@ import OfficeServiceCTA from "@/components/OfficeServiceCTA";
 
 // ✅ SEO METADATA (Enhanced)
 export const metadata = {
-  title: "Office Pest Control in Trivandrum & Kollam | Safe Workplace Solutions",
+  title: "Pest Control for Offices Kerala | IT Parks & Commercial Spaces | Kerala Pest Solutions",
 
   description:
-    "Looking for office pest control in Trivandrum & Kollam? Kerala Pest Solutions provides safe, professional treatments to protect workplaces from rodents, termites, and insects.",
+    "'Professional pest control for offices, IT campuses, and commercial spaces in Trivandrum and Kollam. Scheduled service, zero disruption, full documentation. Kerala Pest Solutions.",
 
   keywords: [
     "Office pest control Trivandrum",
@@ -27,9 +27,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Office Pest Control in Trivandrum & Kollam",
+    title: "Pest Control for Offices Kerala | IT Parks & Commercial Spaces | Kerala Pest Solutions",
     description:
-      "Professional pest control services for offices. Keep your workplace safe from rodents, termites, and insects.",
+      "'Professional pest control for offices, IT campuses, and commercial spaces in Trivandrum and Kollam. Scheduled service, zero disruption, full documentation. Kerala Pest Solutions.",
     url: "https://keralapestsolutions.com/office-pest-control",
     siteName: "Kerala Pest Solutions",
     images: [

@@ -12,7 +12,7 @@ export default function AboutSection() {
             ABOUT OUR COMPANY
           </span>
 
-          <h2 className="text-3xl text-black md:text-4xl lg:text-5xl font-medium leading-tight mb-5">
+          <h2 className="text-3xl text-black md:text-4xl lg:text-4xl font-medium leading-tight mb-5">
             Trusted & Budget-Friendly Termite and Pest Solutions
           </h2>
 

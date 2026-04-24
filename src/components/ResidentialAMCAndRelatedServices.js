@@ -45,37 +45,37 @@ const relatedServices = [
   {
     icon: <Bug className="w-4 h-4 text-black" />,
     label: "Termite Treatment",
-    href: "/services/termite",
+    href: "/services/termite-control",
   },
   {
     icon: <BedDouble className="w-4 h-4 text-black" />,
     label: "Bed Bug Removal",
-    href: "/services/bed-bug",
+    href: "/services/bed-bugs-control",
   },
   {
     icon: <SprayCan className="w-4 h-4 text-black" />,
     label: "Cockroach Control",
-    href: "/services/cockroach",
+    href: "/services/cockroach-control",
   },
   {
     icon: <Droplets className="w-4 h-4 text-black" />,
     label: "Mosquito Management",
-    href: "/services/mosquito",
+    href: "/services/mosquito-control",
   },
   {
     icon: <MousePointer2 className="w-4 h-4 text-black" />,
     label: "Rodent Control",
-    href: "/services/rodent",
+    href: "/services/rodent-control",
   },
   {
     icon: <Workflow className="w-4 h-4 text-black" />,
     label: "Ant Control",
-    href: "/services/ant",
+    href: "/services/ant-control",
   },
   {
     icon: <Shield className="w-4 h-4 text-black" />,
     label: "General Pest Control",
-    href: "/services/general",
+    href: "/services/general-pest-control",
   },
 ];
 

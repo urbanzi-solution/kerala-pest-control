@@ -1,5 +1,12 @@
+"use client";
+
+import { useState } from "react";
+import PopupFormp from "@/components/PopupFormp";
 export default function KaryavattomCTA() {
+ const [open, setOpen] = useState(false);
+
   return (
+    <>
     <section className="bg-[#e5edf3] py-20 px-6">
       <div className="max-w-5xl mx-auto">
 
@@ -22,17 +29,23 @@ export default function KaryavattomCTA() {
             </p>
 
             {/* CTA Button */}
-            <a
-              href="/contact"
-              className="inline-block bg-white hover:bg-gray-50 text-black font-bold px-8 py-4 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg"
-            >
-              Start Your Free Inspection Now
-            </a>
+            <button
+                onClick={() => setOpen(true)}
+                className="inline-block bg-white hover:bg-gray-50 text-black font-bold px-8 py-4 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg"
+              >
+                Start Your Free Inspection Now
+              </button>
           </div>
 
         </div>
 
       </div>
     </section>
+    <PopupFormp
+            open={open}
+            setOpen={setOpen}
+            location="Karyavattom"
+          />
+        </>
   );
 }

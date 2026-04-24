@@ -95,7 +95,7 @@ export default function ServiceGrid() {
         </div>
 
         {/* Bottom Wide Card */}
-        <Link href="/services/ipm" className="block">
+        <Link href="/services/general-pest-control" className="block">
           <div className="mt-4 bg-white rounded-2xl p-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition cursor-pointer">
             
             <div className="flex items-start gap-4">

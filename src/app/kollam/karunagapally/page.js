@@ -8,10 +8,10 @@ import KarunagapallyCTA from "@/components/KarunagapallyCTA";
 
 // ✅ SEO METADATA (Enhanced - Location Specific)
 export const metadata = {
-  title: "Pest Control in Karunagapally | Safe & Professional Services",
+  title: "Pest Control in Karunagappally, Kollam | Kerala Pest Solutions",
 
   description:
-    "Looking for pest control in Karunagapally? Kerala Pest Solutions offers safe, eco-friendly treatments for termites, rodents, cockroaches, and more for homes and businesses.",
+    "Pest control in Karunagappally, Kollam. Termite treatment, mosquito management near backwaters, rodent control for cashew processing areas. Free inspection.",
 
   keywords: [
     "Pest control Karunagapally",
@@ -28,9 +28,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Pest Control in Karunagapally | Kerala Pest Solutions",
+    title: "Pest Control in Karunagappally, Kollam | Kerala Pest Solutions",
     description:
-      "Professional pest control services in Karunagapally for homes and businesses. Safe and effective solutions for termites, rodents, and insects.",
+      "Pest control in Karunagappally, Kollam. Termite treatment, mosquito management near backwaters, rodent control for cashew processing areas. Free inspection.",
     url: "https://keralapestsolutions.com/pest-control-karunagapally",
     siteName: "Kerala Pest Solutions",
     images: [

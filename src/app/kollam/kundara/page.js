@@ -8,10 +8,10 @@ import KundaraCTA from "@/components/KundaraCTA";
 
 // ✅ SEO METADATA (Enhanced - Location Specific)
 export const metadata = {
-  title: "Pest Control in Kundara | Safe & Professional Services",
+  title: "Pest Control in Kundara, Kollam | Kerala Pest Solutions",
 
   description:
-    "Looking for pest control in Kundara? Kerala Pest Solutions provides safe, eco-friendly treatments for termites, rodents, cockroaches, and other pests for homes and businesses.",
+    "Pest control in Kundara, Kollam. Termite treatment, cockroach control, general pest management. Professional IPM service. Free inspection.",
 
   keywords: [
     "Pest control Kundara",
@@ -28,9 +28,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Pest Control in Kundara | Kerala Pest Solutions",
+    title: "Pest Control in Kundara, Kollam | Kerala Pest Solutions",
     description:
-      "Professional pest control services in Kundara for homes and businesses. Safe and effective solutions for termites, rodents, and insects.",
+      "Pest control in Kundara, Kollam. Termite treatment, cockroach control, general pest management. Professional IPM service. Free inspection.",
     url: "https://keralapestsolutions.com/pest-control-kundara",
     siteName: "Kerala Pest Solutions",
     images: [

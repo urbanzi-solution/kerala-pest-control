@@ -9,10 +9,10 @@ import KowdiarCTA from "@/components/KowdiarCTA";
 
 // ✅ SEO METADATA (Enhanced - Premium Location Targeting)
 export const metadata = {
-  title: "Pest Control Services in Kowdiar | Premium Home & Villa Solutions",
+  title: "Pest Control in Kowdiar, Trivandrum | Kerala Pest Solutions",
 
   description:
-    "Looking for pest control in Kowdiar? Kerala Pest Solutions offers premium, eco-friendly treatments for villas, apartments, and businesses with safe, discreet and long-lasting results.",
+    "Pest control in Kowdiar, Trivandrum. Termite treatment for heritage homes, rodent control for large garden properties, mosquito management. Free inspection.",
 
   keywords: [
     "Pest control Kowdiar",
@@ -29,9 +29,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Pest Control in Kowdiar | Premium Solutions by Kerala Pest Solutions",
+    title: "Pest Control in Kowdiar, Trivandrum | Kerala Pest Solutions",
     description:
-      "Premium pest control services in Kowdiar for villas and apartments. Safe, discreet and effective solutions for long-term protection.",
+      "Pest control in Kowdiar, Trivandrum. Termite treatment for heritage homes, rodent control for large garden properties, mosquito management. Free inspection.",
     url: "https://keralapestsolutions.com/pest-control-kowdiar",
     siteName: "Kerala Pest Solutions",
     images: [

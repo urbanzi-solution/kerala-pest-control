@@ -8,10 +8,10 @@ import TechnoparkCTA from "@/components/TechnoparkCTA";
 
 // ✅ SEO METADATA (Enhanced - IT Park + Commercial Targeting)
 export const metadata = {
-  title: "Pest Control Services in Technopark Trivandrum | Office Solutions",
+  title: "Pest Control in Technopark, Trivandrum | Kerala Pest Solutions",
 
   description:
-    "Looking for pest control in Technopark Trivandrum? Kerala Pest Solutions offers safe, discreet and eco-friendly treatments for IT offices and commercial spaces to control cockroaches, rodents and ants.",
+    "Pest control in Technopark, Trivandrum. Bed bug removal for PG and rented accommodation, cockroach control for office canteens, rodent management for campuses. Free inspection.",
 
   keywords: [
     "Pest control Technopark",
@@ -30,7 +30,7 @@ export const metadata = {
   openGraph: {
     title: "Pest Control in Technopark Trivandrum | Kerala Pest Solutions",
     description:
-      "Professional pest control services for IT offices and commercial spaces in Technopark. Safe, discreet and effective solutions.",
+      "Pest control in Technopark, Trivandrum. Bed bug removal for PG and rented accommodation, cockroach control for office canteens, rodent management for campuses. Free inspection.",
     url: "https://keralapestsolutions.com/pest-control-technopark",
     siteName: "Kerala Pest Solutions",
     images: [

@@ -8,10 +8,10 @@ import PunalurCTA from "@/components/PunalurCTA";
 
 // ✅ SEO METADATA (Enhanced - Location Specific)
 export const metadata = {
-  title: "Pest Control Services in Punalur | Reliable & Safe Solutions",
+  title: "Pest Control in Punalur, Kollam | Kerala Pest Solutions",
 
   description:
-    "Looking for pest control in Punalur? Kerala Pest Solutions offers safe, eco-friendly treatments for termites, rodents, cockroaches, and other pests for homes and businesses.",
+    "Pest control in Punalur, Kollam. Termite treatment for forest-adjacent properties, rodent control, mosquito management. Free inspection.",
 
   keywords: [
     "Pest control Punalur",
@@ -28,9 +28,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Pest Control in Punalur | Kerala Pest Solutions",
+    title: "Pest Control in Punalur, Kollam | Kerala Pest Solutions",
     description:
-      "Professional pest control services in Punalur for homes and businesses. Safe and effective solutions for termites, rodents, and insects.",
+      "Pest control in Punalur, Kollam. Termite treatment for forest-adjacent properties, rodent control, mosquito management. Free inspection.",
     url: "https://keralapestsolutions.com/pest-control-punalur",
     siteName: "Kerala Pest Solutions",
     images: [

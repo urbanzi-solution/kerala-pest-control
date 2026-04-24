@@ -1,6 +1,10 @@
+ "use client";
+
+import { usePopup } from "@/components/PopupContext"; // ✅ import
 import Image from "next/image";
 
 export default function ApartmentHero() {
+  const { openPopup } = usePopup(); // ✅ use the hook
   return (
     <section className="relative min-h-[600px] w-full overflow-hidden flex items-center">
 
@@ -47,12 +51,12 @@ export default function ApartmentHero() {
 
           {/* CTAs */}
           <div className="flex flex-wrap gap-4 mt-2">
-            <button className="bg-white hover:bg-slate-100 text-black font-bold text-[13px] px-7 py-4 rounded-xl transition-colors duration-200">
+            <button 
+             onClick={openPopup}
+             className="bg-white hover:bg-slate-100 text-black font-bold text-[13px] px-7 py-4 rounded-xl transition-colors duration-200">
               Book a Apartment Pest Assessment
             </button>
-            <button className="bg-transparent hover:bg-white/10 text-white font-bold text-[13px] px-7 py-4 rounded-xl border border-white/40 transition-colors duration-200">
-              View Audit Protocols
-            </button>
+           
           </div>
 
         </div>

@@ -7,10 +7,10 @@ import ApartmentFAQ from "@/components/ApartmentFAQ";
 import ApartmentServiceCTA from "@/components/ApartmentServiceCTA";
 
 export const metadata = {
-  title: "Apartment Pest Control in Trivandrum & Kollam | Safe & Expert Service",
+  title: "Pest Control for Apartments Kerala | Housing Society Specialists | Kerala Pest Solutions",
 
   description:
-    "Looking for apartment pest control in Trivandrum & Kollam? Kerala Pest Solutions provides safe, eco-friendly treatments for cockroaches, termites, and rodents with fast and reliable service.",
+    "Specialist pest management for apartments and housing societies in Trivandrum and Kollam. Building-wide programmes for cockroaches, termites, mosquitoes and more. Kerala Pest Solutions.",
 
   keywords: [
     "Apartment pest control Trivandrum",
@@ -27,9 +27,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Apartment Pest Control in Trivandrum & Kollam",
+    title: "Pest Control for Apartments Kerala | Housing Society Specialists | Kerala Pest Solutions",
     description:
-      "Safe and eco-friendly apartment pest control services in Trivandrum & Kollam for cockroaches, termites, and rodents.",
+      "Specialist pest management for apartments and housing societies in Trivandrum and Kollam. Building-wide programmes for cockroaches, termites, mosquitoes and more. Kerala Pest Solutions.",
     url: "https://keralapestsolutions.com/apartment-pest-control",
     siteName: "Kerala Pest Solutions",
     images: [

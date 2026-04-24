@@ -7,10 +7,10 @@ import BedBugFAQAndCTA from "@/components/BedBugFAQAndCTA";
 
 // ✅ SEO METADATA (Enhanced - Service Focused)
 export const metadata = {
-  title: "Bed Bug Control Services in Kerala | Safe & Effective Treatment",
+  title: "Professional Bed Bug Removal in Kerala | Kerala Pest Solutions",
 
   description:
-    "Looking for bed bug control services in Kerala? Kerala Pest Solutions provides safe, proven treatments for homes, hotels, and hostels to eliminate infestations effectively.",
+    "Complete bed bug elimination for homes, hotels, and PG accommodation in Trivandrum and Kollam. Mandatory two-visit protocol. Safe for families. Free inspection",
 
   keywords: [
     "Bed bug control Kerala",
@@ -27,9 +27,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Bed Bug Control Services in Kerala | Kerala Pest Solutions",
+    title: "Professional Bed Bug Removal in Kerala | Kerala Pest Solutions",
     description:
-      "Professional bed bug treatment for homes, hotels, and hostels. Safe and effective solutions across Kerala.",
+      "Complete bed bug elimination for homes, hotels, and PG accommodation in Trivandrum and Kollam. Mandatory two-visit protocol. Safe for families. Free inspection.",
     url: "https://keralapestsolutions.com/bed-bug-control",
     siteName: "Kerala Pest Solutions",
     images: [

@@ -8,10 +8,10 @@ import KaryavattomCTA from "@/components/KaryavattomCTA";
 
 // ✅ SEO METADATA (Enhanced - Location Specific)
 export const metadata = {
-  title: "Pest Control Services in Karyavattom | Safe & Reliable Solutions",
+  title: "Pest Control in Karyavattom, Trivandrum | Kerala Pest Solutions",
 
   description:
-    "Looking for pest control in Karyavattom? Kerala Pest Solutions provides safe, eco-friendly treatments for termites, rodents, cockroaches, and other pests for homes and businesses.",
+    "Pest control in Karyavattom, Trivandrum. Bed bug treatment for student hostels, cockroach control for canteens, rodent management for university area. Free inspection.",
 
   keywords: [
     "Pest control Karyavattom",
@@ -28,9 +28,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Pest Control in Karyavattom | Kerala Pest Solutions",
+    title: "Pest Control in Karyavattom, Trivandrum | Kerala Pest Solutions",
     description:
-      "Professional pest control services in Karyavattom for homes and businesses. Safe and effective solutions for termites, rodents, and insects.",
+      "Pest control in Karyavattom, Trivandrum. Bed bug treatment for student hostels, cockroach control for canteens, rodent management for university area. Free inspection.",
     url: "https://keralapestsolutions.com/pest-control-karyavattom",
     siteName: "Kerala Pest Solutions",
     images: [

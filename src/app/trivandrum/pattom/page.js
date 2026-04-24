@@ -9,10 +9,10 @@ import PattomCTA from "@/components/PattomCTA";
 
 // ✅ SEO METADATA (Enhanced - Residential + Commercial + Clinic Targeting)
 export const metadata = {
-  title: "Pest Control Services in Pattom | Home & Commercial Solutions",
+  title: "Pest Control in Pattom, Trivandrum | Kerala Pest Solutions",
 
   description:
-    "Looking for pest control in Pattom? Kerala Pest Solutions offers safe, eco-friendly treatments for homes, clinics, and offices with effective protection against termites, rodents, and insects.",
+    "'Pest control in Pattom, Trivandrum. Termite treatment for older heritage homes, cockroach control, ant control. Local Trivandrum team. Free inspection",
 
   keywords: [
     "Pest control Pattom",
@@ -30,9 +30,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Pest Control in Pattom | Kerala Pest Solutions",
+    title: "Pest Control in Pattom, Trivandrum | Kerala Pest Solutions",
     description:
-      "Professional pest control services in Pattom for homes, clinics, and offices. Safe and effective pest management solutions.",
+      "'Pest control in Pattom, Trivandrum. Termite treatment for older heritage homes, cockroach control, ant control. Local Trivandrum team. Free inspection",
     url: "https://keralapestsolutions.com/pest-control-pattom",
     siteName: "Kerala Pest Solutions",
     images: [

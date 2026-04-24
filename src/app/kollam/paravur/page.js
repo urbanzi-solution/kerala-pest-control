@@ -8,10 +8,10 @@ import ParavurCTA from "@/components/ParavurCTA";
 
 // ✅ SEO METADATA (Enhanced - Location Specific)
 export const metadata = {
-  title: "Pest Control in Paravur | Safe & Professional Services",
+  title: "'Pest Control in Paravur, Kollam | Kerala Pest Solutions",
 
   description:
-    "Looking for pest control in Paravur? Kerala Pest Solutions offers safe, eco-friendly treatments for termites, rodents, cockroaches, and other pests for homes and businesses.",
+    "Pest control in Paravur, Kollam. Mosquito management near Ashtamudi Lake, termite treatment, cockroach control. Free inspection.",
 
   keywords: [
     "Pest control Paravur",
@@ -28,9 +28,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Pest Control in Paravur | Kerala Pest Solutions",
+    title: "'Pest Control in Paravur, Kollam | Kerala Pest Solutions",
     description:
-      "Professional pest control services in Paravur for homes and businesses. Safe and effective solutions for termites, rodents, and insects.",
+      "Pest control in Paravur, Kollam. Mosquito management near Ashtamudi Lake, termite treatment, cockroach control. Free inspection.",
     url: "https://keralapestsolutions.com/pest-control-paravur",
     siteName: "Kerala Pest Solutions",
     images: [

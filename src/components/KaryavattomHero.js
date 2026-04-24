@@ -1,7 +1,14 @@
+"use client";
+
 import Image from "next/image";
+import { useState } from "react";
+import PopupFormp from "@/components/PopupFormp";
 
 export default function KaryavattomHero() {
+  const [open, setOpen] = useState(false);
+
   return (
+    <>
     <section className="bg-[#f0f1f0] py-20 px-6">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
@@ -29,12 +36,15 @@ export default function KaryavattomHero() {
 
           {/* CTA + social proof */}
           <div className="flex flex-wrap items-center gap-5 mt-2">
-            <button className="flex items-center gap-2 bg-[#346cdb] hover:bg-[#3b7cff] text-white font-bold text-[14px] px-7 py-4 rounded-xl transition-colors duration-200">
-              Book a Free Inspection
-              <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4" stroke="currentColor" strokeWidth={2.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-              </svg>
-            </button>
+            <button
+                onClick={() => setOpen(true)}
+                className="flex items-center gap-2 bg-[#346ee0] hover:bg-[#3b7cff] text-white font-bold text-[14px] px-7 py-4 rounded-xl transition-colors duration-200"
+              >
+                Book a Free Inspection
+                <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4" stroke="currentColor" strokeWidth={2.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+              </button>
 
             {/* Social proof */}
             <div className="flex items-center gap-3">
@@ -84,5 +94,11 @@ export default function KaryavattomHero() {
 
       </div>
     </section>
+     <PopupFormp
+            open={open}
+            setOpen={setOpen}
+            location="Karyavattom"
+          />
+        </>
   );
 }

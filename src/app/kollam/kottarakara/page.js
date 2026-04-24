@@ -8,10 +8,10 @@ import KottarakaraCTA from "@/components/KottarakaraCTA";
 
 // ✅ SEO METADATA (Enhanced - Location Specific)
 export const metadata = {
-  title: "Pest Control in Kottarakkara | Safe & Expert Services",
+  title: "Pest Control in Kottarakkara, Kollam | Kerala Pest Solutions",
 
   description:
-    "Looking for pest control in Kottarakkara? Kerala Pest Solutions provides safe, eco-friendly treatments for termites, rodents, cockroaches, and other pests for homes and businesses.",
+    "Pest control in Kottarakkara, Kollam. Termite treatment for older homes, cockroach control, rodent management. Professional IPM service. Free inspection.",
 
   keywords: [
     "Pest control Kottarakkara",
@@ -28,9 +28,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Pest Control in Kottarakkara | Kerala Pest Solutions",
+    title: "Pest Control in Kottarakkara, Kollam | Kerala Pest Solutions",
     description:
-      "Professional pest control services in Kottarakkara for homes and businesses. Safe and effective solutions for termites, rodents, and insects.",
+      "Pest control in Kottarakkara, Kollam. Termite treatment for older homes, cockroach control, rodent management. Professional IPM service. Free inspection.",
     url: "https://keralapestsolutions.com/pest-control-kottarakkara",
     siteName: "Kerala Pest Solutions",
     images: [

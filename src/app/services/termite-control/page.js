@@ -10,10 +10,10 @@ import ServiceFootprint from "@/components/ServiceFootprint";
 
 // ✅ SEO METADATA (HIGH-VALUE SERVICE PAGE)
 export const metadata = {
-  title: "Termite Control Services in Kerala | Pre & Post Construction Treatment",
+  title: "Professional Termite Treatment in Kerala | Kerala Pest Solutions",
 
   description:
-    "Looking for termite control services in Kerala? Kerala Pest Solutions provides pre-construction and post-construction termite treatments with long-lasting protection for homes and businesses.",
+    "'Expert termite treatment for Kerala homes and businesses. Pre-construction barriers, post-construction injection, and baiting systems. ",
 
   keywords: [
     "Termite control Kerala",
@@ -30,9 +30,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Termite Control Services in Kerala | Kerala Pest Solutions",
+    title: "Professional Termite Treatment in Kerala | Kerala Pest Solutions",
     description:
-      "Advanced termite treatment solutions for homes and buildings. Pre and post construction protection with long-lasting results.",
+      "'Expert termite treatment for Kerala homes and businesses. Pre-construction barriers, post-construction injection, and baiting systems. ",
     url: "https://keralapestsolutions.com/termite-control",
     siteName: "Kerala Pest Solutions",
     images: [
@@ -48,7 +48,7 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Termite Control Services in Kerala",
+    title: "Professional Termite Treatment in Kerala | Kerala Pest Solutions",
     description:
       "Protect your property with expert termite treatment solutions.",
     images: ["https://keralapestsolutions.com/about-og.jpg"],

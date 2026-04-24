@@ -8,10 +8,10 @@ import RestaurantFAQ from "@/components/RestaurantFAQ";
 
 // ✅ SEO METADATA (Enhanced)
 export const metadata = {
-  title: "Restaurant Pest Control in Trivandrum & Kollam | Hygienic & FSSAI Safe",
+  title: "'Pest Control for Restaurants Kerala | FSSAI Compliant | Kerala Pest Solutions",
 
   description:
-    "Looking for restaurant pest control in Trivandrum & Kollam? Kerala Pest Solutions provides FSSAI-compliant, hygienic pest control for cockroaches, rodents, and kitchen pests.",
+    "FSSAI-compliant pest management for restaurants, canteens, and food businesses across Trivandrum and Kollam. Gel bait only — no kitchen downtime. Kerala Pest Solutions.",
 
   keywords: [
     "Restaurant pest control Trivandrum",
@@ -28,9 +28,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Restaurant Pest Control in Trivandrum & Kollam",
+    title: "'Pest Control for Restaurants Kerala | FSSAI Compliant | Kerala Pest Solutions",
     description:
-      "FSSAI-safe pest control solutions for restaurants. Keep your kitchen free from cockroaches, rodents, and pests.",
+      "FSSAI-compliant pest management for restaurants, canteens, and food businesses across Trivandrum and Kollam. Gel bait only — no kitchen downtime. Kerala Pest Solutions.",
     url: "https://keralapestsolutions.com/restaurant-pest-control",
     siteName: "Kerala Pest Solutions",
     images: [

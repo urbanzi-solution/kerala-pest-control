@@ -1,19 +1,22 @@
 import TeslaCarousel from "@/components/TeslaCarousel";
 import InfoBanner from "@/components/InfoBanner";
+
 import AboutSection from "@/components/AboutSection";
+import IntegrationsSection from "@/components/IntegrationsSection";
 import ServiceCategories from "@/components/ServiceCategories";
 import PreferenceBlock from "@/components/PreferenceBlock";
-import StatsSection from "@/components/StatsSection";
 import ClientLogos from "@/components/ClientLogos";
-import IntegrationsSection from "@/components/IntegrationsSection";
+import StatsSection from "@/components/StatsSection";
+
+
 import FaqAccordion from "@/components/FaqAccordion";
 import OfferForm from "@/components/OfferForm";
 
 /* ✅ SEO METADATA (App Router way) */
 export const metadata = {
-  title: "Expert Pest Control Services in Kerala | Kerala Pest Solutions",
+  title: "'Professional Pest Control in Kerala | Kerala Pest Solutions",
   description:
-"Kerala Pest Solutions offers professional pest control across Kerala with safe, science-based treatments for termites, rodents, cockroaches, and more. Book a free inspection today.",
+"Kerala Pest Solutions provides professional pest control across Trivandrum and Kollam. Termite treatment, bed bug removal, cockroach control, rodent management and more. Call for a free inspection.",
   keywords: [
     "pest control Trivandrum",
     "termite control Trivandrum",
@@ -35,9 +38,9 @@ export const metadata = {
 
   openGraph: {
     title:
-      "Expert Pest Control Services in Kerala | Kerala Pest Solutions",
+      "'Professional Pest Control in Kerala | Kerala Pest Solutions",
     description:
-      "Get reliable, eco-friendly pest and termite control services in Kerala. Safe for homes and businesses.",
+      "Kerala Pest Solutions provides professional pest control across Trivandrum and Kollam. Termite treatment, bed bug removal, cockroach control, rodent management and more. Call for a free inspection.",
     url: "https://keralapestsolutions.com",
     siteName: "Kerala Pest Solutions",
     images: [
@@ -55,9 +58,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Expert Pest Control Services in Kerala | Kerala Pest Solutions",
+      "'Professional Pest Control in Kerala | Kerala Pest Solutions",
     description:
-      "Eco-friendly pest control services in Kerala with guaranteed results.",
+      "Kerala Pest Solutions provides professional pest control across Trivandrum and Kollam. Termite treatment, bed bug removal, cockroach control, rodent management and more. Call for a free inspection.",
     images: ["/og-image.jpg"],
   },
 
@@ -74,18 +77,20 @@ export default function Home() {
       <TeslaCarousel />
 
       <InfoBanner />
+      
 
       <AboutSection />
+      <IntegrationsSection />
 
       <ServiceCategories />
 
       <PreferenceBlock />
-
+<ClientLogos />
       <StatsSection />
 
-      <ClientLogos />
+      
 
-      <IntegrationsSection />
+      
 
       <FaqAccordion />
 

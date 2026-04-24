@@ -9,10 +9,10 @@ import ResidentialCTA from "@/components/ResidentialCTA";
 
 // ✅ SEO METADATA (Enhanced)
 export const metadata = {
-  title: "Residential Pest Control in Trivandrum & Kollam | Safe Home Protection",
+  title: "Residential Pest Control Kerala | Kerala Pest Solutions",
 
   description:
-    "Looking for residential pest control in Trivandrum & Kollam? Kerala Pest Solutions offers safe, eco-friendly treatments to protect your home from termites, cockroaches, and rodents.",
+    "Professional residential pest control for homes and apartments across Trivandrum and Kollam. Safe for children and pets. Free inspection. Kerala Pest Solutions.",
 
   keywords: [
     "Residential pest control Trivandrum",
@@ -29,9 +29,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Residential Pest Control in Trivandrum & Kollam",
+    title: "Residential Pest Control Kerala | Kerala Pest Solutions",
     description:
-      "Protect your home with safe and effective pest control solutions for termites, cockroaches, and rodents.",
+      "Professional residential pest control for homes and apartments across Trivandrum and Kollam. Safe for children and pets. Free inspection. Kerala Pest Solutions.",
     url: "https://keralapestsolutions.com/residential-pest-control",
     siteName: "Kerala Pest Solutions",
     images: [

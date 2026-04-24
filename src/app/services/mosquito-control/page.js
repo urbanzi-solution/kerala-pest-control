@@ -7,10 +7,10 @@ import MosquitoFAQ from "@/components/MosquitoFAQ";
 
 // ✅ SEO METADATA (Enhanced - Service Focused)
 export const metadata = {
-  title: "Mosquito Control Services in Kerala | Safe & Effective Solutions",
+  title: "'Professional Mosquito Management in Kerala | Kerala Pest Solutions",
 
   description:
-    "Looking for mosquito control services in Kerala? Kerala Pest Solutions provides safe, eco-friendly treatments to reduce breeding and prevent mosquito-borne diseases in homes and outdoor spaces.",
+    "'Dengue and chikungunya prevention through professional mosquito management in Trivandrum and Kollam. Larviciding, fogging, source reduction audits. Monthly monsoon programmes.",
 
   keywords: [
     "Mosquito control Kerala",
@@ -27,9 +27,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Mosquito Control Services in Kerala | Kerala Pest Solutions",
+    title: "Professional Mosquito Management in Kerala | Kerala Pest Solutions",
     description:
-      "Professional mosquito control solutions for homes and outdoor spaces. Safe and effective disease prevention.",
+      "'Dengue and chikungunya prevention through professional mosquito management in Trivandrum and Kollam. Larviciding, fogging, source reduction audits. Monthly monsoon programmes.",
     url: "https://keralapestsolutions.com/mosquito-control",
     siteName: "Kerala Pest Solutions",
     images: [
@@ -45,7 +45,7 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Mosquito Control Services in Kerala",
+    title: "Professional Mosquito Management in Kerala | Kerala Pest Solutions",
     description:
       "Safe and effective mosquito control for homes and outdoor areas.",
     images: ["https://keralapestsolutions.com/about-og.jpg"],

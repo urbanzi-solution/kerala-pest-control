@@ -8,10 +8,10 @@ import KollamCTA from "@/components/KollamCTA";
 
 // ✅ SEO METADATA (Enhanced - City Focused)
 export const metadata = {
-  title: "Pest Control Services in Kollam | Safe & Professional Solutions",
+  title: "Pest Control in Kollam | Kerala Pest Solutions",
 
  description:
-"Reliable pest control services in Kollam for homes and businesses. Get expert treatment for termites, rodents, and cockroaches with safe, long-lasting protection."  ,
+"Professional pest control across Kollam district. Termite treatment, bed bug removal, cockroach control, mosquito management, rodent control. Trusted local team. Free inspection."  ,
   keywords: [
     "Pest control Kollam",
     "Termite treatment Kollam",
@@ -27,9 +27,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Pest Control Services in Kollam | Kerala Pest Solutions",
+    title: "Pest Control in Kollam | Kerala Pest Solutions",
     description:
-      "Professional pest control services in Kollam for homes and businesses. Safe and effective solutions for termites, rodents, and insects.",
+      "Professional pest control across Kollam district. Termite treatment, bed bug removal, cockroach control, mosquito management, rodent control. Trusted local team. Free inspection.",
     url: "https://keralapestsolutions.com/pest-control-kollam",
     siteName: "Kerala Pest Solutions",
     images: [
@@ -45,7 +45,7 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Pest Control Services in Kollam",
+    title: "Pest Control in Kollam",
     description:
       "Trusted pest control services in Kollam for homes and businesses.",
     images: ["https://keralapestsolutions.com/about-og.jpg"],

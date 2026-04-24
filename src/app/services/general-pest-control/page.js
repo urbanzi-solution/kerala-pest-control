@@ -8,10 +8,10 @@ import GPCCTA from "@/components/GPCCTA";
 
 // ✅ SEO METADATA (Enhanced - Core Service Page)
 export const metadata = {
-  title: "General Pest Control Services in Kerala | Safe & Reliable Solutions",
+  title: "General Pest Control & IPM Services in Kerala | Kerala Pest Solutions",
 
   description:
-    "Looking for general pest control services in Kerala? Kerala Pest Solutions provides safe, eco-friendly treatments to protect homes and businesses from common pests all year round.",
+    "Broad-spectrum IPM pest control for Kerala homes and businesses. Cockroaches, ants, silverfish, centipedes, and more in a single professional visit. Free inspection in Trivandrum and Kollam.",
 
   keywords: [
     "Pest control Kerala",
@@ -28,9 +28,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "General Pest Control Services in Kerala | Kerala Pest Solutions",
+    title: "General Pest Control & IPM Services in Kerala | Kerala Pest Solutions",
     description:
-      "Comprehensive pest control solutions for homes and businesses in Kerala. Safe and effective year-round protection.",
+      "Broad-spectrum IPM pest control for Kerala homes and businesses. Cockroaches, ants, silverfish, centipedes, and more in a single professional visit. Free inspection in Trivandrum and Kollam.",
     url: "https://keralapestsolutions.com/general-pest-control",
     siteName: "Kerala Pest Solutions",
     images: [

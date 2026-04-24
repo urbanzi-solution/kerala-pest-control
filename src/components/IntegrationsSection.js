@@ -9,32 +9,19 @@ import "slick-carousel/slick/slick-theme.css";
 
 export default function IntegrationsSection() {
   const integrationLogos = [
-    {
-      name: "Termatrac",
+     {
+      name: "Microtech",
       src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNu11jYK_ykzZ7f7vOyLcszN2KbISkP3YvuQ&s",
     },
     {
-      name: "Termatrac",
-      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNu11jYK_ykzZ7f7vOyLcszN2KbISkP3YvuQ&s",
+      name: "Tata",
+      src: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Tata_logo.svg",
     },
     {
-      name: "Termatrac",
-      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNu11jYK_ykzZ7f7vOyLcszN2KbISkP3YvuQ&s",
-    },
-    {
-      name: "Termatrac",
-      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNu11jYK_ykzZ7f7vOyLcszN2KbISkP3YvuQ&s",
-    },
-    {
-      name: "Termatrac",
-      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNu11jYK_ykzZ7f7vOyLcszN2KbISkP3YvuQ&s",
-    },
-    {
-      name: "Termatrac",
-      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNu11jYK_ykzZ7f7vOyLcszN2KbISkP3YvuQ&s",
+      name: "Infosys",
+      src: "https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg",
     },
   ];
-
   const sliderSettings = {
     dots: false,
     arrows: false,

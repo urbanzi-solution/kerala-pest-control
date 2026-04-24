@@ -9,10 +9,10 @@ import NalanchiraCTA from "@/components/NalanchiraCTA";
 
 // ✅ SEO METADATA (Enhanced - Residential + Student Area Targeting)
 export const metadata = {
-  title: "Pest Control Services in Nalanchira | Safe & Reliable Solutions",
+  title: "Pest Control in Nalanchira, Trivandrum | Kerala Pest Solutions",
 
   description:
-    "Looking for pest control in Nalanchira? Kerala Pest Solutions offers safe, eco-friendly treatments for homes, hostels, and apartments with effective protection against termites, rodents, and insects.",
+    "Pest control in Nalanchira, Trivandrum. Cockroach control for dense older neighbourhood, termite treatment, rodent management. Free inspection.",
 
   keywords: [
     "Pest control Nalanchira",
@@ -29,9 +29,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Pest Control in Nalanchira | Kerala Pest Solutions",
+    title: "Pest Control in Nalanchira, Trivandrum | Kerala Pest Solutions",
     description:
-      "Professional pest control services in Nalanchira for homes, hostels, and apartments. Safe and effective pest management solutions.",
+      "Pest control in Nalanchira, Trivandrum. Cockroach control for dense older neighbourhood, termite treatment, rodent management. Free inspection.",
     url: "https://keralapestsolutions.com/pest-control-nalanchira",
     siteName: "Kerala Pest Solutions",
     images: [

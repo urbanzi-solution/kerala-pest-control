@@ -8,10 +8,10 @@ import KazhakootamCTA from "@/components/KazhakootamCTA";
 
 // ✅ SEO METADATA (Location Specific)
 export const metadata = {
-  title: "Pest Control Services in Kazhakkoottam | Safe & Expert Solutions",
+  title: "Pest Control in Kazhakootam, Trivandrum | Kerala Pest Solutions",
 
   description:
-    "Looking for pest control in Kazhakkoottam? Kerala Pest Solutions provides safe, eco-friendly treatments for termites, rodents, cockroaches, and other pests for homes and businesses.",
+    "Professional pest control in Kazhakootam, Trivandrum. Termite treatment for new construction, cockroach control for apartments, mosquito management during monsoon season. Free inspection.",
 
   keywords: [
     "Pest control Kazhakkoottam",
@@ -28,9 +28,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Pest Control in Kazhakkoottam | Kerala Pest Solutions",
+    title: "Pest Control in Kazhakootam, Trivandrum | Kerala Pest Solutions",
     description:
-      "Professional pest control services in Kazhakkoottam for homes and businesses. Safe and effective solutions for termites, rodents, and insects.",
+      "Professional pest control in Kazhakootam, Trivandrum. Termite treatment for new construction, cockroach control for apartments, mosquito management during monsoon season. Free inspection.",
     url: "https://keralapestsolutions.com/pest-control-kazhakkoottam",
     siteName: "Kerala Pest Solutions",
     images: [
@@ -38,7 +38,7 @@ export const metadata = {
         url: "https://keralapestsolutions.com/about-og.jpg",
         width: 1200,
         height: 630,
-        alt: "Pest Control in Kazhakkoottam",
+        alt: "Pest Control in Kazhakootam",
       },
     ],
     type: "website",

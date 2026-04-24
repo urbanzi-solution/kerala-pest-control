@@ -7,10 +7,10 @@ import WareHouseFAQ from "@/components/WareHouseFAQ";
 
 // ✅ SEO METADATA (Enhanced)
 export const metadata = {
-  title: "Warehouse Pest Control in Trivandrum & Kollam | Safe Storage Solutions",
+  title: "Pest Control for Warehouses Kerala | Rodent & Stored Product Pest Specialists | Kerala Pest Solutions",
 
   description:
-    "Looking for warehouse pest control in Trivandrum & Kollam? Kerala Pest Solutions provides safe, audit-ready treatments to protect stored goods from rodents, insects, and contamination.",
+    "'Professional pest management for warehouses, godowns, and logistics facilities in Trivandrum and Kollam. Rodent control, stored product pest management. Kerala Pest Solutions.",
 
   keywords: [
     "Warehouse pest control Trivandrum",
@@ -27,9 +27,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Warehouse Pest Control in Trivandrum & Kollam",
+    title: "Pest Control for Warehouses Kerala | Rodent & Stored Product Pest Specialists | Kerala Pest Solutions",
     description:
-      "Protect your warehouse and stored goods with safe, audit-ready pest control solutions.",
+      "'Professional pest management for warehouses, godowns, and logistics facilities in Trivandrum and Kollam. Rodent control, stored product pest management. Kerala Pest Solutions.",
     url: "https://keralapestsolutions.com/warehouse-pest-control",
     siteName: "Kerala Pest Solutions",
     images: [

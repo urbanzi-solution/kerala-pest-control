@@ -9,10 +9,10 @@ import NemomCTA from "@/components/NemomCTA";
 
 // ✅ SEO METADATA (Enhanced - Suburban Residential Targeting)
 export const metadata = {
-  title: "Pest Control Services in Nemom | Trusted Home Protection",
+  title: "Pest Control in Nemom, Trivandrum | Kerala Pest Solutions",
 
   description:
-    "Looking for pest control in Nemom? Kerala Pest Solutions provides safe, eco-friendly treatments for homes and villas with effective protection against termites, rodents, and insects.",
+    "Pest control in Nemom, Trivandrum. Termite treatment for properties on former agricultural land, rodent control, mosquito management. Free inspection.",
 
   keywords: [
     "Pest control Nemom",
@@ -29,9 +29,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Pest Control in Nemom | Kerala Pest Solutions",
+    title: "Pest Control in Nemom, Trivandrum | Kerala Pest Solutions",
     description:
-      "Professional pest control services in Nemom for homes and villas. Safe and effective pest management solutions.",
+      "Pest control in Nemom, Trivandrum. Termite treatment for properties on former agricultural land, rodent control, mosquito management. Free inspection.",
     url: "https://keralapestsolutions.com/pest-control-nemom",
     siteName: "Kerala Pest Solutions",
     images: [

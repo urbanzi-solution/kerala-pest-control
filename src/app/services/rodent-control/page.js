@@ -11,10 +11,10 @@ import RodentCTA from "@/components/RodentCTA";
 
 // ✅ SEO METADATA (Enhanced - Service Focused)
 export const metadata = {
-  title: "Rodent Control Services in Kerala | Safe & Effective Solutions",
+  title: "Professional Rodent Control in Kerala | Kerala Pest Solutions",
 
   description:
-    "Looking for rodent control services in Kerala? Kerala Pest Solutions provides safe, eco-friendly treatments to eliminate rats and mice from homes, restaurants, and businesses with long-lasting results.",
+    "Rat and mouse control for homes, restaurants, and businesses in Trivandrum and Kollam. Tamper-resistant stations, proofing reports, monitored programmes.",
 
   keywords: [
     "Rodent control Kerala",
@@ -31,9 +31,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Rodent Control Services in Kerala | Kerala Pest Solutions",
+    title: "Professional Rodent Control in Kerala | Kerala Pest Solutions",
     description:
-      "Professional rodent control solutions for homes, restaurants, and businesses. Safe and effective long-term protection.",
+      "Rat and mouse control for homes, restaurants, and businesses in Trivandrum and Kollam. Tamper-resistant stations, proofing reports, monitored programmes.",
     url: "https://keralapestsolutions.com/rodent-control",
     siteName: "Kerala Pest Solutions",
     images: [
@@ -49,7 +49,7 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Rodent Control Services in Kerala",
+    title: "Professional Rodent Control in Kerala | Kerala Pest Solutions",
     description:
       "Safe and reliable rat and mouse control solutions for homes and businesses.",
     images: ["https://keralapestsolutions.com/about-og.jpg"],

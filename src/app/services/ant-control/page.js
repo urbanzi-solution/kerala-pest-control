@@ -10,10 +10,10 @@ import AntCTA from "@/components/AntCTA";
 
 // ✅ SEO METADATA (Enhanced - Service Focused)
 export const metadata = {
-  title: "Ant Control Services in Kerala | Effective & Safe Ant Removal",
+  title: "Professional Ant Control in Kerala | Kerala Pest Solutions",
 
   description:
-    "Looking for ant control services in Kerala? Kerala Pest Solutions offers safe, eco-friendly treatments to eliminate ant infestations in homes and businesses with long-lasting results.",
+    "Non-repellent gel bait ant control for homes and businesses in Trivandrum and Kollam. Eliminates the colony, not just the trail. Fire ant, carpenter ant and Pharaoh ant specialists. Free inspection.",
 
   keywords: [
     "Ant control Kerala",
@@ -30,9 +30,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Ant Control Services in Kerala | Kerala Pest Solutions",
+    title: "Professional Ant Control in Kerala | Kerala Pest Solutions",
     description:
-      "Professional ant control services for homes and businesses in Kerala. Safe and effective long-term solutions.",
+      "Non-repellent gel bait ant control for homes and businesses in Trivandrum and Kollam. Eliminates the colony, not just the trail. Fire ant, carpenter ant and Pharaoh ant specialists. Free inspection.",
     url: "https://keralapestsolutions.com/ant-control",
     siteName: "Kerala Pest Solutions",
     images: [
