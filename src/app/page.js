@@ -15,7 +15,7 @@ import OfferForm from "@/components/OfferForm";
 
 /* ✅ SEO METADATA (App Router way) */
 export const metadata = {
-  title: "'Professional Pest Control in Kerala | Kerala Pest Solutions",
+  title: "Professional Pest Control in Kerala | Kerala Pest Solutions",
   description:
 "Kerala Pest Solutions provides professional pest control across Trivandrum and Kollam. Termite treatment, bed bug removal, cockroach control, rodent management and more. Call for a free inspection.",
   keywords: [
@@ -39,7 +39,7 @@ export const metadata = {
 
   openGraph: {
     title:
-      "'Professional Pest Control in Kerala | Kerala Pest Solutions",
+      "Professional Pest Control in Kerala | Kerala Pest Solutions",
     description:
       "Kerala Pest Solutions provides professional pest control across Trivandrum and Kollam. Termite treatment, bed bug removal, cockroach control, rodent management and more. Call for a free inspection.",
     url: "https://keralapestsolutions.com",
@@ -59,7 +59,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "'Professional Pest Control in Kerala | Kerala Pest Solutions",
+      "Professional Pest Control in Kerala | Kerala Pest Solutions",
     description:
       "Kerala Pest Solutions provides professional pest control across Trivandrum and Kollam. Termite treatment, bed bug removal, cockroach control, rodent management and more. Call for a free inspection.",
     images: ["/og-image.jpg"],

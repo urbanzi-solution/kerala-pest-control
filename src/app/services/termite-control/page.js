@@ -13,7 +13,7 @@ export const metadata = {
   title: "Professional Termite Treatment in Kerala | Kerala Pest Solutions",
 
   description:
-    "'Expert termite treatment for Kerala homes and businesses. Pre-construction barriers, post-construction injection, and baiting systems. ",
+    "Expert termite treatment for Kerala homes and businesses. Pre-construction barriers, post-construction injection, and baiting systems. ",
 
   keywords: [
     "Termite control Kerala",
@@ -32,7 +32,7 @@ export const metadata = {
   openGraph: {
     title: "Professional Termite Treatment in Kerala | Kerala Pest Solutions",
     description:
-      "'Expert termite treatment for Kerala homes and businesses. Pre-construction barriers, post-construction injection, and baiting systems. ",
+      "Expert termite treatment for Kerala homes and businesses. Pre-construction barriers, post-construction injection, and baiting systems. ",
     url: "https://keralapestsolutions.com/termite-control",
     siteName: "Kerala Pest Solutions",
     images: [

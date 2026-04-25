@@ -18,7 +18,7 @@ const pests = [
     ),
     title: "Rodent Control for Homes",
     body1:
-      ".Homes with gardens, proximity to open land, or older construction with structural gaps are at ongoing risk of rodent entry. Rats cause electrical fires by gnawing wiring, contaminate food, and carry serious diseases. Our residential rodent programme combines tamper-resistant bait stations, strategic trapping where needed, and a written proofing report identifying every entry point that requires sealing.",
+      "Homes with gardens, proximity to open land, or older construction with structural gaps are at ongoing risk of rodent entry. Rats cause electrical fires by gnawing wiring, contaminate food, and carry serious diseases. Our residential rodent programme combines tamper-resistant bait stations, strategic trapping where needed, and a written proofing report identifying every entry point that requires sealing.",
     
   },
   {
