@@ -96,9 +96,10 @@ export default function ResidentialTargetedSolutions() {
           {/* Right — image card */}
           <div className="relative rounded-2xl overflow-hidden min-h-[360px] lg:min-h-[460px] shadow-xl">
             <Image
-              src="/Resi-technician-wall.jpg"
+              src="/Resi-technician-wall.webp"
               alt="Pest control technician installing bait station"
               fill
+              loading="lazy"
               className="object-cover object-center"
             />
             <div className="absolute inset-0 bg-emerald-950/55" />

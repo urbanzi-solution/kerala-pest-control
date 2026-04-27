@@ -92,6 +92,7 @@ export default function IntegrationsSection() {
                           alt={logo.name}
                           width={120}
                           height={45}
+                          loading="lazy"
                           className="object-contain max-h-[45px] opacity-80"
                         />
                       </div>

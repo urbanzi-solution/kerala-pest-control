@@ -11,10 +11,11 @@ export default function WarehouseHero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="/warehouse.jpg"
+          src="/warehouse.webp"
           alt="Warehouse interior"
           fill
-          priority
+          loading="lazy"
+   
           className="object-cover object-center"
         />
         {/* Dark green overlay */}

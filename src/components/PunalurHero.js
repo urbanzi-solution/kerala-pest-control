@@ -68,11 +68,12 @@ export default function PunalurHero() {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden aspect-[4/3] shadow-2xl">
               <Image
-                src="/punalurHero.jpg"
+                src="/punalurHero.webp"
                 alt="Punalur Kerala"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
-                priority
+       
               />
             </div>
 

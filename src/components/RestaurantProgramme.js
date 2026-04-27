@@ -68,9 +68,10 @@ export default function RestaurantProgramme() {
             Replace src with /images/warehouse-technician.jpg
           */}
           <Image
-            src="/rest-technician.jpg"
+            src="/rest-technician.webp"
             alt="Warehouse pest control technician"
             fill
+            loading="lazy"
             className="object-cover object-center"
           />
 

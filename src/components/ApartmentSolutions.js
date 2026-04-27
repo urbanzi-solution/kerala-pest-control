@@ -86,9 +86,10 @@ export default function ApartmentSolutions() {
           {/* Right — Bed Bugs image card */}
           <div className="relative rounded-2xl overflow-hidden min-h-[360px] lg:min-h-[460px] shadow-xl">
             <Image
-              src="/Apart.jpg"
+              src="/Apart.webp"
               alt="Pest control technician installing bait station"
               fill
+              loading="lazy"
               className="object-cover object-center"
             />
             <div className="absolute inset-0 bg-emerald-950/55" />

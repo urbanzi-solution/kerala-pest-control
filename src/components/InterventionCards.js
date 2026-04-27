@@ -67,6 +67,7 @@ function Card({
               alt={title}
               width={600}
               height={400}
+              loading="lazy"
               className="w-full h-[300px] md:h-[350px] object-cover"
             />
           </div>
@@ -94,7 +95,7 @@ export default function InterventionCards() {
             "Pre-existing structural rot",
             "Drywood termite treatment",
           ]}
-          image="/termite.jpg"
+          image="/termite.webp"
         />
 
         {/* Card 2 (Reverse) */}
@@ -111,7 +112,7 @@ export default function InterventionCards() {
             "Heavy infestation clearing",
             "Bird control services",
           ]}
-          image="/leaf.jpg"
+          image="/leaf.webp"
           reverse
         />
       </div>

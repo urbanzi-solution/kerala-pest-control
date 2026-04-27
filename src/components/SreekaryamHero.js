@@ -68,11 +68,12 @@ export default function SreekaryamHero() {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden aspect-[4/3] shadow-2xl">
               <Image
-                src="/sreekaryamHero.jpg"
+                src="/sreekaryamHero.webp"
                 alt="Pest control Sreekaryam"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
-                priority
+               
               />
             </div>
 

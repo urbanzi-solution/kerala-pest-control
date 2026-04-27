@@ -26,14 +26,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/termite-control",
+    canonical: "https://keralapestsolutions.com/services/termite-control",
   },
 
   openGraph: {
     title: "Professional Termite Treatment in Kerala | Kerala Pest Solutions",
     description:
       "Expert termite treatment for Kerala homes and businesses. Pre-construction barriers, post-construction injection, and baiting systems. ",
-    url: "https://keralapestsolutions.com/termite-control",
+    url: "https://keralapestsolutions.com/services/termite-control",
     siteName: "Kerala Pest Solutions",
     images: [
       {

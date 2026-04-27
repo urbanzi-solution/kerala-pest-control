@@ -24,14 +24,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/pest-control-kazhakkoottam",
+    canonical: "https://keralapestsolutions.com/trivandrum/kazhakoottam/pest-control-kazhakkoottam",
   },
 
   openGraph: {
     title: "Pest Control in Kazhakootam, Trivandrum | Kerala Pest Solutions",
     description:
       "Professional pest control in Kazhakootam, Trivandrum. Termite treatment for new construction, cockroach control for apartments, mosquito management during monsoon season. Free inspection.",
-    url: "https://keralapestsolutions.com/pest-control-kazhakkoottam",
+    url: "https://keralapestsolutions.com/trivandrum/kazhakoottam/pest-control-kazhakkoottam",
     siteName: "Kerala Pest Solutions",
     images: [
       {

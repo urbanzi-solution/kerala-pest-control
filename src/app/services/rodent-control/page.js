@@ -27,14 +27,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/rodent-control",
+    canonical: "https://keralapestsolutions.com/services/rodent-control",
   },
 
   openGraph: {
     title: "Professional Rodent Control in Kerala | Kerala Pest Solutions",
     description:
       "Rat and mouse control for homes, restaurants, and businesses in Trivandrum and Kollam. Tamper-resistant stations, proofing reports, monitored programmes.",
-    url: "https://keralapestsolutions.com/rodent-control",
+    url: "https://keralapestsolutions.com/services/rodent-control",
     siteName: "Kerala Pest Solutions",
     images: [
       {

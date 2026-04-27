@@ -24,14 +24,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/pest-control-technopark",
+    canonical: "https://keralapestsolutions.com/trivandrum/technopark/pest-control-technopark",
   },
 
   openGraph: {
     title: "Pest Control in Technopark Trivandrum | Kerala Pest Solutions",
     description:
       "Pest control in Technopark, Trivandrum. Bed bug removal for PG and rented accommodation, cockroach control for office canteens, rodent management for campuses. Free inspection.",
-    url: "https://keralapestsolutions.com/pest-control-technopark",
+    url: "https://keralapestsolutions.com/trivandrum/technopark/pest-control-technopark",
     siteName: "Kerala Pest Solutions",
     images: [
       {

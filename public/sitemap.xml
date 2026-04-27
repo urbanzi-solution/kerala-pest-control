@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- HOME -->
+  <url>
+    <loc>https://keralapestsolutions.com/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- MAIN -->
+  <url>
+    <loc>https://keralapestsolutions.com/about</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/contact</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/industries</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- SERVICES -->
+  <url>
+    <loc>https://keralapestsolutions.com/services</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/services/ant-control</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/services/bed-bugs-control</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/services/cockroach-control</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/services/general-pest-control</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/services/mosquito-control</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/services/rodent-control</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/services/termite-control</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- TRIVANDRUM LOCATIONS -->
+  <url>
+    <loc>https://keralapestsolutions.com/trivandrum</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/trivandrum/karyavattom</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/trivandrum/kazhakootam</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/trivandrum/kowdiar</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/trivandrum/nalanchira</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/trivandrum/nemom</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/trivandrum/pattom</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/trivandrum/sreekaryam</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/trivandrum/technopark</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- KOLLAM LOCATIONS -->
+  <url>
+    <loc>https://keralapestsolutions.com/kollam</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/kollam/karunagappally</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/kollam/kottarakara</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/kollam/kundara</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/kollam/paravur</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://keralapestsolutions.com/kollam/punalur</loc>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>

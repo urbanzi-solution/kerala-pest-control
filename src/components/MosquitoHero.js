@@ -46,10 +46,11 @@ export default function MosquitoHero() {
           {/* Image */}
           <div className="rounded-3xl overflow-hidden shadow-xl">
             <Image
-              src="/mosquito.jpg" // place in /public
+              src="/mosquito.webp" // place in /public
               alt="Mosquito"
               width={450}
               height={500}
+              loading="lazy"
               className="object-cover"
             />
           </div>

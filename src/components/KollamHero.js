@@ -43,11 +43,12 @@ export default function KollamHero({ openPopup }) {
                 Replace src with /images/trivandrum-pest.jpg
               */}
               <Image
-                src="/kollam-pest.jpg"
-                alt="Pest control equipment Trivandrum"
+                src="/kollam-pest.webp"
+                alt="Pest control equipment Kollam"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
-                priority
+     
               />
             </div>
 

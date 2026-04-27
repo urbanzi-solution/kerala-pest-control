@@ -28,14 +28,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/pest-control-services",
+    canonical: "https://keralapestsolutions.com/services/pest-control-services",
   },
 
   openGraph: {
     title: "Pest Control Services in Kerala | Kerala Pest Solutions",
     description:
 "Professional pest control services for homes and businesses in Kerala. Termite treatment, bed bug removal, cockroach control, mosquito management, rodent control, ant control, and general pest control. Free inspection in Trivandrum and Kollam.",
-    url: "https://keralapestsolutions.com/pest-control-services",
+    url: "https://keralapestsolutions.com/services/pest-control-services",
     siteName: "Kerala Pest Solutions",
     images: [
       {

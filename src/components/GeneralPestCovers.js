@@ -51,9 +51,10 @@ export default function GeneralPestCovers() {
               Replace src with /images/pest-technician-cleaning.jpg
             */}
             <Image
-              src="/pest-technician-cleaning.jpg"
+              src="/pest-technician-cleaning.webp"
               alt="Pest control technician at work"
               fill
+              loading="lazy"
               className="object-cover object-center"
             />
           </div>

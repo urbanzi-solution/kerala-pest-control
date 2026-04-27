@@ -48,11 +48,12 @@ export default function AntControlHero() {
             Place in /public/images/
           */}
           <Image
-            src="/ant-control.jpg"
+            src="/ant-control.webp"
             alt="Professional ant control Kerala"
             fill
+            loading="lazy"
             className="object-cover object-center"
-            priority
+        
           />
         </div>
 

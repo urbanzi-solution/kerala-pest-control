@@ -23,14 +23,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/pest-control-kollam",
+    canonical: "https://keralapestsolutions.com/kollam/pest-control-kollam",
   },
 
   openGraph: {
     title: "Pest Control in Kollam | Kerala Pest Solutions",
     description:
       "Professional pest control across Kollam district. Termite treatment, bed bug removal, cockroach control, mosquito management, rodent control. Trusted local team. Free inspection.",
-    url: "https://keralapestsolutions.com/pest-control-kollam",
+    url: "https://keralapestsolutions.com/kollam/pest-control-kollam",
     siteName: "Kerala Pest Solutions",
     images: [
       {

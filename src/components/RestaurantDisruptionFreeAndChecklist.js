@@ -124,9 +124,10 @@ export default function RestaurantDisruptionFreeAndChecklist() {
           {/* Right — image */}
           <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-2xl">
             <Image
-              src="/kitchen-technician.jpg"
+              src="/kitchen-technician.webp"
               alt="Pest control technician in kitchen"
               fill
+              loading="lazy"
               className="object-cover object-center"
             />
           </div>

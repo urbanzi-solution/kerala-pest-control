@@ -68,11 +68,12 @@ export default function KazhakootamHero() {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden aspect-[4/3] shadow-2xl">
               <Image
-                src="/kazhakootamHero.jpg"
+                src="/kazhakootamHero.webp"
                 alt="Pest control Kazhakootam"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
-                priority
+              
               />
             </div>
 

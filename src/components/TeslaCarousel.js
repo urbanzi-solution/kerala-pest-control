@@ -10,7 +10,7 @@ export default function TeslaCarousel() {
       title: "Budget-Friendly Eco-Friendly Pest Control",
       subtitle:
         "Affordable, safe and long-lasting pest solutions for homes and businesses",
-      img: "/banner1.png",
+      img: "/banner1.webp",
       btn1: { label: "Get Quote", href: "/contact" },
       btn2: { label: "Our Services", href: "/services" },
     },
@@ -18,7 +18,7 @@ export default function TeslaCarousel() {
       title: "Quality Pest Control by Certified Experts",
       subtitle:
         "Professional treatments using safe chemicals and modern techniques",
-      img: "/banner2.png",
+      img: "/banner2.webp",
       btn1: { label: "Book Service", href: "/contact" },
       btn2: { label: "About Us", href: "/about" },
     },
@@ -26,7 +26,7 @@ export default function TeslaCarousel() {
       title: "Disinfection & Sanitization Services",
       subtitle:
         "Cost-effective sanitization with guaranteed quality and safety",
-      img: "/banner3.png",
+      img: "/banner3.webp",
       btn1: { label: "Schedule Now", href: "/contact" },
       btn2: { label: "Know More", href: "/services" },
     },

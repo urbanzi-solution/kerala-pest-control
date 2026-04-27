@@ -54,7 +54,7 @@ export default function StatsSection() {
         relative
         min-h-[400px]
         flex items-center justify-center
-        bg-[url('/img3.png')] bg-cover bg-center
+        bg-[url('/img3.webp')] bg-cover bg-center
         text-white
       "
     >

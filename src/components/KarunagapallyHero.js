@@ -68,11 +68,12 @@ export default function KarunagappallyHero() {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden aspect-[4/3] shadow-2xl">
               <Image
-                src="/karunagapallyHero.jpg"
+                src="/karunagapallyHero.webp"
                 alt="Pest control Karunagappally"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
-                priority
+                
               />
             </div>
 

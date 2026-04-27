@@ -32,11 +32,11 @@ export default function TermiteRiskSection() {
         <div className="relative">
           <div className="relative rounded-2xl overflow-hidden aspect-[4/5] max-w-sm mx-auto lg:mx-0 shadow-2xl">
             <Image
-              src="/termite-damage.jpg"
+              src="/termite-damage.webp"
               alt="Termite-damaged wood sample showing structural damage"
               fill
+              loading="lazy"
               className="object-cover"
-              priority
             />
             <div className="absolute inset-0 bg-gradient-to-t from-amber-900/60 via-amber-800/20 to-transparent" />
 

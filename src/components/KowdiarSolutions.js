@@ -46,9 +46,10 @@ export default function KowdiarSolutions() {
             {/* BG image */}
             <div className="absolute inset-0">
               <Image
-                src="/termite-Kowdiar.jpg"
+                src="/termite-Kowdiar.webp"
                 alt="Termite close up"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
               />
               <div className="absolute inset-0 bg-emerald-950/70" />
@@ -141,9 +142,10 @@ Our Kowdiar mosquito programme includes a comprehensive source reduction audit o
           {/* Illustration card */}
           <div className="relative rounded-2xl overflow-hidden bg-emerald-100 min-h-[280px]">
             <Image
-              src="/home-Kow.png"
+              src="/home-Kow.webp"
               alt="Home pest control illustration"
               fill
+              loading="lazy"
               className="object-cover object-center"
             />
           </div>

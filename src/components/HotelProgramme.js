@@ -74,9 +74,10 @@ export default function HotelProgramme() {
             Replace src with /images/warehouse-technician.jpg
           */}9
           <Image
-            src="/hotl-technician.jpg"
+            src="/hotl-technician.webp"
             alt="Warehouse pest control technician"
             fill
+            loading="lazy"
             className="object-cover object-center"
           />
 

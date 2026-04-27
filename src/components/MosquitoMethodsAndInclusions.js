@@ -131,9 +131,10 @@ export default function MosquitoMethodsAndInclusions() {
               Place in /public/images/
             */}
             <Image
-              src="/technician-mosquito.png"
+              src="/technician-mosquito.webp"
               alt="Pest control technician with clipboard"
               fill
+              loading="lazy"
               className="object-cover object-center"
             />
           </div>

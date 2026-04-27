@@ -23,14 +23,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/warehouse-pest-control",
+    canonical: "https://keralapestsolutions.com/industries/pest-control-for-warehouses",
   },
 
   openGraph: {
     title: "Pest Control for Warehouses Kerala | Rodent & Stored Product Pest Specialists | Kerala Pest Solutions",
     description:
       "'Professional pest management for warehouses, godowns, and logistics facilities in Trivandrum and Kollam. Rodent control, stored product pest management. Kerala Pest Solutions.",
-    url: "https://keralapestsolutions.com/warehouse-pest-control",
+    url: "https://keralapestsolutions.com/industries/pest-control-for-warehouses",
     siteName: "Kerala Pest Solutions",
     images: [
       {

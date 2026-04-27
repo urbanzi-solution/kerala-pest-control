@@ -83,10 +83,11 @@ export default function CommercialSection() {
         <div className="relative">
           <div className="rounded-3xl overflow-hidden">
             <Image
-              src="/kitchen.jpg" // put image in /public
+              src="/kitchen.webp" // put image in /public
               alt="Commercial kitchen"
               width={600}
               height={500}
+              loading="lazy"
               className="object-cover w-full h-[420px]"
             />
           </div>

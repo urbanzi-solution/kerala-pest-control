@@ -24,10 +24,11 @@ export default function MosquitoTypes() {
             
             <div className="rounded-2xl overflow-hidden mb-6">
               <Image
-                src="/aedes.jpg" // put in /public
+                src="/aedes.webp" // put in /public
                 alt="Aedes mosquito"
                 width={500}
                 height={300}
+                loading="lazy"
                 className="w-full h-[220px] object-cover"
               />
             </div>
@@ -62,10 +63,11 @@ export default function MosquitoTypes() {
             
             <div className="rounded-2xl overflow-hidden mb-6">
               <Image
-                src="/anopheles.jpg" // put in /public
+                src="/anopheles.webp" // put in /public
                 alt="Anopheles mosquito"
                 width={500}
                 height={300}
+                loading="lazy"
                 className="w-full h-[220px] object-cover"
               />
             </div>

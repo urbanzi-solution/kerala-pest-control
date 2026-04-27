@@ -46,9 +46,10 @@ export default function TechnoparkSolutions() {
             {/* BG image */}
             <div className="absolute inset-0">
               <Image
-                src="/techbed.jpg"
+                src="/techbed.webp"
                 alt="Termite close up"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
               />
               <div className="absolute inset-0 bg-emerald-950/70" />
@@ -143,9 +144,10 @@ Our two-visit elimination protocol combines residual chemical treatment, steam, 
           {/* Illustration card */}
           <div className="relative rounded-2xl overflow-hidden bg-emerald-100 min-h-[280px]">
             <Image
-              src="/techkichen.jpg"
+              src="/techkichen.webp"
               alt=""
               fill
+              loading="lazy"
               className="object-cover object-center"
             />
           </div>

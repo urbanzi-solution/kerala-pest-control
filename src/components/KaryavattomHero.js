@@ -65,14 +65,15 @@ export default function KaryavattomHero() {
         <div className="relative">
           <div className="relative rounded-3xl overflow-hidden aspect-[4/3] shadow-2xl">
             {/*
-              Replace src with /images/kazhakootam.jpg
+              Replace src with /images/kazhakootam.webp
             */}
             <Image
-              src="/KaryavattomHero.jpg"
-              alt="Kazhakootam Kerala"
+              src="/KaryavattomHero.webp"
+              alt="Karyavattom Kerala"
               fill
+              loading="lazy"
               className="object-cover object-center"
-              priority
+            
             />
           </div>
 

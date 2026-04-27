@@ -57,11 +57,12 @@ export default function GeneralPestHero() {
               Place in /public/images/
             */}
             <Image
-              src="/general-pest-technician.jpg"
+              src="/general-pest-technician.webp"
               alt="General pest control technician"
               fill
+              loading="lazy"
               className="object-cover object-top"
-              priority
+              
             />
           </div>
 

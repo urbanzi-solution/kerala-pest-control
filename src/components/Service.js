@@ -43,9 +43,10 @@ This page gives you an overview of every service we provide, what each one cover
         <div className="relative">
           <div className="relative w-full h-[500px] rounded-2xl overflow-hidden shadow-xl">
             <Image
-              src="/lab.jpg"
+              src="/lab.webp"
               alt="Lab"
               fill
+              loading="lazy"
               className="object-cover"
             />
           </div>

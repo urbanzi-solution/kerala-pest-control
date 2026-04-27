@@ -46,9 +46,10 @@ export default function NalanchiraSolutions() {
             {/* BG image */}
             <div className="absolute inset-0">
               <Image
-                src="/termite-naal.jpg"
+                src="/termite-naal.webp"
                 alt="Termite close up"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
               />
               <div className="absolute inset-0 bg-emerald-950/70" />
@@ -141,9 +142,10 @@ Our gel bait treatment eliminates the internal colony. Our structural recommenda
           {/* Illustration card */}
           <div className="relative rounded-2xl overflow-hidden bg-emerald-100 min-h-[280px]">
             <Image
-              src="/home-nala.png"
+              src="/home-nala.webp"
               alt="Home pest control illustration"
               fill
+              loading="lazy"
               className="object-cover object-center"
             />
           </div>

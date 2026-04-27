@@ -83,9 +83,10 @@ export default function TechnoparkEcosystem() {
               Replace src with /images/server-room.jpg
             */}
             <Image
-              src="/server-room.jpg"
+              src="/server-room.webp"
               alt="Server room cabling infrastructure"
               fill
+              loading="lazy"
               className="object-cover object-center"
             />
           </div>

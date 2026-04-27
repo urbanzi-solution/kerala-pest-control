@@ -26,14 +26,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/ant-control",
+    canonical: "https://keralapestsolutions.com/services/ant-control",
   },
 
   openGraph: {
     title: "Professional Ant Control in Kerala | Kerala Pest Solutions",
     description:
       "Non-repellent gel bait ant control for homes and businesses in Trivandrum and Kollam. Eliminates the colony, not just the trail. Fire ant, carpenter ant and Pharaoh ant specialists. Free inspection.",
-    url: "https://keralapestsolutions.com/ant-control",
+    url: "https://keralapestsolutions.com/services/ant-control",
     siteName: "Kerala Pest Solutions",
     images: [
       {

@@ -12,10 +12,11 @@ export default function HotelHero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="/Hotel.jpg"
+          src="/Hotel.webp"
           alt="Warehouse interior"
           fill
-          priority
+          loading="lazy"
+       
           className="object-cover object-center"
         />
         {/* Dark green overlay */}

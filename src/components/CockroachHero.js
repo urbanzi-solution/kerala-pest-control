@@ -57,11 +57,12 @@ export default function CockroachHero() {
               Place in /public/images/
             */}
             <Image
-              src="/cockroach.jpg"
+              src="/cockroach.webp"
               alt="cockroach"
               fill
+              loading="lazy"
               className="object-cover object-top"
-              priority
+             
             />
           </div>
 

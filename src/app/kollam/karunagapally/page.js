@@ -24,14 +24,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/pest-control-karunagapally",
+    canonical: "https://keralapestsolutions.com/kollam/karunagapally/pest-control-karunagapally",
   },
 
   openGraph: {
     title: "Pest Control in Karunagappally, Kollam | Kerala Pest Solutions",
     description:
       "Pest control in Karunagappally, Kollam. Termite treatment, mosquito management near backwaters, rodent control for cashew processing areas. Free inspection.",
-    url: "https://keralapestsolutions.com/pest-control-karunagapally",
+    url: "https://keralapestsolutions.com/kollam/karunagapally/pest-control-karunagapally",
     siteName: "Kerala Pest Solutions",
     images: [
       {

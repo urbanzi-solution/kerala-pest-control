@@ -38,9 +38,10 @@ export default function RodentProofingSection() {
               Place in /public/images/
             */}
             <Image
-              src="/rodent-proofing.jpg"
+              src="/rodent-proofing.webp"
               alt="Red stop sign symbolizing rodent entry prevention"
               fill
+              loading="lazy"
               className="object-cover object-center"
             />
           </div>

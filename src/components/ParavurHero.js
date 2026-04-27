@@ -68,11 +68,12 @@ export default function ParavurHero() {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden aspect-[4/3] shadow-2xl">
               <Image
-                src="/paravurHero.jpg"
+                src="/paravurHero.webp"
                 alt="Paravur Kerala"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
-                priority
+
               />
             </div>
 

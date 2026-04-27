@@ -46,9 +46,10 @@ export default function ParavurSolutions() {
             {/* BG image */}
             <div className="absolute inset-0">
               <Image
-                src="/termite-paraa.jpg"
+                src="/termite-paraa.webp"
                 alt="Termite close up"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
               />
               <div className="absolute inset-0 bg-emerald-950/70" />
@@ -140,9 +141,10 @@ Our programme begins with a source reduction audit identifying all controllable 
           {/* Illustration card */}
           <div className="relative rounded-2xl overflow-hidden bg-emerald-100 min-h-[280px]">
             <Image
-              src="/home-paravur.png"
+              src="/home-paravur.webp"
               alt="Home pest control illustration"
               fill
+              loading="lazy"
               className="object-cover object-center"
             />
           </div>

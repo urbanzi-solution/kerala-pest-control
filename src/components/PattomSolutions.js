@@ -46,9 +46,10 @@ export default function PattomSolutions() {
             {/* BG image */}
             <div className="absolute inset-0">
               <Image
-                src="/termite-patton.jpg"
+                src="/termite-patton.webp"
                 alt="Termite close up"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
               />
               <div className="absolute inset-0 bg-emerald-950/70" />
@@ -141,7 +142,7 @@ Our non-repellent gel bait and perimeter spray eliminate colonies rather than re
           {/* Illustration card */}
           <div className="relative rounded-2xl overflow-hidden bg-emerald-100 min-h-[280px]">
             <Image
-              src="/pattom.jpg"
+              src="/pattom.webp"
               alt="Home pest control illustration"
               fill
               className="object-cover object-center"

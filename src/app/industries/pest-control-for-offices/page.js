@@ -23,14 +23,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/office-pest-control",
+    canonical: "https://keralapestsolutions.com/industries/pest-control-for-offices",
   },
 
   openGraph: {
     title: "Pest Control for Offices Kerala | IT Parks & Commercial Spaces | Kerala Pest Solutions",
     description:
       "'Professional pest control for offices, IT campuses, and commercial spaces in Trivandrum and Kollam. Scheduled service, zero disruption, full documentation. Kerala Pest Solutions.",
-    url: "https://keralapestsolutions.com/office-pest-control",
+    url: "https://keralapestsolutions.com/industries/pest-control-for-offices",
     siteName: "Kerala Pest Solutions",
     images: [
       {

@@ -75,11 +75,12 @@ export default function BedBugHero() {
           <div className="relative rounded-2xl overflow-hidden aspect-[3/4] sm:aspect-[4/5] max-w-sm mx-auto shadow-xl">
 
             <Image
-              src="/technician.jpg"
+              src="/technician.webp"
               alt="Certified pest control technician"
               fill
+              loading="lazy"
               className="object-cover object-top"
-              priority
+            
             />
 
             {/* Overlay testimonial */}

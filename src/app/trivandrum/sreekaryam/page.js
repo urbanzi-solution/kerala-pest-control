@@ -25,14 +25,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/pest-control-sreekaryam",
+    canonical: "https://keralapestsolutions.com/trivandrum/sreekaryam/pest-control-sreekaryam",
   },
 
   openGraph: {
     title: "Pest Control in Sreekaryam, Trivandrum | Kerala Pest Solutions",
     description:
       "Pest control in Sreekaryam, Trivandrum. Termite treatment, bed bug removal for student accommodation, cockroach control for apartments. Free inspection.",
-    url: "https://keralapestsolutions.com/pest-control-sreekaryam",
+    url: "https://keralapestsolutions.com/trivandrum/sreekaryam/pest-control-sreekaryam",
     siteName: "Kerala Pest Solutions",
     images: [
       {

@@ -23,14 +23,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/mosquito-control",
+    canonical: "https://keralapestsolutions.com/services/mosquito-control",
   },
 
   openGraph: {
     title: "Professional Mosquito Management in Kerala | Kerala Pest Solutions",
     description:
       "'Dengue and chikungunya prevention through professional mosquito management in Trivandrum and Kollam. Larviciding, fogging, source reduction audits. Monthly monsoon programmes.",
-    url: "https://keralapestsolutions.com/mosquito-control",
+    url: "https://keralapestsolutions.com/services/mosquito-control",
     siteName: "Kerala Pest Solutions",
     images: [
       {

@@ -29,17 +29,19 @@ export default function ApartmentPestControl() {
 <div className="grid grid-cols-2 gap-4">
             <div className="relative rounded-2xl overflow-hidden aspect-[3/4] shadow-md">
               <Image
-                src="/APp-safe.jpg"
+                src="/APp-safe.webp"
                 alt="Child and pet safe environment"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
               />
             </div>
             <div className="relative rounded-2xl overflow-hidden aspect-[3/4] shadow-md mt-8">
               <Image
-                src="/APPARt-safe.jpg"
+                src="/APPARt-safe.webp"
                 alt="Professional pest control technician"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
               />
             </div>

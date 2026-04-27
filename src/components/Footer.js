@@ -134,7 +134,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-5 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            © 2026 Kerala Pest Control Solutions. All rights reserved.
+            Copyright © 2026 Kerala Pest Control Solutions, Powered by Urbanzi Solutions
           </p>
 
           <div className="flex gap-6">

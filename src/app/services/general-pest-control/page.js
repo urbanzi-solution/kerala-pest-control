@@ -24,14 +24,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/general-pest-control",
+    canonical: "https://keralapestsolutions.com/services/general-pest-control",
   },
 
   openGraph: {
     title: "General Pest Control & IPM Services in Kerala | Kerala Pest Solutions",
     description:
       "Broad-spectrum IPM pest control for Kerala homes and businesses. Cockroaches, ants, silverfish, centipedes, and more in a single professional visit. Free inspection in Trivandrum and Kollam.",
-    url: "https://keralapestsolutions.com/general-pest-control",
+    url: "https://keralapestsolutions.com/services/general-pest-control",
     siteName: "Kerala Pest Solutions",
     images: [
       {

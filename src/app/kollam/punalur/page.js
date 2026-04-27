@@ -24,14 +24,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/pest-control-punalur",
+    canonical: "https://keralapestsolutions.com/kollam/punalur/pest-control-punalur",
   },
 
   openGraph: {
     title: "Pest Control in Punalur, Kollam | Kerala Pest Solutions",
     description:
       "Pest control in Punalur, Kollam. Termite treatment for forest-adjacent properties, rodent control, mosquito management. Free inspection.",
-    url: "https://keralapestsolutions.com/pest-control-punalur",
+    url: "https://keralapestsolutions.com/kollam/punalur/pest-control-punalur",
     siteName: "Kerala Pest Solutions",
     images: [
       {

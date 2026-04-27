@@ -25,14 +25,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/pest-control-kowdiar",
+    canonical: "https://keralapestsolutions.com/trivandrum/kowdiar/pest-control-kowdiar",
   },
 
   openGraph: {
     title: "Pest Control in Kowdiar, Trivandrum | Kerala Pest Solutions",
     description:
       "Pest control in Kowdiar, Trivandrum. Termite treatment for heritage homes, rodent control for large garden properties, mosquito management. Free inspection.",
-    url: "https://keralapestsolutions.com/pest-control-kowdiar",
+    url: "https://keralapestsolutions.com/trivandrum/kowdiar/pest-control-kowdiar",
     siteName: "Kerala Pest Solutions",
     images: [
       {

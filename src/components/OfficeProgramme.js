@@ -68,9 +68,10 @@ export default function OfficeProgramme() {
             Replace src with /images/warehouse-technician.jpg
           */}9
           <Image
-            src="/offi-technician.jpg"
+            src="/offi-technician.webp"
             alt="Warehouse pest control technician"
             fill
+            loading="lazy"
             className="object-cover object-center"
           />
 

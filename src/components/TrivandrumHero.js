@@ -40,12 +40,13 @@ Kerala Pest Solutions operates from a base in Trivandrum.
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden aspect-[4/3] shadow-2xl border-4 border-white">
               <Image
-                src="/tri.jpg"
+                src="/tri.webp"
                 alt="Pest control equipment Trivandrum"
                 fill
+                loading="lazy"
                 sizes="(max-width: 768px) 100vw, 50vw"  // ✅ FIX warning
                 className="object-cover"
-                priority
+                
               />
             </div>
           </div>

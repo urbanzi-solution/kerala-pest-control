@@ -24,14 +24,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/pest-control-kottarakkara",
+    canonical: "https://keralapestsolutions.com/kollam/kottarakara/pest-control-kottarakkara",
   },
 
   openGraph: {
     title: "Pest Control in Kottarakkara, Kollam | Kerala Pest Solutions",
     description:
       "Pest control in Kottarakkara, Kollam. Termite treatment for older homes, cockroach control, rodent management. Professional IPM service. Free inspection.",
-    url: "https://keralapestsolutions.com/pest-control-kottarakkara",
+    url: "https://keralapestsolutions.com/kollam/kottarakara/pest-control-kottarakkara",
     siteName: "Kerala Pest Solutions",
     images: [
       {

@@ -2,28 +2,28 @@ import Image from "next/image";
 
 const species = [
   {
-    image: "/black-garden-ant.jpg",
+    image: "/black-garden-ant.webp",
     name: "Black Garden Ant",
     hazard: false,
     description:
       "Most common in Kerala homes. Nests outdoors in soil or under paving, forages indoors for sugar and starch. Trails in kitchens, pantries, and around waste bins.",
   },
   {
-    image: "/red-fire-ant.jpg",
+    image: "/red-fire-ant.webp",
     name: "Red Fire Ant",
     hazard: true,
     description:
       "Increasingly prevalent across Kerala. Delivers a painful sting that can cause anaphylactic reactions. Do not disturb a mound — contact us immediately for treatment.",
   },
   {
-    image: "/carpenter-ant.jpg",
+    image: "/carpenter-ant.webp",
     name: "Carpenter Ant",
     hazard: false,
     description:
       "Excavates timber to create nesting galleries. Prefers moist, ageing wood but expands into sound structural timber. Requires immediate professional treatment.",
   },
   {
-    image: "/pharaoh-ant.jpg",
+    image: "/pharaoh-ant.webp",
     name: "Pharaoh Ant",
     hazard: false,
     description:
@@ -57,6 +57,7 @@ export default function AntSpeciesGuide() {
                   src={s.image}
                   alt={s.name}
                   fill
+                  loading="lazy"
                   className="object-cover object-center"
                 />
               </div>

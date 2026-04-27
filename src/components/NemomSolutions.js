@@ -46,9 +46,10 @@ export default function NemomSolutions() {
             {/* BG image */}
             <div className="absolute inset-0">
               <Image
-                src="/termite-Nemom.jpg"
+                src="/termite-Nemom.webp"
                 alt="Termite close up"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
               />
               <div className="absolute inset-0 bg-emerald-950/70" />
@@ -140,9 +141,10 @@ Our programme for Nemom includes a full source reduction audit of the property a
           {/* Illustration card */}
           <div className="relative rounded-2xl overflow-hidden bg-emerald-100 min-h-[280px]">
             <Image
-              src="/home-Nem.png"
+              src="/home-Nem.webp"
               alt="Home pest control illustration"
               fill
+              loading="lazy"
               className="object-cover object-center"
             />
           </div>

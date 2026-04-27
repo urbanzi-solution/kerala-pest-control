@@ -11,10 +11,11 @@ export default function ResidentialHero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="/residential.jpg"
+          src="/residential.webp"
           alt="Warehouse interior"
           fill
-          priority
+          loading="lazy"
+          
           className="object-cover object-center"
         />
         {/* Dark green overlay */}

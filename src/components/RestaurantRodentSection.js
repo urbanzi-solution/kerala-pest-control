@@ -100,9 +100,10 @@ export default function RestaurantRodentSection() {
               Place in /public/images/
             */}
             <Image
-              src="/restaurant-kitchen.jpg"
+              src="/restaurant-kitchen.webp"
               alt="Commercial restaurant kitchen"
               fill
+              loading="lazy"
               className="object-cover object-center"
             />
           </div>

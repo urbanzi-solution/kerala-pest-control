@@ -25,14 +25,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/pest-control-nemom",
+    canonical: "https://keralapestsolutions.com/trivandrum/nemom/pest-control-nemom",
   },
 
   openGraph: {
     title: "Pest Control in Nemom, Trivandrum | Kerala Pest Solutions",
     description:
       "Pest control in Nemom, Trivandrum. Termite treatment for properties on former agricultural land, rodent control, mosquito management. Free inspection.",
-    url: "https://keralapestsolutions.com/pest-control-nemom",
+    url: "https://keralapestsolutions.com/trivandrum/nemom/pest-control-nemom",
     siteName: "Kerala Pest Solutions",
     images: [
       {

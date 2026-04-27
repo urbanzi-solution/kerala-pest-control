@@ -37,7 +37,7 @@ export default function PreferenceBlock() {
   };
 
   const cardTwo = {
-    image: "/img2.png", // ⚠️ make sure this exists in /public
+    image: "/img2.webp", // ⚠️ make sure this exists in /public
   };
 
   const cardThree = [
@@ -130,8 +130,9 @@ export default function PreferenceBlock() {
               src={cardTwo.image}
               alt="pest control"
               fill
+              loading="lazy"
               className="object-cover"
-              priority
+             
             />
           </div>
 

@@ -46,8 +46,9 @@ const aboutItems = [
 
               <div className="relative rounded-[100px_0_100px_0] overflow-hidden mb-10 lg:mb-0">
                 <img
-                  src="/about-us.png"
+                  src="/about-us.webp"
                   alt="Kerala Pest Control Solutions"
+                  loading="lazy"
                   className="w-full h-full object-cover"
                 />
 

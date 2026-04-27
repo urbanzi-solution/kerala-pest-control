@@ -23,14 +23,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/apartment-pest-control",
+    canonical: "https://keralapestsolutions.com/industries/pest-control-for-apartments",
   },
 
   openGraph: {
     title: "Pest Control for Apartments Kerala | Housing Society Specialists | Kerala Pest Solutions",
     description:
       "Specialist pest management for apartments and housing societies in Trivandrum and Kollam. Building-wide programmes for cockroaches, termites, mosquitoes and more. Kerala Pest Solutions.",
-    url: "https://keralapestsolutions.com/apartment-pest-control",
+    url: "https://keralapestsolutions.com/industries/pest-control-for-apartments",
     siteName: "Kerala Pest Solutions",
     images: [
       {

@@ -25,14 +25,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/residential-pest-control",
+    canonical: "https://keralapestsolutions.com/industries/pest-control-for-residential",
   },
 
   openGraph: {
     title: "Residential Pest Control Kerala | Kerala Pest Solutions",
     description:
       "Professional residential pest control for homes and apartments across Trivandrum and Kollam. Safe for children and pets. Free inspection. Kerala Pest Solutions.",
-    url: "https://keralapestsolutions.com/residential-pest-control",
+    url: "https://keralapestsolutions.com/industries/pest-control-for-residential",
     siteName: "Kerala Pest Solutions",
     images: [
       {

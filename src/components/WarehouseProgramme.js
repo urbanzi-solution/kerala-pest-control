@@ -68,9 +68,10 @@ export default function WarehouseProgramme() {
             Replace src with /images/warehouse-technician.jpg
           */}
           <Image
-            src="/warehouse-technician.jpg"
+            src="/warehouse-technician.webp"
             alt="Warehouse pest control technician"
             fill
+            loading="lazy"
             className="object-cover object-center"
           />
 

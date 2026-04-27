@@ -57,11 +57,12 @@ export default function TermiteHero() {
               Place in /public/images/
             */}
             <Image
-              src="/termite-pest-technician.jpg"
+              src="/termite-pest-technician.webp"
               alt="General pest control technician"
               fill
+               loading="lazy"
               className="object-cover object-top"
-              priority
+              
             />
           </div>
 

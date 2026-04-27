@@ -11,10 +11,11 @@ export default function ApartmentHero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="/apartment.jpg"
+          src="/apartment.webp"
           alt="Warehouse interior"
           fill
-          priority
+          loading="lazy"
+
           className="object-cover object-center"
         />
         {/* Dark green overlay */}

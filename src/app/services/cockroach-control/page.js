@@ -24,14 +24,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/cockroach-control",
+    canonical: "https://keralapestsolutions.com/services/cockroach-control",
   },
 
   openGraph: {
     title: "Professional Cockroach Control in Kerala | Kerala Pest Solutions",
     description:
       "Gel bait cockroach control for homes, kitchens, and restaurants in Trivandrum and Kollam. Odourless, no evacuation required. FSSAI-compliant documentation. Free inspection.",
-    url: "https://keralapestsolutions.com/cockroach-control",
+    url: "https://keralapestsolutions.com/services/cockroach-control",
     siteName: "Kerala Pest Solutions",
     images: [
       {

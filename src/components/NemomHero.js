@@ -73,11 +73,12 @@ Kerala Pest Solutions is based in Trivandrum and provides professional pest mana
               Replace src with /images/kazhakootam.jpg
             */}
             <Image
-              src="/NemomHero.jpg"
-              alt="Kazhakootam Kerala"
+              src="/NemomHero.webp"
+              alt="Nemom Kerala"
               fill
+              loading="lazy"
               className="object-cover object-center"
-              priority
+            
             />
           </div>
 

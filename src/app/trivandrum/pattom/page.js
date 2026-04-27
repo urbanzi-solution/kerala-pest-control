@@ -26,14 +26,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/pest-control-pattom",
+    canonical: "https://keralapestsolutions.com/trivandrum/pattom/pest-control-pattom",
   },
 
   openGraph: {
     title: "Pest Control in Pattom, Trivandrum | Kerala Pest Solutions",
     description:
       "'Pest control in Pattom, Trivandrum. Termite treatment for older heritage homes, cockroach control, ant control. Local Trivandrum team. Free inspection",
-    url: "https://keralapestsolutions.com/pest-control-pattom",
+    url: "https://keralapestsolutions.com/trivandrum/pattom/pest-control-pattom",
     siteName: "Kerala Pest Solutions",
     images: [
       {

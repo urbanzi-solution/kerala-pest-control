@@ -89,9 +89,10 @@ export default function TwoVisitProtocol() {
               Place it in /public/images/
             */}
             <Image
-              src="/professional-process.jpg"
+              src="/professional-process.webp"
               alt="Professional bed bug treatment process"
               fill
+              loading="lazy"
               className="object-cover opacity-80"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />

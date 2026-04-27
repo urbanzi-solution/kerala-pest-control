@@ -46,9 +46,10 @@ export default function KundaraSolutions() {
             {/* BG image */}
             <div className="absolute inset-0">
               <Image
-                src="/termite-Kundara.jpg"
+                src="/termite-Kundara.webp"
                 alt="Termite close up"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
               />
               <div className="absolute inset-0 bg-emerald-950/70" />
@@ -141,9 +142,10 @@ Our gel bait treatment eliminates the internal colony and our structural report 
           {/* Illustration card */}
           <div className="relative rounded-2xl overflow-hidden bg-[#d8d9db] min-h-[280px]">
            <Image
-            src="/home-kun.png"
+            src="/home-kun.webp"
             alt="Home pest control illustration"
             fill
+            loading="lazy"
             sizes="100vw"
             className="object-cover object-center"
           />

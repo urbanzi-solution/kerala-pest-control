@@ -6,21 +6,21 @@ const communityData = [
   {
     id: 1,
     title: "Our Expert Team",
-    image: "/abt1.jpeg",
+    image: "/abt1.webp",
     description:
       "Our team of certified pest control professionals is trained to handle residential and commercial properties safely and effectively. We prioritize safety, efficiency, and long-term prevention in every service we provide.",
   },
   {
     id: 2,
     title: "Safe & Eco-Friendly Solutions",
-    image: "/abt2.jpeg",
+    image: "/abt2.webp",
     description:
       "We use environmentally responsible pest control methods that are safe for families, pets, and the surrounding environment. Our goal is to protect your property without compromising health or nature.",
   },
   {
     id: 3,
     title: "Community Engagement",
-    image: "/abt3.jpg",
+    image: "/abt3.webp",
     description:
       "We actively educate our local community on pest prevention, hygiene practices, and eco-friendly control methods. Our workshops and awareness campaigns help residents and businesses maintain pest-free environments.",
   },
@@ -62,6 +62,7 @@ export default function Community() {
                   src={section.image}
                   alt={section.title}
                   fill
+                  loading="lazy"
                   className="object-cover transition-transform duration-500 hover:scale-105"
                 />
               </div>

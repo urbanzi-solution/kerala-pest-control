@@ -68,8 +68,9 @@ export default function KundaraHero() {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden aspect-[4/3] shadow-2xl">
               <Image
-                src="/kundaraHero.jpg"
+                src="/kundaraHero.webp"
                 fill
+                loading="lazy"
                 sizes="(max-width: 768px) 100vw, 50vw"
                 alt="Pest control Kundara"
                 className="object-cover"

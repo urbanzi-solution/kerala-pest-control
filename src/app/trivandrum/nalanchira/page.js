@@ -25,14 +25,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/pest-control-nalanchira",
+    canonical: "https://keralapestsolutions.com/trivandrum/nalanchira/pest-control-nalanchira",
   },
 
   openGraph: {
     title: "Pest Control in Nalanchira, Trivandrum | Kerala Pest Solutions",
     description:
       "Pest control in Nalanchira, Trivandrum. Cockroach control for dense older neighbourhood, termite treatment, rodent management. Free inspection.",
-    url: "https://keralapestsolutions.com/pest-control-nalanchira",
+    url: "https://keralapestsolutions.com/trivandrum/nalanchira/pest-control-nalanchira",
     siteName: "Kerala Pest Solutions",
     images: [
       {

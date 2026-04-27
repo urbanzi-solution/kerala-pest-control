@@ -23,14 +23,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/bed-bug-control",
+    canonical: "https://keralapestsolutions.com/services/bed-bug-control",
   },
 
   openGraph: {
     title: "Professional Bed Bug Removal in Kerala | Kerala Pest Solutions",
     description:
       "Complete bed bug elimination for homes, hotels, and PG accommodation in Trivandrum and Kollam. Mandatory two-visit protocol. Safe for families. Free inspection.",
-    url: "https://keralapestsolutions.com/bed-bug-control",
+    url: "https://keralapestsolutions.com/services/bed-bug-control",
     siteName: "Kerala Pest Solutions",
     images: [
       {

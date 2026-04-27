@@ -11,10 +11,11 @@ export default function RestaurantsHero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="/restuarnt.jpg"
+          src="/restuarnt.webp"
           alt="Warehouse interior"
           fill
-          priority
+          loading="lazy"
+       
           className="object-cover object-center"
         />
         {/* Dark green overlay */}

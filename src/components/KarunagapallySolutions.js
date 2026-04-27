@@ -46,9 +46,10 @@ export default function KarunagapallySolutions() {
             {/* BG image */}
             <div className="absolute inset-0">
               <Image
-                src="/termite-karuu.jpg"
+                src="/termite-karuu.webp"
                 alt="Termite close up"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
               />
               <div className="absolute inset-0 bg-emerald-950/70" />
@@ -141,9 +142,10 @@ Our programme for Karunagappally begins with a source reduction audit identifyin
           {/* Illustration card */}
           <div className="relative rounded-2xl overflow-hidden bg-emerald-100 min-h-[280px]">
             <Image
-              src="/home-karu.png"
+              src="/home-karu.webp"
               alt="Home pest control illustration"
               fill
+              loading="lazy"
               className="object-cover object-center"
             />
           </div>

@@ -46,9 +46,10 @@ export default function PunalurSolutions() {
             {/* BG image */}
             <div className="absolute inset-0">
               <Image
-                src="/termite-puna.jpg"
+                src="/termite-puna.webp"
                 alt="Termite close up"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
               />
               <div className="absolute inset-0 bg-emerald-950/70" />
@@ -140,7 +141,7 @@ Our Punalur mosquito programme combines larviciding of all water bodies on the p
           {/* Illustration card */}
           <div className="relative rounded-2xl overflow-hidden bg-emerald-100 min-h-[280px]">
             <Image
-              src="/home-punalur.png"
+              src="/home-punalur.webp"
               alt="Home pest control illustration"
               fill
               className="object-cover object-center"

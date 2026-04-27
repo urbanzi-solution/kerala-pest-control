@@ -11,10 +11,11 @@ export default function OfficeHero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="/Office.jpg"
+          src="/Office.webp"
           alt="Warehouse interior"
           fill
-          priority
+          loading="lazy"
+  
           className="object-cover object-center"
         />
         {/* Dark green overlay */}

@@ -46,9 +46,10 @@ export default function KaryavattomSolutions() {
             {/* BG image */}
             <div className="absolute inset-0">
               <Image
-                src="/termite-macro.jpg"
+                src="/termite-macro.webp"
                 alt="Termite close up"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
               />
               <div className="absolute inset-0 bg-emerald-950/70" />
@@ -140,9 +141,10 @@ Kerala Pest Solutions provides building-wide bed bug treatment for hostels and s
           {/* Illustration card */}
           <div className="relative rounded-2xl overflow-hidden bg-emerald-100 min-h-[280px]">
             <Image
-              src="/karyavattom.jpg"
+              src="/karyavattom.webp"
               alt=""
               fill
+              loading="lazy"
               className="object-cover object-center"
             />
           </div>

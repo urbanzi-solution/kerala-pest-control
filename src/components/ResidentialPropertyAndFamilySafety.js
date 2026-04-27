@@ -12,9 +12,10 @@ export default function ResidentialPropertyAndFamilySafety() {
             {/* Left — image */}
             <div className="relative aspect-[4/3] lg:aspect-auto min-h-[300px]">
               <Image
-                src="/new-property.jpg"
+                src="/new-property.webp"
                 alt="New empty property interior"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
               />
             </div>
@@ -72,17 +73,19 @@ export default function ResidentialPropertyAndFamilySafety() {
           <div className="grid grid-cols-2 gap-4">
             <div className="relative rounded-2xl overflow-hidden aspect-[3/4] shadow-md">
               <Image
-                src="/family-safe.jpg"
+                src="/family-safe.webp"
                 alt="Child and pet safe environment"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
               />
             </div>
             <div className="relative rounded-2xl overflow-hidden aspect-[3/4] shadow-md mt-8">
               <Image
-                src="/technician-safe.jpg"
+                src="/technician-safe.webp"
                 alt="Professional pest control technician"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
               />
             </div>

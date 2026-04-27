@@ -24,14 +24,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/pest-control-paravur",
+    canonical: "https://keralapestsolutions.com/kollam/paravur/pest-control-paravur",
   },
 
   openGraph: {
     title: "'Pest Control in Paravur, Kollam | Kerala Pest Solutions",
     description:
       "Pest control in Paravur, Kollam. Mosquito management near Ashtamudi Lake, termite treatment, cockroach control. Free inspection.",
-    url: "https://keralapestsolutions.com/pest-control-paravur",
+    url: "https://keralapestsolutions.com/kollam/paravur/pest-control-paravur",
     siteName: "Kerala Pest Solutions",
     images: [
       {

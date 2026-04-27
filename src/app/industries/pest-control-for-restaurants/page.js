@@ -24,14 +24,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/restaurant-pest-control",
+    canonical: "https://keralapestsolutions.com/industries/pest-control-for-restaurants",
   },
 
   openGraph: {
     title: "'Pest Control for Restaurants Kerala | FSSAI Compliant | Kerala Pest Solutions",
     description:
       "FSSAI-compliant pest management for restaurants, canteens, and food businesses across Trivandrum and Kollam. Gel bait only — no kitchen downtime. Kerala Pest Solutions.",
-    url: "https://keralapestsolutions.com/restaurant-pest-control",
+    url: "https://keralapestsolutions.com/industries/pest-control-for-restaurants",
     siteName: "Kerala Pest Solutions",
     images: [
       {

@@ -12,9 +12,10 @@ export default function HostelService() {
             {/* Left — image */}
             <div className="relative aspect-[4/3] lg:aspect-auto min-h-[300px]">
               <Image
-                src="/hotel-property.jpg"
+                src="/hotel-property.webp"
                 alt="New empty property interior"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
               />
             </div>

@@ -63,11 +63,12 @@ export default function RodentControlHero() {
             Place in /public/images/
           */}
           <Image
-            src="/rodent-technician.jpg"
+            src="/rodent-technician.webp"
             alt="Professional rodent control technician"
             fill
+            loading="lazy"
             className="object-cover object-top"
-            priority
+          
           />
           {/* Subtle dark gradient at bottom */}
           <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/40 to-transparent" />

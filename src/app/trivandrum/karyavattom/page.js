@@ -24,14 +24,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/pest-control-karyavattom",
+    canonical: "https://keralapestsolutions.com/trivandrum/karyavattom/pest-control-karyavattom",
   },
 
   openGraph: {
     title: "Pest Control in Karyavattom, Trivandrum | Kerala Pest Solutions",
     description:
       "Pest control in Karyavattom, Trivandrum. Bed bug treatment for student hostels, cockroach control for canteens, rodent management for university area. Free inspection.",
-    url: "https://keralapestsolutions.com/pest-control-karyavattom",
+    url: "https://keralapestsolutions.com/trivandrum/karyavattom/pest-control-karyavattom",
     siteName: "Kerala Pest Solutions",
     images: [
       {

@@ -24,14 +24,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/pest-control-kundara",
+    canonical: "https://keralapestsolutions.com/kollam/kundara/pest-control-kundara",
   },
 
   openGraph: {
     title: "Pest Control in Kundara, Kollam | Kerala Pest Solutions",
     description:
       "Pest control in Kundara, Kollam. Termite treatment, cockroach control, general pest management. Professional IPM service. Free inspection.",
-    url: "https://keralapestsolutions.com/pest-control-kundara",
+    url: "https://keralapestsolutions.com/kollam/kundara/pest-control-kundara",
     siteName: "Kerala Pest Solutions",
     images: [
       {

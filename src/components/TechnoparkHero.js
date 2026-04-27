@@ -68,11 +68,12 @@ export default function TechnoparkHero() {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden aspect-[4/3] shadow-2xl">
               <Image
-                src="/technoparkHero.jpg"
+                src="/technoparkHero.webp"
                 alt="Pest control Technopark"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
-                priority
+
               />
             </div>
 

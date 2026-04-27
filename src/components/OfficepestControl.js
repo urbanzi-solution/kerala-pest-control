@@ -31,17 +31,19 @@ export default function OfficepestControl() {
           <div className="grid grid-cols-2 gap-4">
             <div className="relative rounded-2xl overflow-hidden aspect-[3/4] shadow-md">
               <Image
-                src="/Of-safe.jpg"
+                src="/Of-safe.webp"
                 alt="Child and pet safe environment"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
               />
             </div>
             <div className="relative rounded-2xl overflow-hidden aspect-[3/4] shadow-md mt-8">
               <Image
-                src="/office-safe.jpg"
+                src="/office-safe.webp"
                 alt="Professional pest control technician"
                 fill
+                loading="lazy"
                 className="object-cover object-center"
               />
             </div>

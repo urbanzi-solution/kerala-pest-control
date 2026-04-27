@@ -23,14 +23,14 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://keralapestsolutions.com/hotel-pest-control",
+    canonical: "https://keralapestsolutions.com/industries/pest-control-for-hotels",
   },
 
   openGraph: {
     title: "'Pest Control for Hotels Kerala | Discreet Professional Service | Kerala Pest Solutions",
     description:
       "Discreet, professional pest management for hotels, resorts, and serviced apartments in Trivandrum and Kollam. Bed bug specialists. Zero-disruption service. Kerala Pest Solutions.",
-    url: "https://keralapestsolutions.com/hotel-pest-control",
+    url: "https://keralapestsolutions.com/industries/pest-control-for-hotels",
     siteName: "Kerala Pest Solutions",
     images: [
       {
