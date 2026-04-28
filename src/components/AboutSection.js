@@ -49,8 +49,7 @@ export default function AboutSection() {
               <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage:
-                    "url('https://sipc.in/images/banner-01.webp')",
+                  backgroundImage: "url('/banner.webp')",
                 }}
               />
 

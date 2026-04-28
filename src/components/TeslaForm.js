@@ -250,8 +250,9 @@ export default function TeslaForm() {
           </div>
 
           <img
-            src="/contact.png"
+            src="/contact.webp"
             alt="contact"
+            loading="lazy"
             className="max-w-md w-full object-contain"
           />
         </div>

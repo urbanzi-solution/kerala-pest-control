@@ -9,10 +9,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 export default function IntegrationsSection() {
   const integrationLogos = [
-     {
-      name: "Microtech",
-      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNu11jYK_ykzZ7f7vOyLcszN2KbISkP3YvuQ&s",
-    },
+        {
+  name: "Client Logo",
+  src: "/urbanzi solution logo.png",
+},
     {
       name: "Tata",
       src: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Tata_logo.svg",

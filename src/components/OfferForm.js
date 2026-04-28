@@ -151,11 +151,11 @@ export default function OfferForm() {
         {/* RIGHT IMAGE */}
         <div className="flex-1 relative w-full h-[300px] md:h-[500px]">
           <Image
-            src="/img4.png"
+            src="/img4.webp"
             alt="Pest Control"
             fill
             className="object-contain md:absolute md:bottom-0"
-            priority
+            loading="lazy"
           />
         </div>
 

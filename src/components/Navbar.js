@@ -64,7 +64,7 @@ export default function Navbar() {
           
           {/* LOGO */}
           <Link href="#">
-            <Image src="/logo.png" alt="logo" width={80} height={40} priority />
+            <Image src="/logo.webp" alt="logo" width={80} height={40} priority />
           </Link>
 
           {/* DESKTOP NAV */}

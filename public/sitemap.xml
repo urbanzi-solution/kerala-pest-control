@@ -22,6 +22,30 @@
     <loc>https://keralapestsolutions.com/industries</loc>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://keralapestsolutions.com/industries/pest-control-for-residential</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keralapestsolutions.com/industries/pest-control-for-apartment</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keralapestsolutions.com/industries/pest-control-for-hotels</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keralapestsolutions.com/industries/pest-control-for-industrial</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keralapestsolutions.com/industries/pest-control-for-restaurants</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://keralapestsolutions.com/industries/pest-control-for-offices</loc>
+    <priority>0.8</priority>
+  </url>
 
   <!-- SERVICES -->
   <url>
