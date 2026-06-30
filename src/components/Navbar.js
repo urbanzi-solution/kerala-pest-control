@@ -46,7 +46,7 @@ export default function Navbar() {
         { label: "Kollam", href: "/kollam" },
       ],
     },
-    { label: "Blogs", href: "#" },
+    { label: "Blogs", href: "/blogs" },
     { label: "About Us", href: "/about" },
     { label: "Contact", href: "/contact" },
   ];
