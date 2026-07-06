@@ -51,7 +51,7 @@ export default function ThreatSection() {
             </div>
 
             <Link
-              href="/blogs/blog"
+              href="/blogs//termite-treatment-guide-kerala"
               className="mt-12 inline-flex rounded-xl bg-[#1565F5] px-9 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:bg-blue-700 hover:shadow-xl"
             >
               Read Full Guide →
